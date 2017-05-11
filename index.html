@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-TW" id="tzuchienKao">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tzuchien Kao Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    	* {box-sizing:border-box;}
+    	body, ul, li, h2 {padding:0;margin:0;}
+    	body, html {height:100%;}
+    	body {font:24px/1.5 'Trajan Pro', 'PMingLiU', 'STSong', 'Times New Roman', sans-serif;color:#3f3f3f;background-color:#3f3f3f;}
+    	ul, li {list-style:none;}
+    	a {color:#ffe597;text-decoration:none;}
+    	a:hover, a.active {border-bottom:3px solid #ffe597;}
+    	::-webkit-scrollbar {width:1px;}
+		::-webkit-scrollbar-track {-webkit-box-shadow:inset 0 0 0 rgba(0,0,0,0.3);}
+		::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,0.3);outline: 1px solid rgba(0,0,0,0.3);}
+		.fixed {position:fixed;top:90px;}
+		.clear {clear:both;overflow:hidden;}
+    	.floatL {float:left;}
+    	.floatR {float:right;}
+    	.taC {text-align:center;}
+    	.taL {text-align:left;}
+    	.font-big {font-size:48px;}
+    	.font-mid {font-size:30px;}
+    	.header {width:100%;line-height:90px;background-color:#3f3f3f;padding:0 30px;position:fixed;z-index:9;}
+    	.logo {color:#fff;font-size:48px;}
+    	.nav a {margin-left:30px;}
+    	.wrapper {position:relative;}
+    	.inner {width:100%;height:100%;text-align:center;}
+    	.index {background:url(img/bg-01.png) top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
+    	.about {background:url(img/bg-02.png) #fde2c4 top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
+    	.showcase {background:url(img/bg-03.png) #e2f8ff top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
+    	.contact {background:url(img/bg-04.jpg) top 90px center no-repeat;background-size:cover;background-attachment:fixed;}
+    	.aboutIntro {width:80%;height:50%;text-align:left;margin:0 auto;overflow-y:scroll;}
+    	.aboutIntro .taC {line-height:1;}
+    	.caseIntro {height:80%;margin:0 auto;display:inline-block;overflow-y:scroll;}
+    	.caseIntro li {margin:10px;}
+    	.caseIntro li:nth-child(3n+1) {clear:both;}
+    	.radius-round {width:300px;height:300px;background-color:#000;border-radius:50%;position:relative;overflow:hidden;}
+    	.radius-round img {width:200%;margin-left:-50%;}
+    	.radius-round:hover img {opacity:0.2;transform:scale(1.1);transition-duration:0.5s;}
+    	.caseTitle {width:80%;color:#ffe597;opacity:0;display:none;position:absolute;top:150px;left:10%;}
+    	.radius-round:hover .caseTitle {opacity:1;transition-duration:0.5s;display:block;}
+    	.contact a {width:100%;height:100%;vertical-align:middle;display:inline-block;}
+    	.contact a:before {height:100%;vertical-align:middle;content:'';display:inline-block;}
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		console.log('fdfer');
+    	})
+    </script>	
+</head>
+<body>
+	<div class="header clear">
+		<h2 class="logo floatL">Tzuchien Kao</h2>
+		<ul class="nav floatR">
+			<li class="floatL"><a href="#demo-01">About Me</a></li>
+			<li class="floatL"><a href="#demo-02">Showcase</a></li>
+			<li class="floatL"><a href="#demo-03">Contact Me</a></li>
+		</ul>
+	</div>
+	<cdiv class="wrapper">
+		<div class="index inner">
+		</div>
+		<div class="about inner" id="demo-01">
+			<h2 class="font-big taC">About Me</h2>
+			<ul class="aboutIntro clear">
+				<li>
+					<h3 class="font-mid taC">自我介紹</h3>
+					<p class="taC">女。貓奴一枚。</p>
+					<p>畢業於國立虎尾科技大學多媒體設計系，相關的工作經驗已經超過五年的時間。<br /><br />
+					曾任職於電子書出版業及網路內容服務業，主要內容為網頁設計及視覺設計。<br /><br />
+					2015年我與夥伴決定創業，經營餐車，已經有一年半的時間，設計部分從視覺的發想、制定及印刷物，都是由我一手策劃，除了設計範疇之外，還經營了臉書粉絲團、產品開發、攝影以及販售商品⋯ 創業是我們在面臨三十歲之前的挑戰，對自己的期許。目前在種種的因素考慮之下，決定歇業，重回職場。</p>
+				</li>
+				<li>
+					<h3 class="font-mid taC">相關經驗</h3>
+					<p class="taC">網站版面設計＋網頁前端開發</p>
+					<p>重返職場後，任職於毅達創意，負責前端開發，包含切版、響應式設計及互動程式撰寫與套用。<br />
+					個人接案的部分，多為前端開發，負責網站的切版、響應式設計及互動程式撰寫。<br />
+					任職於優仕網時，參與主要產品（愛逛街）的網站改版、開發及維護，視覺部分多為活動頁面設計提案及廣告素材製作，也為公司產品設計視覺系統。<br />
+					POPO為電子書出版業，主要參與到網站改版、開發，平時多致力於書封視覺設計、活動頁視覺設計、網站開發及維護。<br />
+					星炫科技為接案公司，網站的視覺設計提案、開發、維護，與後端工程師溝通，平面設計為視覺系統的發想及訂定、製作印刷物、動態影像製作及設計。
+					</p>
+				</li>
+				<li>
+					<h3 class="font-mid taC">自我期許</h3>
+					<p>職場中，除了自身工作的經驗帶來成就感之外，團體合作中，與程式人員溝通、與客戶溝通，瞭解需求，確認執行細節，時程項目，甚至是報價。除了在專業上的開拓，還曾擔任福委會，讓公司同仁享受完善的福利制度，並學習到非專業上處理事務的經驗。<br /><br />
+					未來，仍希望在網頁設計方面有所進步，亦不排斥管理職，甚至是挑戰專案管理。</p>
+				</li>
+			</ul>
+		</div>
+		<div class="showcase inner" id="demo-02">
+			<h2 class="font-big taC">Showcase</h2>
+			<ul class="caseIntro clear">
+				<li class="radius-round floatL">
+					<a href="">
+						<span class="caseTitle taC">行動餐車-自創品牌</span>
+						<img src="img/smallImg/surejuice_image.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="">
+						<span class="caseTitle taC">愛逛街 - 台灣站及馬來西亞站</span>
+						<img src="img/smallImg/iguang_vedio.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="">
+						<span class="caseTitle taC">flog臉書備份</span>
+						<img src="img/smallImg/flog_logo.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="">
+						<span class="caseTitle taC"></span>
+						<img src="img/smallImg/surejuice_image.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="">
+						<span class="caseTitle taC"></span>
+						<img src="img/smallImg/iguang_vedio.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="">
+						<span class="caseTitle taC"></span>
+						<img src="img/smallImg/flog_logo.jpg" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="contact inner" id="demo-03">
+				<a class="font-big taC" href="mailto:oyan114@hotmail.com">Contact Me</a>
+		</div>
+	</div>
+</body>
+</html>
