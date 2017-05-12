@@ -9,9 +9,8 @@
     <title>Tzuchien Kao Demo</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-    	* {box-sizing:border-box;}
-    	body, ul, li, h2 {padding:0;margin:0;}
-    	body, html {height:100%;}
+    	* {padding:0;margin:0;box-sizing:border-box;}
+    	html, body {height:100%;}
     	body {font:24px/1.5 'Trajan Pro', 'PMingLiU', 'STSong', 'Times New Roman', sans-serif;color:#3f3f3f;background-color:#3f3f3f;}
     	ul, li {list-style:none;}
     	a {color:#ffe597;text-decoration:none;}
@@ -27,17 +26,33 @@
     	.taL {text-align:left;}
     	.font-big {font-size:48px;}
     	.font-mid {font-size:30px;}
+    	.btn-close {font-size:60px;line-height:1;text-align:right;color:#3f3f3f;display:block;}
+    	.btn-close:hover {margin-top:-3px;}
+    	.skill {display: inline-block; width: 1.5em; height: 1.5em; border: 2px solid #72cdb8; border-radius: 1.5em; color: #72cdb8; text-align: center; font-weight: bold;}
+		.skill:before {display: block; font-size: 0.8em;}
+		.skill.html:before {content: "Html";}
+		.skill.css:before {content: "Css";}
+		.skill.jq:before {content: "Jq";}
+		.skill.as:before {content: "As2";}
+		.skill.rwd:before {content: "Rwd";}
+		.skill.ps:before {content: "Ps";}
+		.skill.ai:before {content: "Ai";}
+		.skill.dw:before {content: "Dw";}
+		.skill.in:before {content: "In";}
+		.skill.fl:before {content: "Fl";}
+		.skill.fb:before {content: "FB";}
+		.skill.print:before {content: "印";}
+		.skill.photo:before {content: "攝";}
     	.header {width:100%;line-height:90px;background-color:#3f3f3f;padding:0 30px;position:fixed;z-index:9;}
     	.logo {color:#fff;font-size:48px;}
     	.nav a {margin-left:30px;}
     	.wrapper {position:relative;}
-    	.inner {width:100%;height:100%;text-align:center;}
+    	.inner {width:100%;height:100%;padding-top:90px;text-align:center;}
     	.index {background:url(img/bg-01.png) top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
     	.about {background:url(img/bg-02.png) #fde2c4 top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
-    	.showcase {background:url(img/bg-03.png) #e2f8ff top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
-    	.contact {background:url(img/bg-04.jpg) top 90px center no-repeat;background-size:cover;background-attachment:fixed;}
+    	.showcase {background:url(img/bg-03.png) #e2f8ff top -90px center no-repeat;background-size:cover;background-attachment:fixed;position:relative;}
+    	.contact {background:url(img/bg-04.jpg) top 90px center no-repeat;background-size:cover;background-attachment:fixed;padding-top:0;}
     	.aboutIntro {width:80%;height:50%;text-align:left;margin:0 auto;overflow-y:scroll;}
-    	.aboutIntro .taC {line-height:1;}
     	.caseIntro {height:80%;margin:0 auto;display:inline-block;overflow-y:scroll;}
     	.caseIntro li {margin:10px;}
     	.caseIntro li:nth-child(3n+1) {clear:both;}
@@ -46,13 +61,40 @@
     	.radius-round:hover img {opacity:0.2;transform:scale(1.1);transition-duration:0.5s;}
     	.caseTitle {width:80%;color:#ffe597;opacity:0;display:none;position:absolute;top:150px;left:10%;}
     	.radius-round:hover .caseTitle {opacity:1;transition-duration:0.5s;display:block;}
+    	.bg-blur {filter:blur(10px);}
+    	.project {width:100%;height:100%;background-color:rgba(255,255,255,0.9);padding:90px 10%;position:absolute;top:0;left:0;overflow-y:scroll;}
+    	.project a:not(.btn-close) {background-color:#3f3f3f;padding:3px 5px;margin:0 3px;}
+    	.caseInner>li {display:none;}
+    	.caseInner img {width:100%;}
+    	.main-pic, .sub-pic, .sub-pic li {width:50%;padding:10px;}
+    	.sub-pic li {padding-top:0;}
     	.contact a {width:100%;height:100%;vertical-align:middle;display:inline-block;}
     	.contact a:before {height:100%;vertical-align:middle;content:'';display:inline-block;}
+    	.body-fixed {height:100%;overflow-y:hidden;-webkit-overflow-scrolling:touch;}
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
     	$(document).ready(function(){
-    		console.log('fdfer');
+    		function close(){
+    			$('.btn-close').click(function(e){
+    				e.stopPropagation();
+    				$(this).parent().toggle();
+    			});
+    		}
+    		close();
+    		$('.caseIntro>li').on('click', function(e){
+    			e.stopPropagation();
+    			var i = $(this).index();
+    			var _inner = $('.caseInner>li');
+    			_inner.eq(i).show();
+				$(this).parent('ul').addClass('bg-blur');
+				$('body').addClass('body-fixed');
+				$('.btn-close').on('click', function(e){
+    				e.stopPropagation();
+					$('body').removeClass('body-fixed');
+					$('body').find('.bg-blur').removeClass('bg-blur');
+				});
+    		})
     	})
     </script>	
 </head>
@@ -74,9 +116,9 @@
 				<li>
 					<h3 class="font-mid taC">自我介紹</h3>
 					<p class="taC">女。貓奴一枚。</p>
-					<p>畢業於國立虎尾科技大學多媒體設計系，相關的工作經驗已經超過五年的時間。<br /><br />
-					曾任職於電子書出版業及網路內容服務業，主要內容為網頁設計及視覺設計。<br /><br />
-					2015年我與夥伴決定創業，經營餐車，已經有一年半的時間，設計部分從視覺的發想、制定及印刷物，都是由我一手策劃，除了設計範疇之外，還經營了臉書粉絲團、產品開發、攝影以及販售商品⋯ 創業是我們在面臨三十歲之前的挑戰，對自己的期許。目前在種種的因素考慮之下，決定歇業，重回職場。</p>
+					<p>畢業於國立虎尾科技大學多媒體設計系，相關的工作經驗已經超過五年的時間。<br />
+					曾任職於電子書出版業及網路內容服務業，主要內容為網頁設計及視覺設計。<br />
+					2015年我與夥伴決定創業，經營餐車，已經有一年半的時間，設計部分從視覺的發想、制定及印刷物，都是由我一手策劃，除了設計範疇之外，還經營了臉書粉絲團、產品開發、攝影以及販售商品⋯ 創業是我們在面臨三十歲之前的挑戰，對自己的期許。目前在種種的因素考慮之下，決定歇業，重回職場。</p><br /><br />
 				</li>
 				<li>
 					<h3 class="font-mid taC">相關經驗</h3>
@@ -86,7 +128,7 @@
 					任職於優仕網時，參與主要產品（愛逛街）的網站改版、開發及維護，視覺部分多為活動頁面設計提案及廣告素材製作，也為公司產品設計視覺系統。<br />
 					POPO為電子書出版業，主要參與到網站改版、開發，平時多致力於書封視覺設計、活動頁視覺設計、網站開發及維護。<br />
 					星炫科技為接案公司，網站的視覺設計提案、開發、維護，與後端工程師溝通，平面設計為視覺系統的發想及訂定、製作印刷物、動態影像製作及設計。
-					</p>
+					</p><br /><br />
 				</li>
 				<li>
 					<h3 class="font-mid taC">自我期許</h3>
@@ -98,41 +140,107 @@
 		<div class="showcase inner" id="demo-02">
 			<h2 class="font-big taC">Showcase</h2>
 			<ul class="caseIntro clear">
-				<li class="radius-round floatL">
-					<a href="">
+				<li class="radius-round floatL" data-name="project-01">
+					<a href="javascript:void(0)">
 						<span class="caseTitle taC">行動餐車-自創品牌</span>
 						<img src="img/smallImg/surejuice_image.jpg" alt="">
 					</a>
 				</li>
-				<li class="radius-round floatL">
-					<a href="">
+				<li class="radius-round floatL" data-name="project-02">
+					<a href="javascript:void(0)">
 						<span class="caseTitle taC">愛逛街 - 台灣站及馬來西亞站</span>
 						<img src="img/smallImg/iguang_vedio.jpg" alt="">
 					</a>
 				</li>
 				<li class="radius-round floatL">
-					<a href="">
+					<a href="javascript:void(0)">
 						<span class="caseTitle taC">flog臉書備份</span>
 						<img src="img/smallImg/flog_logo.jpg" alt="">
 					</a>
 				</li>
 				<li class="radius-round floatL">
-					<a href="">
+					<a href="javascript:void(0)">
 						<span class="caseTitle taC"></span>
 						<img src="img/smallImg/surejuice_image.jpg" alt="">
 					</a>
 				</li>
 				<li class="radius-round floatL">
-					<a href="">
+					<a href="javascript:void(0)">
 						<span class="caseTitle taC"></span>
 						<img src="img/smallImg/iguang_vedio.jpg" alt="">
 					</a>
 				</li>
 				<li class="radius-round floatL">
-					<a href="">
+					<a href="javascript:void(0)">
 						<span class="caseTitle taC"></span>
 						<img src="img/smallImg/flog_logo.jpg" alt="">
 					</a>
+				</li>
+			</ul>
+			<ul class="caseInner">
+				<li class="project" id="project-01">
+					<a class="btn-close" href="javascript:void(0)">×</a>
+					<dl class="clear">
+						<dt class="main-pic floatL"><img src="img/sure/miaokeeper_sign.jpg" alt=""></dt>
+						<dd class="sub-pic floatL">
+							<ul class="clear">
+								<li class="floatL"><img src="img/sure/surejuice_image_1.jpg" alt=""></li>
+								<li class="floatL"><img src="img/sure/surejuice_car.jpg" alt=""></li>
+								<li class="floatL"><img src="img/sure/surejuice_image.jpg" alt=""></li>
+								<li class="floatL"><img src="img/sure/surejuice_namecard.jpg" alt=""></li>
+								<li class="floatL"><img src="img/sure/miaokeeper_car.jpg" alt=""></li>
+								<li class="floatL"><img src="img/sure/miaokeeper_logo.jpg" alt=""></li>
+							</ul>
+						</dd>
+					</dl>
+					<p>行動餐車-自創品牌<br />2015/06 ~ 2017/02</p>
+					<p class="taL">自創品牌『果然，果真自然』及『三貓甜妞』<br />
+					因食安問題層出不窮，有什麼值得信賴的商品可以下肚？<br />選擇大自然孕育出來的水果為主要品項，不只是在意健康，也更在意吃得安全，吃得放心。</p>
+					<ul class="taL">
+						<li>訂定所屬品牌視覺設計系統(VI)，應用系統小至名片、產品貼標，大至品牌招牌、旗幟、標識。</li>
+						<li>開發相關飲品及食品。</li>
+						<li>與企業接洽及合作餐車駐點、產品包套、家庭日、慈善義賣⋯⋯等相關活動。</li>
+						<li>即時應對顧客需求及問題回覆與處理。</li>
+						<li>經營『<a href="www.facebook.com/surejuice">果然，果真自然</a>』facebook粉絲專頁</li>
+					</ul>
+				</li>
+				<li class="project" id="project-02">
+					<a class="btn-close" href="javascript:void(0)">×</a>
+					<dl>
+						<dt></dt>
+						<dd></dd>
+						<ul class="taL">
+							<li>訂定所屬品牌視覺設計系統(VI)，應用系統小至名片、產品貼標，大至品牌招牌、旗幟、標識。</li>
+							<li>開發相關飲品及食品。</li>
+							<li>與企業接洽及合作餐車駐點、產品包套、家庭日、慈善義賣⋯⋯等相關活動。</li>
+							<li>即時應對顧客需求及問題回覆與處理。</li>
+							<li>經營『<a href="www.facebook.com/surejuice">果然，果真自然</a>』facebook粉絲專頁</li>
+						</ul>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt></dt>
+						<dd></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt></dt>
+						<dd></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt></dt>
+						<dd></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt></dt>
+						<dd></dd>
+					</dl>
 				</li>
 			</ul>
 		</div>
