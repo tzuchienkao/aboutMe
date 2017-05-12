@@ -55,16 +55,18 @@
     	.aboutIntro {width:80%;height:50%;text-align:left;margin:0 auto;overflow-y:scroll;}
     	.caseIntro {height:80%;margin:0 auto;display:inline-block;overflow-y:scroll;}
     	.caseIntro li {margin:10px;}
-    	.caseIntro li:nth-child(3n+1) {clear:both;}
-    	.radius-round {width:300px;height:300px;background-color:#000;border-radius:50%;position:relative;overflow:hidden;}
+    	.caseIntro li:nth-child(4n+1) {clear:both;}
+    	.radius-round {width:280px;height:280px;background-color:#000;border-radius:50%;position:relative;overflow:hidden;}
     	.radius-round img {width:200%;margin-left:-50%;}
     	.radius-round:hover img {opacity:0.2;transform:scale(1.1);transition-duration:0.5s;}
-    	.caseTitle {width:80%;color:#ffe597;opacity:0;display:none;position:absolute;top:150px;left:10%;}
+    	.caseTitle {width:80%;color:#ffe597;opacity:0;display:none;position:absolute;top:120px;left:10%;}
     	.radius-round:hover .caseTitle {opacity:1;transition-duration:0.5s;display:block;}
     	.bg-blur {filter:blur(10px);}
     	.project {width:100%;height:100%;background-color:rgba(255,255,255,0.9);padding:90px 10%;position:absolute;top:0;left:0;overflow-y:scroll;}
     	.project a:not(.btn-close) {background-color:#3f3f3f;padding:3px 5px;margin:0 3px;}
     	.caseInner>li {display:none;}
+    	.txtList {border-top:1px dashed #3f3f3f;padding:10px;margin-top:10px;}
+    	.txtList li {list-style:disc outside;margin-left:16px;}
     	.caseInner img {width:100%;}
     	.main-pic, .sub-pic, .sub-pic li {width:50%;padding:10px;}
     	.sub-pic li {padding-top:0;}
@@ -140,13 +142,37 @@
 		<div class="showcase inner" id="demo-02">
 			<h2 class="font-big taC">Showcase</h2>
 			<ul class="caseIntro clear">
-				<li class="radius-round floatL" data-name="project-01">
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">台灣之星</span>
+						<img src="img/smallImg/004-ydTstar.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">真如苑</span>
+						<img src="img/smallImg/003-ydShinny.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">公路總局 - 選擇、在你身邊</span>
+						<img src="img/smallImg/002-ydBus.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">文化部 - 2017世界閱讀日</span>
+						<img src="img/smallImg/001-ydReading.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
 					<a href="javascript:void(0)">
 						<span class="caseTitle taC">行動餐車-自創品牌</span>
 						<img src="img/smallImg/surejuice_image.jpg" alt="">
 					</a>
 				</li>
-				<li class="radius-round floatL" data-name="project-02">
+				<li class="radius-round floatL">
 					<a href="javascript:void(0)">
 						<span class="caseTitle taC">愛逛街 - 台灣站及馬來西亞站</span>
 						<img src="img/smallImg/iguang_vedio.jpg" alt="">
@@ -160,25 +186,294 @@
 				</li>
 				<li class="radius-round floatL">
 					<a href="javascript:void(0)">
-						<span class="caseTitle taC"></span>
-						<img src="img/smallImg/surejuice_image.jpg" alt="">
+						<span class="caseTitle taC">優仕網 - 淘寶贊社團 社團讚淘寶</span>
+						<img src="img/smallImg/event_taobao_m.jpg" alt="">
 					</a>
 				</li>
 				<li class="radius-round floatL">
 					<a href="javascript:void(0)">
-						<span class="caseTitle taC"></span>
-						<img src="img/smallImg/iguang_vedio.jpg" alt="">
+						<span class="caseTitle taC">優仕網 - 招募！必省Q 校園必勝組</span>
+						<img src="img/smallImg/event_pizzahut.jpg" alt="">
 					</a>
 				</li>
 				<li class="radius-round floatL">
 					<a href="javascript:void(0)">
-						<span class="caseTitle taC"></span>
-						<img src="img/smallImg/flog_logo.jpg" alt="">
+						<span class="caseTitle taC">樂多日誌 - 向世界發聲的Blog平台</span>
+						<img src="img/smallImg/event_roodo.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">愛逛街 - 新年大樂透</span>
+						<img src="img/smallImg/event_newyear.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">優仕網 - 同學我挺你</span>
+						<img src="img/smallImg/banner_pizzahut970x480.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">優仕網 - 燦坤快8 校園贊助計畫</span>
+						<img src="img/smallImg/event_k8.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">起點中文網台灣分站</span>
+						<img src="img/smallImg/qidian_0_2014.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">POPO原創 - POPO小書店</span>
+						<img src="img/smallImg/140_postoreEP.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">每月之星 - 格子里的夜晚</span>
+						<img src="img/smallImg/143_2012maystar.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">征文舞台 - 謝謝你/妳，曾經愛過我</span>
+						<img src="img/smallImg/10019_vote.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">每月之星 - 十全食美</span>
+						<img src="img/smallImg/165_2012food.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">每月之星 - 琴律粉絲大集合</span>
+						<img src="img/smallImg/155_2012AugFans.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">征文舞台 - 貓兒的幸福餐桌</span>
+						<img src="img/smallImg/10022_vote.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">每月之星 - 復貴盈門</span>
+						<img src="img/smallImg/169_2012DecStar.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">每月之星 - 錦衣衛</span>
+						<img src="img/smallImg/166_2012guard.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">每月之星 - 花開錦繡</span>
+						<img src="img/smallImg/163_2012OctStar.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">每月之星 - 耳根求魔</span>
+						<img src="img/smallImg/152_2012AugStar.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">凌尚照明</span>
+						<img src="img/smallImg/luxsent_cis01.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">instantC.app 課表系統</span>
+						<img src="img/smallImg/instantc_index.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">台大專業營養網</span>
+						<img src="img/smallImg/inyoung99_index.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">醫碩科技</span>
+						<img src="img/smallImg/esoft_index.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">筐合企業有限公司</span>
+						<img src="img/smallImg/kronho_index.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">WaffleWaffle! 果將鬆餅</span>
+						<img src="img/smallImg/waffle2_index.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">佳統科技光學股份有限公司</span>
+						<img src="img/smallImg/jiatong_index.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">CoolBitX</span>
+						<img src="img/smallImg/coolbitx_2_2015.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">orcastras</span>
+						<img src="img/smallImg/orcastras_0_2014.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">婚禮紀錄攝影師 － 花豆</span>
+						<img src="img/smallImg/shinphoto_logo_whiteH_2016.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">中西式早餐店 - 紅金堡</span>
+						<img src="img/smallImg/breakfast_logo_2016.jpg" alt="">
+					</a>
+				</li>
+				<li class="radius-round floatL">
+					<a href="javascript:void(0)">
+						<span class="caseTitle taC">張老師自然科學實驗</span>
+						<img src="img/smallImg/book_0_2014.jpg" alt="">
 					</a>
 				</li>
 			</ul>
 			<ul class="caseInner">
-				<li class="project" id="project-01">
+				<li class="project">
+					<a class="btn-close" href="javascript:void(0)">×</a>
+					<dl class="clear">
+						<dt class="main-pic floatL"><img src="img/yd/004-ydTstar_m.jpg" alt=""></dt>
+						<dd class="sub-pic floatL">
+							<ul class="clear">
+								<li class="floatL"><img src="img/yd/004-ydTstar.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_2.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_3.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_4.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_5.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_6.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_7.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_8.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_9.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_10.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_11.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/004-ydTstar_12.jpg" alt=""></li>
+							</ul>
+						</dd>
+					</dl>
+					<p>毅達數位創意<br />2017/05 ~ 2017/03</p>
+					<p class="taL">台灣之星<br />
+					網路門市說明網頁優化</p>
+					<ul class="txtList taL">
+						<li>針對優化需求進行網站開發。</li>
+						<li>自適應設計(responsive design - RWD)，各種裝置及瀏覽器相容測試。</li>
+						<li>將設計的psd製作成html, css, javascript, jquery framework。</li>
+						<li>與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。</li>
+					</ul>
+				</li>
+				<li class="project">https://shinnyo-japan-travel.thenewslens.com/
+					<a class="btn-close" href="javascript:void(0)">×</a>
+					<dl class="clear">
+						<dt class="main-pic floatL"><img src="img/yd/003-ydShinny_m.jpg" alt=""></dt>
+						<dd class="sub-pic floatL">
+							<ul class="clear">
+								<li class="floatL"><img src="img/yd/003-ydShinny.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/003-ydShinny_2.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/003-ydShinny_3.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/003-ydShinny_4.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/003-ydShinny_5.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/003-ydShinny_6.jpg" alt=""></li>
+							</ul>
+						</dd>
+					</dl>
+					<p>毅達數位創意<br />2017/05 ~ 2017/03</p>
+					<p class="taL"><a href="https://shinnyo-japan-travel.thenewslens.com/" target="_blank">一期，一會。</a><br />
+					真如苑活動網站</p>
+					<ul class="txtList taL">
+						<li>一頁式網站設計。</li>
+						<li>自適應設計(responsive design - RWD)，各種裝置及瀏覽器相容測試。</li>
+						<li>第一頻動畫設計(css3)。</li>
+						<li>將設計的psd製作成html, css, javascript, jquery framework。</li>
+						<li>與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。</li>
+					</ul>
+				</li>
+				<li class="project">
+					<a class="btn-close" href="javascript:void(0)">×</a>
+					<dl class="clear">
+						<dt class="main-pic floatL"><img src="img/yd/002-ydBus_m.jpg" alt=""></dt>
+						<dd class="sub-pic floatL">
+							<ul class="clear">
+								<li class="floatL"><img src="img/yd/002-ydBus.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/002-ydBus_2.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/002-ydBus_3.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/002-ydBus_4.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/002-ydBus_5.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/002-ydBus_6.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/002-ydBus_7.jpg" alt=""></li>
+							</ul>
+						</dd>
+					</dl>
+					<p>毅達數位創意<br />2017/05 ~ 2017/03</p>
+					<p class="taL"><a href="http://www.taiwan2384.com.tw/2017bus/" target="_blank">選擇、在你身邊</a><br />
+					交通部 · 公路總局活動網站</p>
+					<ul class="txtList taL">
+						<li>網站開發電腦版及手機版。</li>
+						<li>各種裝置及瀏覽器相容測試。</li>
+						<li>首頁動畫設計(flash匯出js)。</li>
+						<li>將設計的psd製作成html, css, javascript, jquery framework。</li>
+						<li>與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。</li>
+					</ul>
+				</li>
+				<li class="project">
+					<a class="btn-close" href="javascript:void(0)">×</a>
+					<dl class="clear">
+						<dt class="main-pic floatL"><img src="img/yd/001-ydReading_m.jpg" alt=""></dt>
+						<dd class="sub-pic floatL">
+							<ul class="clear">
+								<li class="floatL"><img src="img/yd/001-ydReading.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_2.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_3.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_4.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_5.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_6.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_7.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_8.jpg" alt=""></li>
+								<li class="floatL"><img src="img/yd/001-ydReading_9.jpg" alt=""></li>
+							</ul>
+						</dd>
+					</dl>
+					<p>毅達數位創意<br />2017/05 ~ 2017/03</p>
+					<p class="taL"><a href="http://www.worldbookday.tw/" target="_blank">我在世界閱讀日，已讀Book回。</a><br />
+					文化部活動網站</p>
+					<ul class="txtList taL">
+						<li>一頁式網站設計。</li>
+						<li>自適應設計(responsive design - RWD)，各種裝置及瀏覽器相容測試。</li>
+						<li>第一頻動畫設計(css3)。</li>
+						<li>將設計的psd製作成html, css, javascript, jquery framework。</li>
+						<li>與後端程式人員，一同參與專案討論</li>
+					</ul>
+				</li>
+				<li class="project">
 					<a class="btn-close" href="javascript:void(0)">×</a>
 					<dl class="clear">
 						<dt class="main-pic floatL"><img src="img/sure/miaokeeper_sign.jpg" alt=""></dt>
@@ -196,50 +491,26 @@
 					<p>行動餐車-自創品牌<br />2015/06 ~ 2017/02</p>
 					<p class="taL">自創品牌『果然，果真自然』及『三貓甜妞』<br />
 					因食安問題層出不窮，有什麼值得信賴的商品可以下肚？<br />選擇大自然孕育出來的水果為主要品項，不只是在意健康，也更在意吃得安全，吃得放心。</p>
-					<ul class="taL">
+					<ul class="txtList taL">
 						<li>訂定所屬品牌視覺設計系統(VI)，應用系統小至名片、產品貼標，大至品牌招牌、旗幟、標識。</li>
 						<li>開發相關飲品及食品。</li>
 						<li>與企業接洽及合作餐車駐點、產品包套、家庭日、慈善義賣⋯⋯等相關活動。</li>
 						<li>即時應對顧客需求及問題回覆與處理。</li>
-						<li>經營『<a href="www.facebook.com/surejuice">果然，果真自然</a>』facebook粉絲專頁</li>
+						<li>經營『<a href="www.facebook.com/surejuice">果然，果真自然</a>』facebook粉絲專頁。</li>
 					</ul>
 				</li>
-				<li class="project" id="project-02">
+				<li class="project">
 					<a class="btn-close" href="javascript:void(0)">×</a>
 					<dl>
 						<dt></dt>
 						<dd></dd>
-						<ul class="taL">
+						<ul class="txtList taL">
 							<li>訂定所屬品牌視覺設計系統(VI)，應用系統小至名片、產品貼標，大至品牌招牌、旗幟、標識。</li>
 							<li>開發相關飲品及食品。</li>
 							<li>與企業接洽及合作餐車駐點、產品包套、家庭日、慈善義賣⋯⋯等相關活動。</li>
 							<li>即時應對顧客需求及問題回覆與處理。</li>
 							<li>經營『<a href="www.facebook.com/surejuice">果然，果真自然</a>』facebook粉絲專頁</li>
 						</ul>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt></dt>
-						<dd></dd>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt></dt>
-						<dd></dd>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt></dt>
-						<dd></dd>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt></dt>
-						<dd></dd>
 					</dl>
 				</li>
 			</ul>
