@@ -76,17 +76,29 @@
     	.body-fixed {height:100%;overflow-y:hidden;-webkit-overflow-scrolling:touch;}
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://use.typekit.net/mqz6xiy.js"></script>
-	<script>
-	try{
-		Typekit.load({
-			async: true
-		});
-	}catch(e){		
-		}
-	</script>
     <script>
     	$(document).ready(function(){
+    		// var tit = document.getElementById('demo-01');
+    		// var rect = tit.getBoundingClientRect();
+    		// var inseDiv = document.createElement('div');
+    		// tit.parentNode.replaceChild(inseDiv, tit);
+    		// inseDiv.appendChild(tit);
+    		// inseDiv.style.height = rect.height + 'px';
+    		// var titTop = tit.offsetTop;
+    		// document.onscroll = function(){
+    		// 	var btop = document.body.scrollTop || document.documentElement.scrollTop;
+    		// 	if (btop > titTop){
+    		// 		tit.className = "about inner fix";
+    		// 	}else {
+    		// 		tit.className = "about inner";
+    		// 	}
+    		// }
+    		$('.innerIntro').scroll(function(){
+    			$(this).parents('.inner').css({
+    											'position':'fixed',
+    											'top':0
+    										});
+    		});
     		function close(){
     			$('.btn-close').click(function(e){
     				e.stopPropagation();
@@ -124,7 +136,7 @@
 		</div>
 		<div class="about inner" id="demo-01">
 			<h2 class="font-big taC">About Me</h2>
-			<ul class="aboutIntro clear">
+			<ul class="aboutIntro clear innerIntro">
 				<li>
 					<h3 class="font-mid taC">自我介紹</h3>
 					<p class="taC">女。貓奴一枚。</p>
@@ -151,7 +163,7 @@
 		</div>
 		<div class="showcase inner" id="demo-02">
 			<h2 class="font-big taC">Showcase</h2>
-			<ul class="caseIntro clear">
+			<ul class="caseIntro clear innerIntro">
 				<li class="radius-round floatL">
 					<a href="javascript:void(0)">
 						<span class="caseTitle taC">台灣之星</span>
