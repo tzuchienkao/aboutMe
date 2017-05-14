@@ -69,4 +69,8 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
     .header {line-height:2.5;padding:0 10px;}
     .logo {font-size:20px;}
     .nav a {line-height:3;margin-left:10px;}
+    .index {background-image:none;background-size:initial;background-attachment:initial;}
+    .about {background-image:none;background:#fde2c4;background-size:initial;background-attachment:initial;}
+    .showcase {background-image:none;background:#e2f8ff;background-size:initial;background-attachment:initial;}
+    .contact {background-image:none;background-size:initial;background-attachment:initial;}
 }
