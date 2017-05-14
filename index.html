@@ -50,7 +50,6 @@
     	.nav a {margin-left:30px;}
     	.wrapper {position:relative;}
     	.inner {width:100%;height:100%;text-align:center;}
-    	.inner>h2 {padding-top:90px;}
     	.index {background:url(img/bg-01.png) top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
     	.about {background:url(img/bg-02.png) #fde2c4 top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
     	.showcase {background:url(img/bg-03.png) #e2f8ff top -90px center no-repeat;background-size:cover;background-attachment:fixed;position:relative;}
@@ -94,7 +93,6 @@
 	    				$('.nav a').removeClass('active');
 	    				_this.addClass('active');
 	    			}else{
-
 	    				_this.removeClass('active');
 	    			}
 	    		});
@@ -102,10 +100,11 @@
 
     		});
     		$('.innerIntro').scroll(function(){
+    			var _navH = $('.nav').height();
     			var p = $(this).parent();
     			var pos = p.position();
     			var _top = pos.top;
-    			$(document).scrollTop(_top);
+    			$(document).scrollTop(_top - _navH);
     		});
     		function close(){
     			$('.btn-close').click(function(e){
