@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    if(!(/mobile/i.test(navigator.userAgent))){
+    if(/mobile/i.test(navigator.userAgent)){
+        alert('mobile');
+    }else{
     		$(document).scroll(function(){
     			$url_href = '';
     			$('.nav a').each(function(){
