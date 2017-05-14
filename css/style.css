@@ -65,8 +65,6 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .body-fixed {height:100%;overflow-y:hidden;-webkit-overflow-scrolling:touch;}
 @media screen and (max-width:768px) {
     body {font-size:18px;}
-    *:hover {pointer-events:none;}
-    *:active {pointer-events:auto;}
     .header {line-height:2.5;padding:0 10px;}
     .logo {font-size:20px;}
     .nav a {line-height:3;margin-left:10px;}
