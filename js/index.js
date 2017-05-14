@@ -47,4 +47,4 @@
 					$('body').find('.bg-blur').removeClass('bg-blur');
 				});
     		});
-    	});S
+    	});
