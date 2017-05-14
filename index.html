@@ -84,8 +84,8 @@
     			$('.nav a').each(function(){
 	    			var _this = $(this);
 	    			var _href = _this.attr('href');
-	    			var _thisH = _this.height();
-	    			var _innerPos = $(_href).position().top - _thisH;
+	    			var _thisH = _this.height()+_this.innerHeight();
+	    			var _innerPos = $(_href).position().top - _thisH*2;
 	    			var _innerH = $(_href).height();
 	    			
 	    			if(_innerPos <= $(document).scrollTop() && _innerPos + _innerH > $(document).scrollTop()){
