@@ -1,5 +1,5 @@
-
-    	$(document).ready(function(){
+$(document).ready(function(){
+    if(!(/mobile/i.test(navigator.userAgent))){
     		$(document).scroll(function(){
     			$url_href = '';
     			$('.nav a').each(function(){
@@ -47,4 +47,5 @@
 					$('body').find('.bg-blur').removeClass('bg-blur');
 				});
     		});
-    	});
+    }
+});
