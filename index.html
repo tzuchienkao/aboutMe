@@ -91,6 +91,7 @@
 	    				$('.nav a').removeClass('active');
 	    				_this.addClass('active');
 	    			}else{
+	    				window.history.pushState({}, 0, 'https://'+window.location.host+location.pathname);
 	    				_this.removeClass('active');
 	    			}
 	    		});
