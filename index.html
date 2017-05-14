@@ -87,7 +87,7 @@
     			var _innerH = $(_href).height();
 	    		$(document).scroll(function(){
 	    			if(_innerPos <= $(document).scrollTop() && _innerPos + _innerH > $(document).scrollTop()){
-	    				window.history.pushState({}, 0, 'http://'+window.location.host+location.pathname+_href);
+	    				window.history.pushState({}, 0, 'https://'+window.location.host+location.pathname+_href);
 	    				$('.nav a').removeClass('active');
 	    				_this.addClass('active');
 	    			}else{
