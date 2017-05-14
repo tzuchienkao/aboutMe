@@ -1,0 +1,72 @@
+* {padding:0;margin:0;box-sizing:border-box;}
+html, body {height:100%;}
+body {font:24px/1.5 'Philosopher', 'PMingLiU', 'STSong', 'Times New Roman', sans-serif;color:#3f3f3f;background-color:#3f3f3f;}
+ul, li {list-style:none;}
+a {color:#ffe597;text-decoration:none;}
+a:hover, a.active {border-bottom:3px solid #ffe597;}
+::-webkit-scrollbar {width:1px;}
+::-webkit-scrollbar-track {-webkit-box-shadow:inset 0 0 0 rgba(0,0,0,0.3);}
+::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,0.3);outline: 1px solid rgba(0,0,0,0.3);}
+.fixed {position:fixed;top:90px;}
+.stick {position:fixed;top:0;}
+.clear {clear:both;overflow:hidden;}
+.floatL {float:left;}
+.floatR {float:right;}
+.taC {text-align:center;}
+.taL {text-align:left;}
+.font-big {font-size:48px;}
+.font-mid {font-size:30px;}
+.btn-close {font-size:60px;line-height:1;text-align:right;color:#3f3f3f;display:block;}
+.btn-close:hover {margin-top:-3px;}
+.skill {display: inline-block; width: 1.5em; height: 1.5em; border: 2px solid #72cdb8; border-radius: 1.5em; color: #72cdb8; text-align: center; font-weight: bold;}
+.skill:before {display: block; font-size: 0.8em;}
+.skill.html:before {content: "Html";}
+.skill.css:before {content: "Css";}
+.skill.jq:before {content: "Jq";}
+.skill.as:before {content: "As2";}
+.skill.rwd:before {content: "Rwd";}
+.skill.ps:before {content: "Ps";}
+.skill.ai:before {content: "Ai";}
+.skill.dw:before {content: "Dw";}
+.skill.in:before {content: "In";}
+.skill.fl:before {content: "Fl";}
+.skill.fb:before {content: "FB";}
+.skill.print:before {content: "印";}
+.skill.photo:before {content: "攝";}
+.header {width:100%;line-height:90px;background-color:#3f3f3f;padding:0 30px;position:fixed;z-index:9;}
+.logo {color:#fff;font-size:48px;}
+.nav a {margin-left:30px;}
+.wrapper {position:relative;}
+.inner {width:100%;height:100%;text-align:center;}
+.index {background:url(img/bg-01.png) top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
+.about {background:url(img/bg-02.png) #fde2c4 top -90px center no-repeat;background-size:cover;background-attachment:fixed;}
+.showcase {background:url(img/bg-03.png) #e2f8ff top -90px center no-repeat;background-size:cover;background-attachment:fixed;position:relative;}
+.contact {background:url(img/bg-04.jpg) top 90px center no-repeat;background-size:cover;background-attachment:fixed;padding-top:0;}
+.aboutIntro {width:80%;height:50%;text-align:left;margin:0 auto;overflow-y:scroll;}
+.caseIntro {height:80%;margin:0 auto;display:inline-block;overflow-y:scroll;}
+.caseIntro li {margin:10px;}
+.caseIntro li:nth-child(5n+1) {clear:both;}
+.radius-round {width:210px;height:210px;background-color:#000;border-radius:50%;position:relative;overflow:hidden;}
+.radius-round img {width:200%;margin-left:-50%;}
+.radius-round:hover img {opacity:0.2;transform:scale(1.1);transition-duration:0.5s;}
+.caseTitle {width:80%;color:#ffe597;opacity:0;display:none;position:absolute;top:80px;left:10%;}
+.radius-round:hover .caseTitle {opacity:1;transition-duration:0.5s;display:block;}
+.bg-blur {filter:blur(10px);}
+.project {width:100%;height:100%;background-color:rgba(255,255,255,0.9);padding:90px 10%;position:absolute;top:0;left:0;overflow-y:scroll;}
+.project a:not(.btn-close) {background-color:#3f3f3f;padding:3px 5px;margin:0 3px;}
+.caseInner>li {display:none;}
+.txtList {border-top:1px dashed #3f3f3f;padding:10px;margin-top:10px;}
+.txtList li {list-style:disc outside;margin-left:16px;}
+.main-pic>.sub-pic, .caseInner img {width:100%;}
+.main-pic, .sub-pic, .sub-pic li {width:50%;padding:10px;}
+.sub-pic li {padding-top:0;}
+.contact a {width:100%;height:100%;vertical-align:middle;display:inline-block;}
+.contact a:before {height:100%;vertical-align:middle;content:'';display:inline-block;}
+.body-fixed {height:100%;overflow-y:hidden;-webkit-overflow-scrolling:touch;}
+@media screen and (max-width:768px) {
+    body {font-size:18px;}
+    a:hover {pointer-events:none;}
+    .header {line-height:2.5;padding:0 10px;}
+    .logo {font-size:20px;}
+    .nav a {line-height:3;margin-left:10px;}
+}
