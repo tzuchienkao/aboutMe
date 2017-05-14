@@ -79,18 +79,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
     	$(document).ready(function(){
-
     		$(document).scroll(function(){
-    		
+    			$url_href = '';
     			$('.nav a').each(function(){
 	    			var _this = $(this);
 	    			var _href = _this.attr('href');
 	    			var _thisH = _this.height();
 	    			var _innerPos = $(_href).position().top - _thisH;
 	    			var _innerH = $(_href).height();
-	    			window.history.pushState({}, 0, 'https://'+window.location.host+location.pathname);
+	    			
 	    			if(_innerPos <= $(document).scrollTop() && _innerPos + _innerH > $(document).scrollTop()){
-	    				window.history.pushState({}, 0, 'https://'+window.location.host+location.pathname+_href);
+	    				$url_href = _href;
 	    				$('.nav a').removeClass('active');
 	    				_this.addClass('active');
 	    			}else{
@@ -98,6 +97,8 @@
 	    				_this.removeClass('active');
 	    			}
 	    		});
+	    		window.history.pushState({}, 0, 'https://'+window.location.host+location.pathname+$url_href);
+
     		});
     		$('.innerIntro').scroll(function(){
     			var p = $(this).parent();
