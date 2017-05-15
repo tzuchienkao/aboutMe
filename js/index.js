@@ -3,7 +3,7 @@ $(document).ready(function(){
         e.stopPropagation();
         $(this).parent().toggle();
     });
-    $('.caseIntro>li').on('click touchstart', function(e){
+    $('.caseIntro>li').on('click tomoveart', function(e){
         e.stopPropagation();
         e.preventDefault();
         var _thisH = $('.header').height();
@@ -15,7 +15,7 @@ $(document).ready(function(){
         }).show();
         $(this).parent('ul').addClass('bg-blur');
         $('body').addClass('body-fixed');
-        $('.btn-close').on('click touchstart', function(e){
+        $('.btn-close').on('click touchmove', function(e){
             e.stopPropagation();
             e.preventDefault();
             $('body').removeClass('body-fixed');
