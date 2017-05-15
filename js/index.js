@@ -10,7 +10,7 @@ $(document).ready(function(){
         _inner.eq(i).show();
         $(this).parent('ul').addClass('bg-blur');
         $('body').addClass('body-fixed');
-        $('.btn-close').on('click', function(e){
+        $('.btn-close').on('touchstart click', function(e){
             e.stopPropagation();
             $('body').removeClass('body-fixed');
             $('body').find('.bg-blur').removeClass('bg-blur');
