@@ -5,6 +5,7 @@ $(document).ready(function(){
     });
     $('.caseIntro>li').on('click', function(e){
         e.stopPropagation();
+        alert('click');
         var i = $(this).index();
         var _inner = $('.caseInner>li');
         _inner.eq(i).show();
@@ -23,6 +24,7 @@ $(document).ready(function(){
     if(/mobile/i.test(navigator.userAgent)){
         var _navH = $('.nav').height();
         $('.inner').scrollTop(_navH);
+        alert(_navH);
     }else{
 		$(document).scroll(function(){
 			$url_href = '';
