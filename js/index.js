@@ -3,8 +3,7 @@ $(document).ready(function(){
         e.stopPropagation();
         $(this).parent().toggle();
     });
-    $('.caseIntro>li').on('click', function(e){
-        e.stopPropagation();
+    $('.caseIntro>li').on('touchstart click', function(){
         var i = $(this).index();
         var _inner = $('.caseInner>li');
         _inner.eq(i).show();
@@ -16,7 +15,7 @@ $(document).ready(function(){
             $('body').find('.bg-blur').removeClass('bg-blur');
         });
     });
-    $('.nav a').on('touchstart mousedown click', function(){
+    $('.nav a').on('click', function(){
         var _this = $(this);
         var _href = _this.attr('href');
         var _thisH = $('.header').height();
