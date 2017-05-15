@@ -49,7 +49,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .radius-round:hover img {opacity:0.2;transform:scale(1.1);transition-duration:0.5s;}
 .caseTitle {width:80%;color:#ffe597;opacity:0;display:none;position:absolute;top:80px;left:10%;}
 .radius-round:hover .caseTitle {opacity:1;transition-duration:0.5s;display:block;}
-.bg-blur {filter:blur(10px);}
+.bg-blur {filter:blur(10px);-webkit-filter:blur(10px);}
 .project {width:100%;height:100%;background-color:rgba(255,255,255,0.9);padding:0 10% 10%;position:fixed;left:0;overflow-y:scroll;}
 .project a:not(.btn-close) {background-color:#3f3f3f;padding:3px 5px;margin:0 3px;}
 .caseInner>li {display:none;}
@@ -71,7 +71,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
     .about {background:#fde2c4;}
     .showcase {background:#e2f8ff;}
     .aboutIntro, .caseIntro {width:100%;padding:0 5px;margin:0 auto;}
-    .caseIntro li {width:50%;height:180px;margin:0;}
+    .caseIntro li {width:50%;height:150px;margin:0;}
     .caseIntro li:nth-child(2n) {float:right;}
     .caseIntro li:nth-child(2n+1) {clear:both;}
     .caseIntro li:nth-child(5n+1) {clear:initial;}
