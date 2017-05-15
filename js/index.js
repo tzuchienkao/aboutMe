@@ -3,9 +3,8 @@ $(document).ready(function(){
         e.stopPropagation();
         $(this).parent().toggle();
     });
-    $('.caseIntro>li').on('click tomoveart', function(e){
+    $('.caseIntro>li').on('click touchstart', function(e){
         e.stopPropagation();
-        e.preventDefault();
         var _thisH = $('.header').height();
         var i = $(this).index();
         var _inner = $('.caseInner>li');
@@ -15,9 +14,8 @@ $(document).ready(function(){
         }).show();
         $(this).parent('ul').addClass('bg-blur');
         $('body').addClass('body-fixed');
-        $('.btn-close').on('click touchmove', function(e){
+        $('.btn-close').on('click touchstart', function(e){
             e.stopPropagation();
-            e.preventDefault();
             $('body').removeClass('body-fixed');
             $('body').find('.bg-blur').removeClass('bg-blur');
             _inner.eq(i).attr('style','');
@@ -35,6 +33,9 @@ $(document).ready(function(){
         _this.addClass('active');
     });
     if(/mobile/i.test(navigator.userAgent)){
+        $(window).on('touchmove', function(e){
+            e.stopPropagation();
+        });
     }else{
 		$(document).scroll(function(){
 			$url_href = '';
