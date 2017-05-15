@@ -22,9 +22,8 @@ $(document).ready(function(){
         })
     });
     if(/mobile/i.test(navigator.userAgent)){
-        var _navH = $('.nav').height();
+        var _navH = $('.nav').height() + $('.nav').innerHeight();
         $('.inner').scrollTop(_navH);
-        alert(_navH);
     }else{
 		$(document).scroll(function(){
 			$url_href = '';
