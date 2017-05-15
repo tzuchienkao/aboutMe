@@ -4,9 +4,10 @@ $(document).ready(function(){
         $(this).parent().toggle();
     });
     $('.caseIntro>li').on('touchstart click', function(){
+        var _thisH = $('.header').height();
         var i = $(this).index();
         var _inner = $('.caseInner>li');
-        _inner.eq(i).show();
+        _inner.eq(i).css({top:_thisH}).show();
         $(this).parent('ul').addClass('bg-blur');
         $('body').addClass('body-fixed');
         $('.btn-close').on('touchstart click', function(e){
