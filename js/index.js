@@ -19,9 +19,10 @@ $(document).ready(function(){
     $('.nav a').on('click', function(){
         var _this = $(this);
         var _href = _this.attr('href');
-        var _thisH = $('.nav').height();
+        var _thisH = $('.header').height();
         var _innerH = $(_href).height();
         var _h = $(_href).offset().top - _thisH;
+        console.log(_thisH)
         $('html, body').animate({scrollTop:_h});
         $('.nav a').removeClass('active');
         _this.addClass('active');
