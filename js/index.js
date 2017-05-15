@@ -3,7 +3,7 @@ $(document).ready(function(){
         e.stopPropagation();
         $(this).parent().toggle();
     });
-    $('.caseIntro>li').on('touchstart click', function(){
+    $('.caseIntro>li').on('tap click', function(){
         var _thisH = $('.header').height();
         var i = $(this).index();
         var _inner = $('.caseInner>li');
@@ -13,7 +13,7 @@ $(document).ready(function(){
         }).show();
         $(this).parent('ul').addClass('bg-blur');
         $('body').addClass('body-fixed');
-        $('.btn-close').on('touchstart click', function(e){
+        $('.btn-close').on('tap click', function(e){
             e.stopPropagation();
             $('body').removeClass('body-fixed');
             $('body').find('.bg-blur').removeClass('bg-blur');
