@@ -1,6 +1,6 @@
 * {padding:0;margin:0;box-sizing:border-box;}
 html, body {height:100%;}
-body {font:24px/1.5 'Philosopher', 'PMingLiU', 'STSong', 'Times New Roman', sans-serif;color:#3f3f3f;background-color:#3f3f3f;}
+body {font:24px/1.5 'Playfair Display', 'PMingLiU', 'STSong', 'Times New Roman', sans-serif;color:#3f3f3f;background-color:#3f3f3f;}
 ul, li {list-style:none;}
 a {color:#ffe597;text-decoration:none;}
 a:hover, a.active {border-bottom:3px solid #ffe597;}
