@@ -7,13 +7,17 @@ $(document).ready(function(){
         var _thisH = $('.header').height();
         var i = $(this).index();
         var _inner = $('.caseInner>li');
-        _inner.eq(i).css({top:_thisH}).show();
+        _inner.eq(i).css({
+            top: _thisH + 'px', 
+            height: $('body').height() - _thisH
+        }).show();
         $(this).parent('ul').addClass('bg-blur');
         $('body').addClass('body-fixed');
         $('.btn-close').on('touchstart click', function(e){
             e.stopPropagation();
             $('body').removeClass('body-fixed');
             $('body').find('.bg-blur').removeClass('bg-blur');
+            _inner.eq(i).attr('style','');
         });
     });
     $('.nav a').on('click', function(){
