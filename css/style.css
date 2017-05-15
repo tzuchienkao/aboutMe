@@ -79,4 +79,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
     .caseIntro li:nth-child(5n+1) {clear:initial;}
     .radius-round {border-radius:initial;}
     .radius-round:hover {pointer-events:none;}
+    .project {height:initial;}
+    .txtList {padding:5px;margin-top:5px;}
+    .main-pic, .sub-pic, .sub-pic li {width:100%;padding:10px;float:none;}
 }
