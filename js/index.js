@@ -5,11 +5,6 @@ $(document).ready(function(){
     });
     $('.caseIntro>li').on('click touchstart', function(e){
         e.stopPropagation();
-        if(e.type == "touchstart"){
-            $(this).off('click');
-        }else if(e.type == "click"){
-            $(this).off('touchstart');
-        }
         var _thisH = $('.header').height();
         var i = $(this).index();
         var _inner = $('.caseInner>li');
@@ -21,11 +16,6 @@ $(document).ready(function(){
         $('body').addClass('body-fixed');
         $('.btn-close').on('click touchstart', function(e){
             e.stopPropagation();
-            if(e.type == "touchstart"){
-                $(this).off('click');
-            }else if(e.type == "click"){
-                $(this).off('touchstart');
-            }
             $('body').removeClass('body-fixed');
             $('body').find('.bg-blur').removeClass('bg-blur');
             _inner.eq(i).attr('style','');
@@ -37,7 +27,6 @@ $(document).ready(function(){
         var _thisH = $('.header').height();
         var _innerH = $(_href).height();
         var _h = $(_href).offset().top - _thisH;
-        console.log(_thisH)
         $('html, body').animate({scrollTop:_h});
         $('.nav a').removeClass('active');
         _this.addClass('active');
