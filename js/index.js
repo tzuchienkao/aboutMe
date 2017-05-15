@@ -5,7 +5,6 @@ $(document).ready(function(){
     });
     $('.caseIntro>li').on('click', function(e){
         e.stopPropagation();
-        alert('click');
         var i = $(this).index();
         var _inner = $('.caseInner>li');
         _inner.eq(i).show();
@@ -16,14 +15,18 @@ $(document).ready(function(){
             $('body').removeClass('body-fixed');
             $('body').find('.bg-blur').removeClass('bg-blur');
         });
-        $('.nav a').on('click', function(){
-            $('.nav a').removeClass('active');
-            $(this).addClass('active');
-        })
+    });
+    $('.nav a').on('click', function(){
+        var _this = $(this);
+        var _href = _this.attr('href');
+        var _thisH = $('.nav').height();
+        var _innerH = $(_href).height();
+        var _h = $(_href).offset().top - _thisH;
+        $('html, body').animate({scrollTop:_h});
+        $('.nav a').removeClass('active');
+        _this.addClass('active');
     });
     if(/mobile/i.test(navigator.userAgent)){
-        var _navH = $('.nav').height() + $('.nav').innerHeight();
-        $('.inner').scrollTop(_navH);
     }else{
 		$(document).scroll(function(){
 			$url_href = '';
