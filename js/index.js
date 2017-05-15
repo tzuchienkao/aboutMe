@@ -3,7 +3,9 @@ $(document).ready(function(){
         e.stopPropagation();
         $(this).parent().toggle();
     });
-    $('.caseIntro>li').on('click touchstart', function(){
+    $('.caseIntro>li').on('click touchstart', function(e){
+        $(this).off('touchend');
+        e.stopPropagation();
         var _thisH = $('.header').height();
         var i = $(this).index();
         var _inner = $('.caseInner>li');
@@ -14,6 +16,7 @@ $(document).ready(function(){
         $(this).parent('ul').addClass('bg-blur');
         $('body').addClass('body-fixed');
         $('.btn-close').on('click touchstart', function(e){
+            $(this).off('touchend');
             e.stopPropagation();
             $('body').removeClass('body-fixed');
             $('body').find('.bg-blur').removeClass('bg-blur');
