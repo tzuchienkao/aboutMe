@@ -16,7 +16,7 @@ $(document).ready(function(){
             $('body').find('.bg-blur').removeClass('bg-blur');
         });
     });
-    $('.nav a').on('click', function(){
+    $('.nav a').on('touchstart mousedown click', function(){
         var _this = $(this);
         var _href = _this.attr('href');
         var _thisH = $('.header').height();
@@ -28,20 +28,6 @@ $(document).ready(function(){
         _this.addClass('active');
     });
     if(/mobile/i.test(navigator.userAgent)){
-        $('.caseIntro>li').on('touch', function(e){
-            e.stopPropagation();
-            var i = $(this).index();
-            var _inner = $('.caseInner>li');
-            _inner.eq(i).show();
-            $(this).parent('ul').addClass('bg-blur');
-            $('body').addClass('body-fixed');
-            $('.btn-close').on('click', function(e){
-                e.stopPropagation();
-                $('body').removeClass('body-fixed');
-                $('body').find('.bg-blur').removeClass('bg-blur');
-            });
-        });
-
     }else{
 		$(document).scroll(function(){
 			$url_href = '';
