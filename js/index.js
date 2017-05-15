@@ -4,6 +4,7 @@ $(document).ready(function(){
         $(this).parent().toggle();
     });
     $('.caseIntro>li').on('touchstart click', function(){
+        alert('click')
         var i = $(this).index();
         var _inner = $('.caseInner>li');
         _inner.eq(i).show();
