@@ -1,0 +1,1153 @@
+[
+    {
+        "網頁 - 公司產品" : {
+            "窩客島" :  {
+                "title" : "WalkerLand吃飽玩好窩客島", 
+                "description" : [
+                  "依照需求調整網站，整合、規劃及維護html及css網頁規範。", 
+                  "手機版頁面優化，各種裝置瀏覽器相容測試。", 
+                  "頁面開發 - Japan Walker情報頻道，整合至WakerLand平台。"
+                ],
+                "cover" : "img/wl/sitewl_article_001.jpg", 
+                "minPic" : "img/smallImg/sitewl_article_001.jpg", 
+                "subPic" : [
+                  "img/wl/sitewl_article_m_001.jpg"
+                ], 
+                "when" : "2017／05 ─ "
+            } , 
+            "愛逛街" : {
+                "title" : "愛逛街 - 台灣站及馬來西亞站", 
+                "description" : [
+                    "整合、規劃及維護html及css網頁規範，依照需求調整網站及優化SEO內容。", 
+                    "網站改版，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。", 
+                    "開發功能頁面 - o2o商家櫥窗前後台、搜尋列表頁面、活動頁面、功能區塊iframe。", 
+                    "愛逛街網站推廣視覺影片。", 
+                    "維護愛逛街其他平台之html及css。"
+                ],
+                "cover" : "img/yw/iguang_vedio.gif", 
+                "minPic" : "img/smallImg/ig-001Site.jpg", 
+                "subPic" : [
+                    "img/yw/iguang_vedio.jpg", 
+                    "img/yw/iguang_banner.jpg", 
+                    "img/yw/iguang_0_2015.jpg", 
+                    "img/yw/iguang_1_2015.jpg", 
+                    "img/yw/iguang_2_2015.jpg", 
+                    "img/yw/iguang_3_2015.jpg", 
+                    "img/yw/iguang_4_2015.jpg", 
+                    "img/yw/iguang_5_2015.jpg", 
+                    "img/yw/iguang_6_2015.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            } , 
+            "flog" : {
+                "title" : "flog臉書備份", 
+                "description" : [
+                    "訂定視覺設計系統(VI)。", 
+                    "依照企劃所選之風格設計電子書書封設計、banner及各廣告區塊resize。"
+                ],
+                "cover" : "img/yw/flog_logo_2015.jpg", 
+                "minPic" : "img/smallImg/ig-004Logo.jpg", 
+                "subPic" : [
+                    "img/yw/flog_logo_bw_2015.jpg", 
+                    "img/yw/flog_logo_color_2015.jpg", 
+                    "img/yw/flog_logo.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            } , 
+            "起點中文網台灣分站" : {
+                "title" : "起點中文網台灣分站", 
+                "description" : [
+                    "網頁切版及使用html、css及jquery開發。", 
+                    "依照企劃所選之風格設計電子書書封設計、banner及各廣告區塊resize。"
+                ],
+                "cover" : "img/popo/qidian_0_2014.jpg", 
+                "minPic" : "img/smallImg/popo-001Site.jpg", 
+                "subPic" : [
+                    "img/popo/qidian_9_2014.jpg", 
+                    "img/popo/qidian_10_2014.jpg", 
+                    "img/popo/qidian_11_2014.jpg", 
+                    "img/popo/qidian_12_2014.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }
+        }
+    }, 
+    {
+        "網頁 - 官方網站" : { 
+            "CoolBitX" : {
+                "title" : "CoolBitX比特幣線上交易平台", 
+                "description" : [
+                    "前端開發，網站頁面切版。", 
+                    "網站自適應設計(responsive design - RWD)，各種裝置瀏覽器相容測試。", 
+                    "使用jquery開發操作頁面。"
+                ],
+                "cover" : "img/case/coolbitx_m_2015.jpg", 
+                "minPic" : "img/smallImg/ktc-001SiteCoolbitx.jpg", 
+                "subPic" : [
+                    "img/case/coolbitx_1_2015.jpg", 
+                    "img/case/coolbitx_2_2015.jpg", 
+                    "img/case/coolbitx_3_2015.jpg", 
+                    "img/case/coolbitx_4_2015.jpg", 
+                    "img/case/coolbitx_5_2015.jpg", 
+                    "img/case/coolbitx_6_2015.jpg", 
+                    "img/case/coolbitx_7_2015.jpg", 
+                    "img/case/coolbitx_8_2015.jpg", 
+                    "img/case/coolbitx_9_2015.jpg", 
+                    "img/case/coolbitx_10_2015.jpg"
+                ], 
+                "when" : "2015／01 ─ 2015／05"
+            },  
+            "orcastras" : {
+                "title" : "orcastras維鯨資訊", 
+                "description" : [
+                    "前端開發，網站頁面切版。", 
+                    "使用bootstrap及jstree開發操作頁面。", 
+                    "各種裝置瀏覽器相容測試。", 
+                    "jstree icon設計。"
+                ],
+                "cover" : "img/case/orcastras_1_2014.jpg", 
+                "minPic" : "img/smallImg/ktc-001SiteOrcastras.jpg", 
+                "subPic" : [
+                    "img/case/orcastras_2_2014.jpg", 
+                    "img/case/orcastras_3_2014.jpg", 
+                    "img/case/orcastras_4_2014.jpg", 
+                    "img/case/orcastras_5_2014.jpg", 
+                    "img/case/orcastras_6_2014.jpg"
+                ], 
+                "when" : "2012／11 ─ 2013／03"
+            }, 
+            "凌尚照明" : {
+                "title" : "凌尚照明luxsent", 
+                "description" : [
+                    "訂定視覺設計系統(VI)。", 
+                    "網站視覺設計及開發。"
+                ],
+                "cover" : "img/flylink/luxsent_index.jpg", 
+                "minPic" : "img/smallImg/fl-001Site.jpg", 
+                "subPic" : [
+                    "img/flylink/luxsent_cis01.jpg", 
+                    "img/flylink/luxsent_cis02.jpg", 
+                    "img/flylink/luxsent_cis03.jpg", 
+                    "img/flylink/luxsent_index_2.jpg", 
+                    "img/flylink/luxsent_index_3.jpg", 
+                    "img/flylink/luxsent_index_4.jpg", 
+                    "img/flylink/luxsent_index_5.jpg", 
+                    "img/flylink/luxsent_index_6.jpg", 
+                    "img/flylink/luxsent_index_7.jpg", 
+                    "img/flylink/luxsent_index_8.jpg", 
+                    "img/flylink/luxsent_index_9.jpg", 
+                    "img/flylink/luxsent_index_10.jpg", 
+                    "img/flylink/luxsent.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "instantC.app 課表系統" : {
+                "title" : "instantC.app 課表系統", 
+                "description" : [
+                    "網站視覺設計及開發。", 
+                    "平面海報設計。"
+                ],
+                "cover" : "img/flylink/instantc_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteInstantc.jpg", 
+                "subPic" : [
+                    "img/flylink/instantc_dm.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "台大專業營養網" : {
+                "title" : "台大專業營養網", 
+                "description" : [
+                    "執行網站切版，並於進行中調整頁面流程及美化頁面。", 
+                    "彈簧折之小卡DM設計。"
+                ],
+                "cover" : "img/flylink/inyoung99_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteInyoung99.jpg", 
+                "subPic" : [
+                    "img/flylink/inyoung99_dm01.jpg", 
+                    "img/flylink/inyoung99_dm02.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "醫碩科技" : {
+                "title" : "醫碩科技", 
+                "description" : [
+                    "網站爲考量後台可增設/修改之功能需求並符合企業理念，進而設計及提供設計頁面;以利程式開發。", 
+                    "針對客戶之產品所附說明書及口罩包裝設計。"
+                ],
+                "cover" : "img/flylink/esoft_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteEsoft.jpg", 
+                "subPic" : [
+                    "img/flylink/esoft_index_2.jpg", 
+                    "img/flylink/esoft_index_3.jpg", 
+                    "img/flylink/esoft_index_4.jpg", 
+                    "img/flylink/esoft_index_5.jpg", 
+                    "img/flylink/esoft_NP12P.jpg", 
+                    "img/flylink/esoft_NP13P.jpg", 
+                    "img/flylink/esoft_card_01.jpg", 
+                    "img/flylink/esoft_card_02.jpg", 
+                    "img/flylink/esoft_card_03.jpg",  
+                    "img/flylink/esoft_card_04.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "筐合企業有限公司" : {
+                "title" : "筐合企業有限公司", 
+                "description" : [
+                    "名片及DM設計。", 
+                    "網站視覺設計及開發。"
+                ],
+                "cover" : "img/flylink/kronho_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
+                "subPic" : [
+                    "img/flylink/kronho_poster.jpg", 
+                    "img/flylink/kronho_namecard.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "WaffleWaffle! 果將鬆餅" : {
+                "title" : "WaffleWaffle! 果將鬆餅", 
+                "description" : [
+                    "網站視覺設計及開發。"
+                ],
+                "cover" : "img/flylink/waffle2_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteWaffle2.jpg", 
+                "subPic" : [
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "佳統科技光學股份有限公司" : {
+                "title" : "佳統科技光學股份有限公司", 
+                "description" : [
+                    "網站視覺設計及開發。"
+                ],
+                "cover" : "img/flylink/jiatong_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteJiatong.jpg", 
+                "subPic" : [
+                    "img/flylink/jiatong_index_2.jpg", 
+                    "img/flylink/jiatong_index_3.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }
+        }
+    }, 
+    {
+        "網頁 - 活動網站" : {
+            "玉山銀行 - 行動美食家" : {
+                "title" : "行動美食家", 
+                "description" : [
+                    "藝人照片修容及素材修片。", 
+                    "網站視覺設計及開發。", 
+                    "使用bootstrap，將設計的psd製作成html, css, javascript, jquery framework。", 
+                    "自適應設計(responsive design - RWD)，各種裝置及瀏覽器相容測試。", 
+                    "與業務、單位主管、程式人員，一同參與專案的創意發想與討論。"
+                ],
+                "cover" : "img/wl/event_esun_000.jpg", 
+                "minPic" : "img/smallImg/___.jpg", 
+                "subPic" : [
+                    "img/wl/event_esun_001.jpg", 
+                    "img/wl/event_esun_002.jpg", 
+                    "img/wl/event_esun_003.jpg", 
+                    "img/wl/event_esun_004.jpg"
+                ], 
+                "when" : "2017／08 ─ 2017／11"
+            }, 
+            "台灣之星" : {
+                "title" : "台灣之星 網路門市說明網頁優化", 
+                "description" : [
+                    "針對優化需求進行網站開發。", 
+                    "自適應設計(responsive design - RWD)，各種裝置及瀏覽器相容測試。", 
+                    "將設計的psd製作成html, css, javascript, jquery framework。", 
+                    "與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。"
+                ],
+                "cover" : "img/yd/004-ydTstar_m.jpg", 
+                "minPic" : "img/smallImg/yd-004Tstar.jpg", 
+                "subPic" : [
+                    "img/yd/004-ydTstar.jpg", 
+                    "img/yd/004-ydTstar_2.jpg", 
+                    "img/yd/004-ydTstar_3.jpg", 
+                    "img/yd/004-ydTstar_4.jpg", 
+                    "img/yd/004-ydTstar_5.jpg", 
+                    "img/yd/004-ydTstar_6.jpg", 
+                    "img/yd/004-ydTstar_7.jpg", 
+                    "img/yd/004-ydTstar_8.jpg", 
+                    "img/yd/004-ydTstar_9.jpg", 
+                    "img/yd/004-ydTstar_10.jpg", 
+                    "img/yd/004-ydTstar_11.jpg", 
+                    "img/yd/004-ydTstar_12.jpg"
+                ], 
+                "when" : "2017／05 ─ 2017／03"
+            }, 
+            "真如苑" : {
+                "title" : "一期，一會。", 
+                "description" : [
+                    "一頁式網站設計。", 
+                    "自適應設計(responsive design - RWD)，各種裝置及瀏覽器相容測試。", 
+                    "第一頻動畫設計(css3)。", 
+                    "將設計的psd製作成html, css, javascript, jquery framework。", 
+                    "與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。"
+                ],
+                "cover" : "img/yd/003-ydShinny_m.jpg", 
+                "minPic" : "img/smallImg/yd-003Shinny.jpg", 
+                "subPic" : [
+                    "img/yd/003-ydShinny.jpg", 
+                    "img/yd/003-ydShinny_2.jpg", 
+                    "img/yd/003-ydShinny_3.jpg", 
+                    "img/yd/003-ydShinny_4.jpg", 
+                    "img/yd/003-ydShinny_5.jpg", 
+                    "img/yd/003-ydShinny_6.jpg"
+                ], 
+                "when" : "2017／05 ─ 2017／03"
+            }, 
+            "公路總局 - 選擇、在你身邊" : {
+                "title" : "選擇、在你身邊。", 
+                "description" : [
+                    "網站開發電腦版及手機版。", 
+                    "各種裝置及瀏覽器相容測試。", 
+                    "首頁動畫設計(flash匯出js)。", 
+                    "將設計的psd製作成html, css, javascript, jquery framework。", 
+                    "與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。"
+                ],
+                "cover" : "img/yd/002-ydBus_m.jpg", 
+                "minPic" : "img/smallImg/yd-002Bus.jpg", 
+                "subPic" : [
+                    "img/yd/002-ydBus.jpg", 
+                    "img/yd/002-ydBus_2.jpg",
+                    "img/yd/002-ydBus_3.jpg",
+                    "img/yd/002-ydBus_4.jpg",
+                    "img/yd/002-ydBus_5.jpg",
+                    "img/yd/002-ydBus_6.jpg", 
+                    "img/yd/002-ydBus_7.jpg"
+                ], 
+                "when" : "2017／05 ─ 2017／03"
+            }, 
+            "文化部 - 2017世界閱讀日" : {
+                "title" : "我在世界閱讀日，已讀Book回。", 
+                "description" : [
+                    "一頁式網站設計。", 
+                    "自適應設計(responsive design - RWD)，各種裝置及瀏覽器相容測試。", 
+                    "第一頻動畫設計(css3)。", 
+                    "將設計的psd製作成html, css, javascript, jquery framework。", 
+                    "與後端程式人員，一同參與專案討論"
+                ],
+                "cover" : "img/yd/001-ydReading_m.jpg", 
+                "minPic" : "img/smallImg/yd-001Reading.jpg", 
+                "subPic" : [
+                    "img/yd/001-ydReading.jpg", 
+                    "img/yd/001-ydReading_2.jpg", 
+                    "img/yd/001-ydReading_3.jpg", 
+                    "img/yd/001-ydReading_4.jpg", 
+                    "img/yd/001-ydReading_5.jpg", 
+                    "img/yd/001-ydReading_6.jpg", 
+                    "img/yd/001-ydReading_7.jpg", 
+                    "img/yd/001-ydReading_8.jpg", 
+                    "img/yd/001-ydReading_9.jpg"
+                ], 
+                "when" : "2017／05 ─ 2017／03"
+            }, 
+            "淘寶贊社團 社團讚淘寶" : {
+                "title" : "淘寶贊社團 社團讚淘寶", 
+                "description" : [
+                    "視覺設計。", 
+                    "banner製作。", 
+                    "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
+                ],
+                "cover" : "img/yw/event_taobao_m.jpg", 
+                "minPic" : "img/smallImg/ig-002EventTaobao.jpg", 
+                "subPic" : [
+                    "img/yw/event_taobao.jpg", 
+                    "img/yw/event_taobao_2.jpg", 
+                    "img/yw/event_taobao_3.jpg", 
+                    "img/yw/event_taobao_4.jpg", 
+                    "img/yw/banner_taobao_200x200.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "招募！必省Q 校園必勝組" : {
+                "title" : "招募！必省Q 校園必勝組", 
+                "description" : [
+                    "視覺設計。", 
+                    "banner及EDM製作。", 
+                    "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
+                ],
+                "cover" : "img/yw/event_pizzahut_m.jpg", 
+                "minPic" : "img/smallImg/ig-002EventPizzahut.jpg", 
+                "subPic" : [
+                    "img/yw/banner_pizzahut_200x200.jpg", 
+                    "img/yw/event_pizzahut.jpg", 
+                    "img/yw/event_pizzahut_2.jpg", 
+                    "img/yw/event_pizzahut_3.jpg", 
+                    "img/yw/event_pizzahut_4.jpg", 
+                    "img/yw/event_pizzahut_5.jpg", 
+                    "img/yw/edm_pizzahut.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "樂多日誌" : {
+                "title" : "樂多日誌 向世界發聲的Blog平台", 
+                "description" : [
+                    "日誌樣板版型設計，規劃版型css設計。", 
+                    "活動網站的視覺設計、切版及規劃html與css。"
+                ],
+                "cover" : "img/yw/event_roodo.jpg", 
+                "minPic" : "img/smallImg/ig-002EventRoodo.jpg", 
+                "subPic" : [
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "新年大樂透" : {
+                "title" : "新年大樂透", 
+                "description" : [
+                    "banner製作。", 
+                    "手機版網站開發。"
+                ],
+                "cover" : "img/yw/banner_newyear_605x340.jpg", 
+                "minPic" : "img/smallImg/ig-002EventNewyear.jpg", 
+                "subPic" : [
+                    "img/yw/banner_newyear_300x250.jpg",
+                    "img/yw/banner_newyear_350x200.jpg", 
+                    "img/yw/banner_newyear_728x90.gif", 
+                    "img/yw/banner_newyear_970x90.gif", 
+                    "img/yw/event_newyear.jpg", 
+                    "img/yw/event_newyear_2.jpg", 
+                    "img/yw/event_newyear_3.jpg", 
+                    "img/yw/event_newyear_4.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "燦坤快8 校園贊助計畫" : {
+                "title" : "燦坤快8 校園贊助計畫", 
+                "description" : [
+                    "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
+                ],
+                "cover" : "img/yw/event_k8_m.jpg", 
+                "minPic" : "img/smallImg/ig-002Eventk8.jpg", 
+                "subPic" : [
+                    "img/yw/event_k8_m_2.jpg", 
+                    "img/yw/event_k8_m_3.jpg", 
+                    "img/yw/event_k8_m_4.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "POPO小書店" : {
+                "title" : "POPO小書店", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/140_postoreEP.jpg", 
+                "minPic" : "img/smallImg/popo-002EventPostore.jpg", 
+                "subPic" : [
+                    "img/popo/140_postoreEP_2.jpg", 
+                    "img/popo/140_postoreEP_3.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "格子里的夜晚" : {
+                "title" : "每月之星-格子里的夜晚", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/143_2012maystar.jpg", 
+                "minPic" : "img/smallImg/popo-002EventMaystar.jpg", 
+                "subPic" : [
+                  "img/popo/143_2012maystar_2.jpg", 
+                  "img/popo/143_2012maystar_3.jpg", 
+                  "img/popo/143_2012maystar_4.jpg", 
+                  "img/popo/143_2012maystar_5.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "謝謝你/妳，曾經愛過我" : {
+                "title" : "征文舞台-謝謝你/妳，曾經愛過我", 
+                "description" : [
+                    "主題視覺設計。", 
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/10019_vote.jpg", 
+                "minPic" : "img/smallImg/popo-002EventVote002.jpg", 
+                "subPic" : [
+                    "img/popo/10019_vote_2.jpg", 
+                    "img/popo/10019_vote_3.jpg", 
+                    "img/popo/10019_vote_4.jpg", 
+                    "img/popo/10019_vote_5.jpg", 
+                    "img/popo/10019_vote_6.jpg", 
+                    "img/popo/10019_vote_banner.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "十全食美" : {
+                "title" : "每月之星-十全食美", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/165_2012food.jpg", 
+                "minPic" : "img/smallImg/popo-002Eventfood.jpg", 
+                "subPic" : [
+                    "img/popo/165_2012food_2.jpg", 
+                    "img/popo/165_2012food_3.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "琴律粉絲大集合" : {
+                "title" : "每月之星-琴律粉絲大集合", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/155_2012AugFans.jpg", 
+                "minPic" : "img/smallImg/popo-002EventAugFans.jpg", 
+                "subPic" : [
+                    "img/popo/155_2012AugFans_2.jpg", 
+                    "img/popo/155_2012AugFans_3.jpg", 
+                    "img/popo/155_2012AugFans_4.jpg", 
+                    "img/popo/155_2012AugFans_5.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "貓兒的幸福餐桌" : {
+                "title" : "征文舞台-貓兒的幸福餐桌", 
+                "description" : [
+                    "主題視覺設計。", 
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/10022_vote.jpg", 
+                "minPic" : "img/smallImg/popo-002EventVote003.jpg", 
+                "subPic" : [
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "復貴盈門" : {
+                "title" : "每月之星-復貴盈門", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/169_2012DecStar.jpg", 
+                "minPic" : "img/smallImg/popo-002EventDecStar.jpg", 
+                "subPic" : [
+                    "img/popo/169_2012DecStar_2.jpg", 
+                    "img/popo/169_2012DecStar_3.jpg", 
+                    "img/popo/169_2012DecStar_4.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "錦衣衛" : {
+                "title" : "每月之星-錦衣衛", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/166_2012guard.jpg", 
+                "minPic" : "img/smallImg/popo-002EventGuard.jpg", 
+                "subPic" : [
+                    "img/popo/166_2012guard_2.jpg", 
+                    "img/popo/166_2012guard_3.jpg", 
+                    "img/popo/166_2012guard_banner.gif"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "花開錦繡" : {
+                "title" : "每月之星-花開錦繡", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/163_2012OctStar.jpg", 
+                "minPic" : "img/smallImg/popo-002EventOctStar.jpg", 
+                "subPic" : [
+                    "img/popo/163_2012OctStar_2.jpg", 
+                    "img/popo/163_2012OctStar_3.jpg", 
+                    "img/popo/163_2012OctStar_4.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "耳根求魔" : {
+                "title" : "每月之星-耳根求魔", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/152_2012AugStar.jpg", 
+                "minPic" : "img/smallImg/popo-002EventAugStar.jpg", 
+                "subPic" : [
+                    "img/popo/152_2012AugStar_2.jpg", 
+                    "img/popo/152_2012AugStar_3.jpg", 
+                    "img/popo/152_2012AugStar_4.jpg", 
+                    "img/popo/152_2012AugStar_5.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "林語堂文學獎" : {
+                "title" : "征文舞台-林語堂文學獎", 
+                "description" : [
+                    "主題視覺設計。", 
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/10017_vote_banner.jpg", 
+                "minPic" : "img/smallImg/popo-002EventVote001.jpg", 
+                "subPic" : [
+                    "img/popo/10017_vote.jpg", 
+                    "img/popo/10018_vote.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "一品江山" : {
+                "title" : "每月之星-一品江山", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/168_2012NovStar.jpg", 
+                "minPic" : "img/smallImg/popo-002EventNovStar.jpg", 
+                "subPic" : [
+                    "img/popo/168_2012NovStar_2.jpg", 
+                    "img/popo/168_2012NovStar_3.jpg", 
+                    "img/popo/168_2012NovStar_4.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }, 
+            "武動乾坤" : {
+                "title" : "每月之星-武動乾坤", 
+                "description" : [
+                    "各廣告區塊banner resize。", 
+                    "網頁切版及規劃html與css。"
+                ],
+                "cover" : "img/popo/156_2012SepStar.jpg", 
+                "minPic" : "img/smallImg/popo-002EventSepStar.jpg", 
+                "subPic" : [
+                    "img/popo/156_2012SepStar_2.jpg", 
+                    "img/popo/156_2012SepStar_3.jpg", 
+                    "img/popo/156_2012SepStar_4.jpg", 
+                    "img/popo/156_2012SepStar_5.jpg"
+                ], 
+                "when" : "2012／03 ─ 2012／11"
+            }
+        }
+    }, 
+    {
+        "設計 - 廣告橫幅" : {
+            "窩客島搶鮮報" : {
+                "title" : "窩客島搶鮮報", 
+                "description" : [
+                    "自製素材內容及視覺設計。", 
+                    "製作banner、主題徽章、部落客徽章。", 
+                    "雜誌內頁編排與設計。", 
+                    "線上網站(WalkerLand)的數位內容，結合線下雜誌(TaipeiWalker)，以月刊的方式呈現。"
+                ],
+                "cover" : "img/wl/wlStar_201710_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-001Star.jpg", 
+                "subPic" : [
+                    "img/wl/wlStar_201710_850x450.jpg", 
+                    "img/wl/wlStar_201710_300x80.jpg", 
+                    "img/wl/wlStar_201710_sign.jpg", 
+                    "img/wl/wlStar_201710_dm.jpg", 
+                    "img/wl/wlStar_201709_780x390.jpg", 
+                    "img/wl/wlStar_201709_850x450.jpg", 
+                    "img/wl/wlStar_201709_300x80.jpg", 
+                    "img/wl/wlStar_201709_sign.jpg", 
+                    "img/wl/wlStar_201709_dm.jpg", 
+                    "img/wl/wlStar_201708_780x390.jpg", 
+                    "img/wl/wlStar_201708_850x450.jpg", 
+                    "img/wl/wlStar_201708_300x80.jpg", 
+                    "img/wl/wlStar_201708_sign.jpg", 
+                    "img/wl/wlStar_201708_dm.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "窩客島情報站" : {
+                "title" : "情報站", 
+                "description" : [
+                    "視覺設計。", 
+                    "banner製作。", 
+                    "與業務單位及客戶配合。", 
+                    "線上網站(WalkerLand)的數位內容與線下雜誌(TaipeiWalker)結合。"
+                ],
+                "cover" : "img/wl/sub_201711_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-004Co.jpg", 
+                "subPic" : [
+                    "img/wl/sub_201711_850x450.jpg", 
+                    "img/wl/sub_201711_300x80.jpg", 
+                    "img/wl/sub_201707_02_728x90.jpg", 
+                    "img/wl/sub_201707_01_780x390.jpg", 
+                    "img/wl/sub_201707_01_320x100.jpg", 
+                    "img/wl/sub_201707_01_728x90.jpg",
+                    "img/wl/sub_201706_780x390.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "TaipeiWalker WalkerLand" : {
+                "title" : "雜誌月刊主題，結合線下雜誌(TaipeiWalker)與線上網站(WalkerLand)。", 
+                "description" : [
+                    "自製素材內容及視覺設計。", 
+                    "banner製作。", 
+                    "藝人照片修容及素材修片去背。"
+                ],
+                "cover" : "img/wl/tw_201710_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-002Tw_201710.jpg", 
+                "subPic" : [
+                    "img/wl/tw_201709_780x390.jpg", 
+                    "img/wl/tw_201708_780x390.jpg", 
+                    "img/wl/tw_201705_780x390.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "窩客島特別企劃" : {
+                "title" : "每月特別企劃(數位內容)", 
+                "description" : [
+                    "自製素材內容及視覺設計。", 
+                    "banner製作及resize。"
+                ],
+                "cover" : "img/wl/wlTen_201709_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-003Ten.jpg", 
+                "subPic" : [
+                    "img/wl/wlTen_201709_850x450.jpg", 
+                    "img/wl/wlTen_201709_300x80.jpg", 
+                    "img/wl/wlTen_201709_1180x350.jpg", 
+                    "img/wl/wlTen_201708_780x390.jpg", 
+                    "img/wl/wlTen_201708_850x450.jpg", 
+                    "img/wl/wlTen_201708_300x80.jpg", 
+                    "img/wl/wlTen_201708_1180x350.jpg", 
+                    "img/wl/wlTen_201707_780x390.jpg", 
+                    "img/wl/wlTen_201707_850x450.jpg", 
+                    "img/wl/wlTen_201707_300x80.jpg", 
+                    "img/wl/wlTen_201707_1180x350.jpg", 
+                    "img/wl/wlTen_201706_780x390.jpg", 
+                    "img/wl/wlTen_201706_850x450.jpg", 
+                    "img/wl/wlTen_201706_300x80.jpg", 
+                    "img/wl/wlTen_201706_1180x350.jpg", 
+                    "img/wl/wlTen_201705_780x390.jpg", 
+                    "img/wl/wlTen_201705_850x450.jpg", 
+                    "img/wl/wlTen_201705_300x80.jpg", 
+                    "img/wl/wlTen_201705_1180x350.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "窩客島享美食" : {
+                "title" : "Walker享美食", 
+                "description" : [
+                    "自製素材及視覺設計。", 
+                    "banner製作及resize。"
+                ],
+                "cover" : "img/wl/msg_201711_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-006Msg.jpg", 
+                "subPic" : [
+                    "img/wl/msg_201711_850x450.jpg", 
+                    "img/wl/msg_201711_300x80.jpg", 
+                    "img/wl/msg_201710_850x450.jpg", 
+                    "img/wl/msg_201710_780x390.jpg", 
+                    "img/wl/msg_201710_300x80.jpg", 
+                    "img/wl/msg_201709_850x450.jpg", 
+                    "img/wl/msg_201709_780x390.jpg", 
+                    "img/wl/msg_201709_300x80.jpg", 
+                    "img/wl/msg_201708_850x450.jpg", 
+                    "img/wl/msg_201708_780x390.jpg", 
+                    "img/wl/msg_201708_300x80.jpg", 
+                    "img/wl/msg_201707_850x450.jpg", 
+                    "img/wl/msg_201707_780x390.jpg", 
+                    "img/wl/msg_201707_300x80.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "淘寶贊社團 社團讚淘寶" : {
+                "title" : "淘寶贊社團 社團讚淘寶", 
+                "description" : [
+                    "視覺設計。", 
+                    "banner製作。", 
+                    "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
+                ],
+                "cover" : "img/yw/event_taobao_m.jpg", 
+                "minPic" : "img/smallImg/ig-002EventTaobao.jpg", 
+                "subPic" : [
+                    "img/yw/event_taobao.jpg", 
+                    "img/yw/event_taobao_2.jpg", 
+                    "img/yw/event_taobao_3.jpg", 
+                    "img/yw/event_taobao_4.jpg", 
+                    "img/yw/banner_taobao_200x200.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "招募！必省Q 校園必勝組" : {
+                "title" : "招募！必省Q 校園必勝組", 
+                "description" : [
+                    "視覺設計。", 
+                    "banner及EDM製作。", 
+                    "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
+                ],
+                "cover" : "img/yw/event_pizzahut_m.jpg", 
+                "minPic" : "img/smallImg/ig-002EventPizzahut.jpg", 
+                "subPic" : [
+                    "img/yw/banner_pizzahut_200x200.jpg", 
+                    "img/yw/event_pizzahut.jpg", 
+                    "img/yw/event_pizzahut_2.jpg", 
+                    "img/yw/event_pizzahut_3.jpg", 
+                    "img/yw/event_pizzahut_4.jpg", 
+                    "img/yw/event_pizzahut_5.jpg", 
+                    "img/yw/edm_pizzahut.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "樂多日誌" : {
+                "title" : "樂多日誌 向世界發聲的Blog平台", 
+                "description" : [
+                    "日誌樣板版型設計，規劃版型css設計。", 
+                    "活動網站的視覺設計、切版及規劃html與css。"
+                ],
+                "cover" : "img/yw/event_roodo.jpg", 
+                "minPic" : "img/smallImg/ig-002EventRoodo.jpg", 
+                "subPic" : [
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "新年大樂透" : {
+                "title" : "新年大樂透", 
+                "description" : [
+                    "banner製作。", 
+                    "手機版網站開發。"
+                ],
+                "cover" : "img/yw/banner_newyear_605x340.jpg", 
+                "minPic" : "img/smallImg/ig-002EventNewyear.jpg", 
+                "subPic" : [
+                    "img/yw/banner_newyear_300x250.jpg",
+                    "img/yw/banner_newyear_350x200.jpg", 
+                    "img/yw/banner_newyear_728x90.gif", 
+                    "img/yw/banner_newyear_970x90.gif", 
+                    "img/yw/event_newyear.jpg", 
+                    "img/yw/event_newyear_2.jpg", 
+                    "img/yw/event_newyear_3.jpg", 
+                    "img/yw/event_newyear_4.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "同學我挺你" : {
+                "title" : "同學我挺你", 
+                "description" : [
+                    "crazy AD設計及製作。"
+                ],
+                "cover" : "img/yw/banner_pizzahut.jpg", 
+                "minPic" : "img/smallImg/ig-003BannerPizzahut.jpg", 
+                "subPic" : [
+                    "img/yw/banner_pizzahut970x480.jpg", 
+                    "img/yw/banner_pizzahut970x225.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "燦坤快8 校園贊助計畫" : {
+                "title" : "燦坤快8 校園贊助計畫", 
+                "description" : [
+                    "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
+                ],
+                "cover" : "img/yw/event_k8_m.jpg", 
+                "minPic" : "img/smallImg/ig-002Eventk8.jpg", 
+                "subPic" : [
+                    "img/yw/event_k8_m_2.jpg", 
+                    "img/yw/event_k8_m_3.jpg", 
+                    "img/yw/event_k8_m_4.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }
+        }
+    }, 
+    {
+        "設計 - 電子報" : {
+            "台灣角川電子賀卡" : {
+                "title" : "電子賀卡", 
+                "description" : [
+                  "郵件電子報切版及跨電子信箱平台相容測試。", 
+                  "依設計檔案進行psd切片，以CSS3及JQUERY製成動畫卡片網頁。", 
+                  "與業務單位進行溝通及確認。"
+                ],
+                "cover" : "img/wl/edm_201712.jpg", 
+                "minPic" : "img/smallImg/wl-005Edm.jpg", 
+                "subPic" : [
+                    "img/wl/edm_201712.jpg"
+                ], 
+                "when" : "2017／05 ─ "
+            }, 
+            "窩客島會員電子報" : {
+                "title" : "會員電子報", 
+                "description" : [
+                ],
+                "cover" : "img/wl/edm_20171002.jpg", 
+                "minPic" : "img/smallImg/wl-005Edm.jpg", 
+                "subPic" : [
+                    "img/wl/edm_20170531.jpg", 
+                    "img/wl/edm_20170531.jpg", 
+                    "img/wl/edm_20170531.jpg"
+                ], 
+                "when" : "2017／05 ─ "
+            }, 
+            "花旗饗樂廚房" : {
+                "title" : "花旗饗樂廚房", 
+                "description" : [
+                  "依設計檔案進行psd切片，製成網頁電子報。", 
+                  "與業務單位進行溝通及確認。"
+                ],
+                "cover" : "img/wl/edmCo_201712_01.jpg", 
+                "minPic" : "img/smallImg/wl-005Edm.jpg", 
+                "subPic" : [ 
+                  "img/wl/edmCo_201712_00.jpg", 
+                  "img/wl/edmCo_201711_01.jpg", 
+                  "img/wl/edmCo_201711_00.jpg", 
+                  "img/wl/edmCo_201709_01.jpg", 
+                  "img/wl/edmCo_201709_00.jpg", 
+                  "img/wl/edmCo_201707_01.jpg", 
+                  "img/wl/edmCo_201707_00.jpg"
+                ], 
+                "when" : "2017／05 ─ "
+            }, 
+            "聯合利華UNILEVER" : {
+                "title" : "企業內部電子報", 
+                "description" : [
+                  "依資料內容進行電子報設計。", 
+                  "視覺及編排設計。"
+                ],
+                "cover" : "img/flylink/uni_EDM_2011.jpg", 
+                "minPic" : "img/smallImg/___.jpg", 
+                "subPic" : [
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }
+      }
+    }, 
+    {
+        "設計 - 識別系統" : {
+            "婚禮紀錄攝影師 - 花豆" : {
+                "title" : "婚禮紀錄攝影師 － 花豆", 
+                "description" : [
+                    "訂定視覺設計系統(VI)。"
+                ],
+                "cover" : "img/case/shinphoto_logo_2016.jpg", 
+                "minPic" : "img/smallImg/ktc-002LogoShinphoto.jpg", 
+                "subPic" : [
+                    "img/case/shinphoto_logo_black_2016.jpg", 
+                    "img/case/shinphoto_logo_blackH_2016.jpg", 
+                    "img/case/shinphoto_logo_white_2016.jpg",  
+                    "img/case/shinphoto_logo_whiteH_2016.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "中西式早餐店 - 紅金堡" : {
+                "title" : "中西式早餐店 - 紅金堡", 
+                "description" : [
+                    "訂定視覺設計系統(VI)。", 
+                    "名片及DM設計。"
+                ],
+                "cover" : "img/case/breakfast_logo_2016.jpg", 
+                "minPic" : "img/smallImg/ktc-002LogoBreakfast.jpg", 
+                "subPic" : [
+                    "img/case/breakfast_namecard_front_2016.jpg", 
+                    "img/case/breakfast_namecard_back_2016.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "行動餐車-自創品牌" : {
+                "title" : "自創品牌『果然，果真自然』及『三貓甜妞』", 
+                "description" : [
+                    "訂定所屬品牌視覺設計系統(VI)，應用系統小至名片、產品貼標，大至品牌招牌、旗幟、標識。", 
+                    "開發相關飲品及食品。", 
+                    "與企業接洽及合作餐車駐點、產品包套、家庭日、慈善義賣⋯⋯等相關活動。", 
+                    "即時應對顧客需求及問題回覆與處理。", 
+                    "經營『果然，果真自然』facebook粉絲專頁。"
+                ],
+                "cover" : "img/sure/miaokeeper_sign.jpg", 
+                "minPic" : "img/smallImg/ktc-003Surejuice.jpg", 
+                "subPic" : [
+                    "img/sure/surejuice_image_1.jpg", 
+                    "img/sure/surejuice_car.jpg", 
+                    "img/sure/surejuice_image.jpg", 
+                    "img/sure/surejuice_namecard.jpg", 
+                    "img/sure/miaokeeper_car.jpg", 
+                    "img/sure/miaokeeper_logo.jpg"
+                ], 
+                "when" : "2015／06 ─ "
+            }, 
+            "凌尚照明" : {
+                "title" : "凌尚照明luxsent", 
+                "description" : [
+                    "訂定視覺設計系統(VI)。", 
+                    "網站視覺設計及開發。"
+                ],
+                "cover" : "img/flylink/luxsent_index.jpg", 
+                "minPic" : "img/smallImg/fl-001Site.jpg", 
+                "subPic" : [
+                    "img/flylink/luxsent_cis01.jpg", 
+                    "img/flylink/luxsent_cis02.jpg", 
+                    "img/flylink/luxsent_cis03.jpg", 
+                    "img/flylink/luxsent_index_2.jpg", 
+                    "img/flylink/luxsent_index_3.jpg", 
+                    "img/flylink/luxsent_index_4.jpg", 
+                    "img/flylink/luxsent_index_5.jpg", 
+                    "img/flylink/luxsent_index_6.jpg", 
+                    "img/flylink/luxsent_index_7.jpg", 
+                    "img/flylink/luxsent_index_8.jpg", 
+                    "img/flylink/luxsent_index_9.jpg", 
+                    "img/flylink/luxsent_index_10.jpg", 
+                    "img/flylink/luxsent.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "筐合企業有限公司" : {
+                "title" : "筐合企業有限公司", 
+                "description" : [
+                    "名片及DM設計。", 
+                    "網站視覺設計及開發。"
+                ],
+                "cover" : "img/flylink/kronho_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
+                "subPic" : [
+                    "img/flylink/kronho_poster.jpg", 
+                    "img/flylink/kronho_namecard.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }
+        }
+    }, 
+    {
+        "設計 - 印刷物" : {
+            "窩客島 - 搶鮮報" : {
+                "title" : "窩客島搶鮮報", 
+                "description" : [
+                    "自製素材內容及視覺設計。", 
+                    "製作banner、主題徽章、部落客徽章。", 
+                    "雜誌內頁編排與設計。", 
+                    "線上網站(WalkerLand)的數位內容，結合線下雜誌(TaipeiWalker)，以月刊的方式呈現。"
+                ],
+                "cover" : "img/wl/wlStar_201710_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-001Star.jpg", 
+                "subPic" : [
+                    "img/wl/wlStar_201710_850x450.jpg", 
+                    "img/wl/wlStar_201710_300x80.jpg", 
+                    "img/wl/wlStar_201710_sign.jpg", 
+                    "img/wl/wlStar_201710_dm.jpg", 
+                    "img/wl/wlStar_201709_780x390.jpg", 
+                    "img/wl/wlStar_201709_850x450.jpg", 
+                    "img/wl/wlStar_201709_300x80.jpg", 
+                    "img/wl/wlStar_201709_sign.jpg", 
+                    "img/wl/wlStar_201709_dm.jpg", 
+                    "img/wl/wlStar_201708_780x390.jpg", 
+                    "img/wl/wlStar_201708_850x450.jpg", 
+                    "img/wl/wlStar_201708_300x80.jpg", 
+                    "img/wl/wlStar_201708_sign.jpg", 
+                    "img/wl/wlStar_201708_dm.jpg"
+                ], 
+                "when" : "2013／06 ─ 2015／05"
+            }, 
+            "窩客島 - 優惠券" : {
+                "title" : "優惠券", 
+                "description" : [
+                  "製作實體優惠券。", 
+                  "與發案同仁進行校對。"
+                ],
+                "cover" : "img/wl/coupon_201706.jpg", 
+                "minPic" : "img/smallImg/wl-007Coupon.jpg", 
+                "subPic" : [
+                ], 
+                "when" : "2017／05 ─ "
+            }, 
+            "中西式早餐店 - 紅金堡" : {
+                "title" : "中西式早餐店 - 紅金堡", 
+                "description" : [
+                    "訂定視覺設計系統(VI)。", 
+                    "名片及DM設計。"
+                ],
+                "cover" : "img/case/breakfast_logo_2016.jpg", 
+                "minPic" : "img/smallImg/ktc-002LogoBreakfast.jpg", 
+                "subPic" : [
+                    "img/case/breakfast_namecard_front_2016.jpg", 
+                    "img/case/breakfast_namecard_back_2016.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "行動餐車-自創品牌" : {
+                "title" : "自創品牌『果然，果真自然』及『三貓甜妞』", 
+                "description" : [
+                    "訂定所屬品牌視覺設計系統(VI)，應用系統小至名片、產品貼標，大至品牌招牌、旗幟、標識。", 
+                    "開發相關飲品及食品。", 
+                    "與企業接洽及合作餐車駐點、產品包套、家庭日、慈善義賣⋯⋯等相關活動。", 
+                    "即時應對顧客需求及問題回覆與處理。", 
+                    "經營『果然，果真自然』facebook粉絲專頁。"
+                ],
+                "cover" : "img/sure/miaokeeper_sign.jpg", 
+                "minPic" : "img/smallImg/ktc-003Surejuice.jpg", 
+                "subPic" : [
+                    "img/sure/surejuice_image_1.jpg", 
+                    "img/sure/surejuice_car.jpg", 
+                    "img/sure/surejuice_image.jpg", 
+                    "img/sure/surejuice_namecard.jpg", 
+                    "img/sure/miaokeeper_car.jpg", 
+                    "img/sure/miaokeeper_logo.jpg"
+                ], 
+                "when" : "2015／06 ─ "
+            }, 
+            "台大專業營養網" : {
+                "title" : "台大專業營養網", 
+                "description" : [
+                    "執行網站切版，並於進行中調整頁面流程及美化頁面。", 
+                    "彈簧折之小卡DM設計。"
+                ],
+                "cover" : "img/flylink/inyoung99_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteInyoung99.jpg", 
+                "subPic" : [
+                    "img/flylink/inyoung99_dm01.jpg", 
+                    "img/flylink/inyoung99_dm02.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "醫碩科技" : {
+                "title" : "醫碩科技", 
+                "description" : [
+                    "網站爲考量後台可增設/修改之功能需求並符合企業理念，進而設計及提供設計頁面;以利程式開發。", 
+                    "針對客戶之產品所附說明書及口罩包裝設計。"
+                ],
+                "cover" : "img/flylink/esoft_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteEsoft.jpg", 
+                "subPic" : [
+                    "img/flylink/esoft_index_2.jpg", 
+                    "img/flylink/esoft_index_3.jpg", 
+                    "img/flylink/esoft_index_4.jpg", 
+                    "img/flylink/esoft_index_5.jpg", 
+                    "img/flylink/esoft_NP12P.jpg", 
+                    "img/flylink/esoft_NP13P.jpg", 
+                    "img/flylink/esoft_card_01.jpg", 
+                    "img/flylink/esoft_card_02.jpg", 
+                    "img/flylink/esoft_card_03.jpg",  
+                    "img/flylink/esoft_card_04.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "筐合企業有限公司" : {
+                "title" : "筐合企業有限公司", 
+                "description" : [
+                    "名片及DM設計。", 
+                    "網站視覺設計及開發。"
+                ],
+                "cover" : "img/flylink/kronho_index.jpg", 
+                "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
+                "subPic" : [
+                    "img/flylink/kronho_poster.jpg", 
+                    "img/flylink/kronho_namecard.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }, 
+            "張老師自然科學實驗" : {
+                "title" : "張老師自然科學實驗", 
+                "description" : [
+                    "張老師自然科學實驗-實驗紀錄簿(左翻 騎馬釘)。"
+                ],
+                "cover" : "img/flylink/book_0_2014.jpg", 
+                "minPic" : "img/smallImg/fl-002Book.jpg", 
+                "subPic" : [
+                    "img/flylink/book_1_2014.jpg", 
+                    "img/flylink/book_2_2014.jpg", 
+                    "img/flylink/book_3_2014.jpg"
+                ], 
+                "when" : "2010／04 ─ 2012／02"
+            }
+        }
+    }
+]
