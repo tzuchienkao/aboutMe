@@ -1,65 +1,138 @@
 $(document).ready(function(){
-    $('.btn-close').click(function(e){
-        e.stopPropagation();
-        $(this).parent().toggle();
+    //document default
+    //區塊定位
+    var _minH = $('.header').height();
+    var _contentBox = $('.wrapper').height() - (_minH * 2);
+    $('.wrapper').offset({
+        top: _minH
+    }).css({
+        height : _contentBox
     });
-    $('.caseIntro>li').on('click touchstart', function(e){
-        e.stopPropagation();
-        var _thisH = $('.header').height();
-        var i = $(this).index();
-        var _inner = $('.caseInner>li');
-        _inner.eq(i).css({
-            top: _thisH + 'px', 
-            height: $('body').height() - _thisH
-        }).show();
-        $(this).parent('ul').addClass('bg-blur');
+    $('.aboutMe, .showcase').css({
+        'min-height' : _contentBox
+    });
+    var url = window.location.toString(); //找url
+    var str = "";
+    if (url.indexOf("?") != -1) {
+        var ary=url.split("?")[1].split("&"); //分割字串
+        for (var i in ary){
+            str += ary[i].split("=")[1] + "\n"; //參數值
+        }
+    }
+    //預設字串
+    if(str == ""){
+        str="demo-01"; //預設顯示
+    }
+    $('#'+str).show().siblings().hide(); //顯示A就隱藏B
+    //document default end
+    
+    $('.btn_link.open').on('click', function(){
+        $('.aboutMore').show();
+        $('.about').hide();
+    });
+    $('.aboutMore .btn-close').on('click', function(){
+        $('.aboutMore').hide();
+        $('.about').show();
+    });
+    
+    
+    //html
+    function liHTML(mainTitle, inner, showText, level, _mainImg){
+        return '<li class="main-box flex-v-center '+level+'" data-catalog="'+mainTitle+'" data-subject="'+inner+'"><div class="pic" style="background-image:url('+_mainImg+');"></div><p class="caseTitle taC" data-catalog="'+inner+'">'+showText+'</p></li>';
+    }
+    //html end
+    
+    var json_data;
+    var url = 'https://tzuchienkao.github.io/aboutMe/';
+    //showcase list
+    function defaultList(){
+        $('.btn_goBack').remove();
+        $.ajax({
+            url: 'http://phptest-oyan114142960.codeanyapp.com/showcase.json',
+            async: false,
+            dataType: 'json', 
+            success: function(content){
+                json_data = content;
+                var num = content.length;
+                //catalog
+                for(var i=0; i < num; i++){
+                    var mainTitle = Object.keys(content[i]);
+                    var inner = '';
+                    var showText = mainTitle;
+                    $('.caseIntro').append(liHTML(i, inner, showText, 'first_level'));
+                } //for(var i=0; i < num; i++){
+            }
+        });
+    }
+    //showcase list end
+    defaultList(); //showcase list
+    //subject
+    $('.caseIntro').on('click', '.first_level', function(){
+        $(window).scrollTop(0);
+//              var getHref = $(this).parent().before('<a class="btn_goBack" href="javascript:void(0)">《</a>');
+        //get data
+        var content = json_data;
+        var mainTitle = $(this).attr('data-catalog');//0
+        var subCata = $(this).attr('data-subject');
+        var _index = $(this).index();
+        var _inside = $(this).text();
+        for (var y in content[_index]){
+            var subject = Object.keys(content[_index][y]);
+            $('.caseIntro').empty();
+            for (var z in subject){
+                var inner = $(this).text();
+                var showText = subject[z];
+                var cover = content[mainTitle][_inside][showText].minPic;
+                var _mainImg = url + cover;
+                $('.caseIntro').append(liHTML(mainTitle, inner, showText,'second_level',_mainImg));
+            }
+        } //for (var y in content[_index]){
+        //get data end
+        $('.showcase').offset({
+            top: _minH
+        });
+    });//subject end
+    //back to first level
+    $('body').on('click', '.btn_goBack', function(){
+        $('.caseIntro').empty();
+        defaultList();
+    });
+    //back to first level end
+    //inner
+    $('.caseIntro').on('click', '.second_level', function(){
+        var content = json_data;
+        var _i = $(this).attr('data-catalog'); //0
+        var _j = $(this).attr('data-subject'); //窩克島
+        var _inside = $(this).text();
+        var subject = content[_i];
+        $('.caseInner').show();
         $('body').addClass('body-fixed');
-        $('.btn-close').on('click touchstart', function(e){
+        $('.btn-close').on('click', function(e){
             e.stopPropagation();
             $('body').removeClass('body-fixed');
-            $('body').find('.bg-blur').removeClass('bg-blur');
-            _inner.eq(i).attr('style','');
+            $('.caseInner').hide();
         });
+        //clear
+        $('.main-pic').empty();
+        $('.sub-pic').empty();
+        $('.mainTitle').empty();
+        $('.mainCont').empty();
+        //insert content
+        var _p = content[_i][_j][_inside];
+        var _projectName = _p.title;
+        var _projectTime = _p.when;
+        var _mainImg = url + _p.cover;
+        var _mainTxt = _p.description;
+        var _mainTxt_num = _mainTxt.length;
+        var _subPic = _p.subPic;
+        var _subPic_num = _subPic.length;
+        $('.main-pic').append('<img src="' + _mainImg + '" alt="">');
+        $('.mainTitle').append(_projectName + '<p class="when">' + _projectTime + '</p>');
+        for(var i = 0; i < _mainTxt_num; i++){
+            $('.mainCont').append('<li>' + _mainTxt[i] + '</li>');
+        }
+        for(var j = 0; j < _subPic_num; j++){
+            $('.sub-pic').append('<li><img src="' + url + _subPic[j] + '" alt=""></li>');
+        }
     });
-    $('.nav a').on('click', function(){
-        var _this = $(this);
-        var _href = _this.attr('href');
-        var _thisH = $('.header').height();
-        var _innerH = $(_href).height();
-        var _h = $(_href).offset().top - _thisH;
-        $('html, body').animate({scrollTop:_h});
-        $('.nav a').removeClass('active');
-        _this.addClass('active');
-    });
-    if(/mobile/i.test(navigator.userAgent)){
-        $(window).on('touchmove', function(e){
-            e.stopPropagation();
-        });
-    }else{
-		$(document).scroll(function(){
-			$url_href = '';
-			$('.nav a').each(function(){
-    			var _this = $(this);
-    			var _href = _this.attr('href');
-    			var _thisH = _this.parent().height();
-    			var _innerPos = $(_href).position().top - _thisH;
-    			var _innerH = $(_href).height();
-    			if(_innerPos <= $(document).scrollTop() && _innerPos + _innerH > $(document).scrollTop()){
-    				$url_href = _href;
-    				$('.nav a').removeClass('active');
-    				_this.addClass('active');
-    			}else{
-    				_this.removeClass('active');
-    			}
-    		});
-    		window.history.pushState({}, 0, 'https://'+window.location.host+location.pathname+$url_href);
-		});
-		$('.innerIntro').scroll(function(){
-			var _navH = $('.nav').height();
-			var p = $(this).parent();
-			var pos = p.position();
-			var _top = pos.top;
-			$(document).scrollTop(_top - _navH);
-		});
-    }
 });
