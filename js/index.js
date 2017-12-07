@@ -48,7 +48,7 @@ $(document).ready(function(){
     function defaultList(){
         $('.btn_goBack').remove();
         $.ajax({
-            url: 'http://phptest-oyan114142960.codeanyapp.com/showcase.json',
+            url:  url + 'data/showcase.json',
             async: false,
             dataType: 'json', 
             success: function(content){
