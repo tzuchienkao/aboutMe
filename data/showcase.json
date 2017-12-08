@@ -240,10 +240,9 @@
                     "依設計檔案進行psd切片", 
                     "與業務單位進行溝通及確認。"
                 ],
-                "cover" : "img/wl/edm_201712.jpg", 
+                "cover" : "img/wl/event_xmas.jpg", 
                 "minPic" : "img/smallImg/wl-005Edm.jpg", 
                 "subPic" : [
-                    "img/wl/edm_201712.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -682,9 +681,11 @@
                     "與業務單位及客戶配合。", 
                     "線上網站(WalkerLand)的數位內容與線下雜誌(TaipeiWalker)結合。"
                 ],
-                "cover" : "img/wl/sub_201711_780x390.jpg", 
+                "cover" : "img/wl/sub_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-004Co.jpg", 
                 "subPic" : [
+                    "img/wl/sub_201712_320x100.jpg", 
+                    "img/wl/sub_201711_780x390.jpg", 
                     "img/wl/sub_201707_02_728x90.jpg", 
                     "img/wl/sub_201707_01_780x390.jpg", 
                     "img/wl/sub_201707_01_320x100.jpg", 
