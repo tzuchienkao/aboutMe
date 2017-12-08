@@ -9,7 +9,7 @@
                   "頁面開發 - Japan Walker情報頻道，整合至WakerLand平台。"
                 ],
                 "cover" : "img/wl/sitewl_article_001.jpg", 
-                "minPic" : "img/smallImg/sitewl_article_001.jpg", 
+                "minPic" : "img/smallImg/wl-008Site_article.jpg", 
                 "subPic" : [
                   "img/wl/sitewl_article_m_001.jpg"
                 ], 
@@ -232,6 +232,21 @@
     }, 
     {
         "網頁 - 活動網站" : {
+            "台灣角川電子賀卡" : {
+                "title" : "電子賀卡", 
+                "description" : [
+                    "各種裝置及瀏覽器相容測試", 
+                    "動畫設計(css3)，以CSS3及JQUERY製成動畫卡片網頁。", 
+                    "依設計檔案進行psd切片", 
+                    "與業務單位進行溝通及確認。"
+                ],
+                "cover" : "img/wl/edm_201712.jpg", 
+                "minPic" : "img/smallImg/wl-005Edm.jpg", 
+                "subPic" : [
+                    "img/wl/edm_201712.jpg"
+                ], 
+                "when" : "2017／05 ─ "
+            }, 
             "玉山銀行 - 行動美食家" : {
                 "title" : "行動美食家", 
                 "description" : [
@@ -242,7 +257,7 @@
                     "與業務、單位主管、程式人員，一同參與專案的創意發想與討論。"
                 ],
                 "cover" : "img/wl/event_esun_000.jpg", 
-                "minPic" : "img/smallImg/___.jpg", 
+                "minPic" : "img/smallImg/wl-009Event_esun.jpg", 
                 "subPic" : [
                     "img/wl/event_esun_001.jpg", 
                     "img/wl/event_esun_002.jpg", 
@@ -644,17 +659,17 @@
                 "subPic" : [
                     "img/wl/wlStar_201710_850x450.jpg", 
                     "img/wl/wlStar_201710_300x80.jpg", 
-                    "img/wl/wlStar_201710_sign.jpg", 
+                    "img/wl/wlStar_201710_sign.png", 
                     "img/wl/wlStar_201710_dm.jpg", 
                     "img/wl/wlStar_201709_780x390.jpg", 
                     "img/wl/wlStar_201709_850x450.jpg", 
                     "img/wl/wlStar_201709_300x80.jpg", 
-                    "img/wl/wlStar_201709_sign.jpg", 
+                    "img/wl/wlStar_201709_sign.png", 
                     "img/wl/wlStar_201709_dm.jpg", 
                     "img/wl/wlStar_201708_780x390.jpg", 
                     "img/wl/wlStar_201708_850x450.jpg", 
                     "img/wl/wlStar_201708_300x80.jpg", 
-                    "img/wl/wlStar_201708_sign.jpg", 
+                    "img/wl/wlStar_201708_sign.png", 
                     "img/wl/wlStar_201708_dm.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
@@ -663,15 +678,13 @@
                 "title" : "情報站", 
                 "description" : [
                     "視覺設計。", 
-                    "banner製作。", 
+                    "banner製作及resize。", 
                     "與業務單位及客戶配合。", 
                     "線上網站(WalkerLand)的數位內容與線下雜誌(TaipeiWalker)結合。"
                 ],
                 "cover" : "img/wl/sub_201711_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-004Co.jpg", 
                 "subPic" : [
-                    "img/wl/sub_201711_850x450.jpg", 
-                    "img/wl/sub_201711_300x80.jpg", 
                     "img/wl/sub_201707_02_728x90.jpg", 
                     "img/wl/sub_201707_01_780x390.jpg", 
                     "img/wl/sub_201707_01_320x100.jpg", 
@@ -687,9 +700,11 @@
                     "banner製作。", 
                     "藝人照片修容及素材修片去背。"
                 ],
-                "cover" : "img/wl/tw_201710_780x390.jpg", 
-                "minPic" : "img/smallImg/wl-002Tw_201710.jpg", 
+                "cover" : "img/wl/tw_201712_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-002Tw.jpg", 
                 "subPic" : [
+                    "img/wl/tw_201711_780x390.jpg", 
+                    "img/wl/tw_201710_780x390.jpg", 
                     "img/wl/tw_201709_780x390.jpg", 
                     "img/wl/tw_201708_780x390.jpg", 
                     "img/wl/tw_201705_780x390.jpg"
@@ -702,9 +717,15 @@
                     "自製素材內容及視覺設計。", 
                     "banner製作及resize。"
                 ],
-                "cover" : "img/wl/wlTen_201709_780x390.jpg", 
+                "cover" : "img/wl/wlTen_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-003Ten.jpg", 
                 "subPic" : [
+                    "img/wl/wlTen_201712_850x450.jpg", 
+                    "img/wl/wlTen_201712_300x80.jpg", 
+                    "img/wl/wlTen_201711_850x450.jpg", 
+                    "img/wl/wlTen_201711_780x390.jpg", 
+                    "img/wl/wlTen_201711_300x80.jpg", 
+                    "img/wl/wlTen_201709_780x390.jpg", 
                     "img/wl/wlTen_201709_850x450.jpg", 
                     "img/wl/wlTen_201709_300x80.jpg", 
                     "img/wl/wlTen_201709_1180x350.jpg", 
@@ -733,10 +754,13 @@
                     "自製素材及視覺設計。", 
                     "banner製作及resize。"
                 ],
-                "cover" : "img/wl/msg_201711_780x390.jpg", 
+                "cover" : "img/wl/msg_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-006Msg.jpg", 
                 "subPic" : [
-                    "img/wl/msg_201711_850x450.jpg", 
+                    "img/wl/msg_201712_850x450.jpg", 
+                    "img/wl/msg_201712_300x80.jpg", 
+                    "img/wl/msg_201711_850x450.jpg",
+                    "img/wl/msg_201711_780x390.jpg", 
                     "img/wl/msg_201711_300x80.jpg", 
                     "img/wl/msg_201710_850x450.jpg", 
                     "img/wl/msg_201710_780x390.jpg", 
@@ -854,29 +878,17 @@
     }, 
     {
         "設計 - 電子報" : {
-            "台灣角川電子賀卡" : {
-                "title" : "電子賀卡", 
+            "窩客島會員電子報" : {
+                "title" : "會員電子報", 
                 "description" : [
-                  "郵件電子報切版及跨電子信箱平台相容測試。", 
-                  "依設計檔案進行psd切片，以CSS3及JQUERY製成動畫卡片網頁。", 
-                  "與業務單位進行溝通及確認。"
+                    "郵件電子報切版及跨電子信箱平台相容測試。", 
+                    "依設計檔案進行psd切片，以CSS3及JQUERY製成動畫卡片網頁。", 
+                    "與業務單位進行溝通及確認。"
                 ],
                 "cover" : "img/wl/edm_201712.jpg", 
                 "minPic" : "img/smallImg/wl-005Edm.jpg", 
                 "subPic" : [
-                    "img/wl/edm_201712.jpg"
-                ], 
-                "when" : "2017／05 ─ "
-            }, 
-            "窩客島會員電子報" : {
-                "title" : "會員電子報", 
-                "description" : [
-                ],
-                "cover" : "img/wl/edm_20171002.jpg", 
-                "minPic" : "img/smallImg/wl-005Edm.jpg", 
-                "subPic" : [
-                    "img/wl/edm_20170531.jpg", 
-                    "img/wl/edm_20170531.jpg", 
+                    "img/wl/edm_20171002.jpg", 
                     "img/wl/edm_20170531.jpg"
                 ], 
                 "when" : "2017／05 ─ "
@@ -884,19 +896,20 @@
             "花旗饗樂廚房" : {
                 "title" : "花旗饗樂廚房", 
                 "description" : [
-                  "依設計檔案進行psd切片，製成網頁電子報。", 
-                  "與業務單位進行溝通及確認。"
+                    "針對影像地圖套用自適應(responsive design - RWD)Jquery plugin，及各種裝置瀏覽器相容測試。", 
+                    "依設計檔案進行psd切片，製成網頁電子報。", 
+                    "與業務單位進行溝通及確認。"
                 ],
                 "cover" : "img/wl/edmCo_201712_01.jpg", 
-                "minPic" : "img/smallImg/wl-005Edm.jpg", 
+                "minPic" : "img/smallImg/wl-010EdmCo.jpg", 
                 "subPic" : [ 
-                  "img/wl/edmCo_201712_00.jpg", 
-                  "img/wl/edmCo_201711_01.jpg", 
-                  "img/wl/edmCo_201711_00.jpg", 
-                  "img/wl/edmCo_201709_01.jpg", 
-                  "img/wl/edmCo_201709_00.jpg", 
-                  "img/wl/edmCo_201707_01.jpg", 
-                  "img/wl/edmCo_201707_00.jpg"
+                    "img/wl/edmCo_201712_00.jpg", 
+                    "img/wl/edmCo_201711_01.jpg", 
+                    "img/wl/edmCo_201711_00.jpg", 
+                    "img/wl/edmCo_201709_01.jpg", 
+                    "img/wl/edmCo_201709_00.jpg", 
+                    "img/wl/edmCo_201707_01.jpg", 
+                    "img/wl/edmCo_201707_00.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -907,7 +920,7 @@
                   "視覺及編排設計。"
                 ],
                 "cover" : "img/flylink/uni_EDM_2011.jpg", 
-                "minPic" : "img/smallImg/___.jpg", 
+                "minPic" : "img/smallImg/fl-003Edm.jpg", 
                 "subPic" : [
                 ], 
                 "when" : "2010／04 ─ 2012／02"
@@ -1009,7 +1022,7 @@
     }, 
     {
         "設計 - 印刷物" : {
-            "窩客島 - 搶鮮報" : {
+            "窩客島搶鮮報" : {
                 "title" : "窩客島搶鮮報", 
                 "description" : [
                     "自製素材內容及視覺設計。", 
@@ -1022,17 +1035,17 @@
                 "subPic" : [
                     "img/wl/wlStar_201710_850x450.jpg", 
                     "img/wl/wlStar_201710_300x80.jpg", 
-                    "img/wl/wlStar_201710_sign.jpg", 
+                    "img/wl/wlStar_201710_sign.png", 
                     "img/wl/wlStar_201710_dm.jpg", 
                     "img/wl/wlStar_201709_780x390.jpg", 
                     "img/wl/wlStar_201709_850x450.jpg", 
                     "img/wl/wlStar_201709_300x80.jpg", 
-                    "img/wl/wlStar_201709_sign.jpg", 
+                    "img/wl/wlStar_201709_sign.png", 
                     "img/wl/wlStar_201709_dm.jpg", 
                     "img/wl/wlStar_201708_780x390.jpg", 
                     "img/wl/wlStar_201708_850x450.jpg", 
                     "img/wl/wlStar_201708_300x80.jpg", 
-                    "img/wl/wlStar_201708_sign.jpg", 
+                    "img/wl/wlStar_201708_sign.png", 
                     "img/wl/wlStar_201708_dm.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
