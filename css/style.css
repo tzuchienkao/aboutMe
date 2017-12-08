@@ -29,7 +29,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .main-box.first_level .pic {width:100%;height:220px;background:rgba(0,0,0,0.2);}
 .main-box.first_level:hover .pic {background:rgba(0,0,0,0.9);transition:all 0.5s ease;}
 .main-box.first_level[data-catalog="0"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/ig-001Site.jpg);} /*網頁 - 公司產品*/
-.main-box.first_level[data-catalog="1"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/fl-001Site.jpg);} /*網頁 - 官方網站*/
+.main-box.first_level[data-catalog="1"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/ktc-001SiteCoolbitx.jpg);} /*網頁 - 官方網站*/
 .main-box.first_level[data-catalog="2"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/yd-002Event.jpg);} /*網頁 - 活動網站*/
 .main-box.first_level[data-catalog="3"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/wl-001Star.jpg);} /*設計 - 廣告橫幅*/
 .main-box.first_level[data-catalog="4"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/wl-005Edm.jpg);} /*設計 - 電子報*/
