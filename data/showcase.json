@@ -1153,12 +1153,24 @@
                 "description" : [
                     "張老師自然科學實驗-實驗紀錄簿(左翻 騎馬釘)。"
                 ],
-                "cover" : "img/flylink/book_0_2014.jpg", 
+                "cover" : "img/flylink/book_02.jpg", 
                 "minPic" : "img/smallImg/fl-002Book.jpg", 
                 "subPic" : [
-                    "img/flylink/book_1_2014.jpg", 
-                    "img/flylink/book_2_2014.jpg", 
-                    "img/flylink/book_3_2014.jpg"
+                    "img/flylink/book_01.jpg", 
+                    "img/flylink/book_01_2014.jpg", 
+                    "img/flylink/book_02_2014.jpg", 
+                    "img/flylink/book_03_2014.jpg",
+                    "img/flylink/book_04_2014.jpg", 
+                    "img/flylink/book_05_2014.jpg", 
+                    "img/flylink/book_06_2014.jpg", 
+                    "img/flylink/book_07_2014.jpg", 
+                    "img/flylink/book_08_2014.jpg", 
+                    "img/flylink/book_09_2014.jpg", 
+                    "img/flylink/book_10_2014.jpg", 
+                    "img/flylink/book_11_2014.jpg", 
+                    "img/flylink/book_12_2014.jpg", 
+                    "img/flylink/book_13_2014.jpg", 
+                    "img/flylink/book_14_2014.jpg", 
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }
