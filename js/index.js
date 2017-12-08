@@ -1,7 +1,7 @@
 $(document).ready(function(){
     //document default
     //區塊定位
-    var _minH = $('.header').height();
+    var _minH = $('.header').innerHeight();
     var _contentBox = $('.wrapper').height() - (_minH * 2);
     $('.wrapper').offset({
         top: _minH
