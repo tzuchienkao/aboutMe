@@ -19,7 +19,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .nav a {margin-left:30px;margin-bottom:-10px;}
 .aboutMe, .caseIntro {width:75%;margin:0 auto;display:flex;justify-content:space-between;flex-direction:row;flex-wrap:wrap;}
 .aboutMe {color:#eee;}
-.about {line-height:1;}
+.about {line-height:1.5;}
 .about a {font-size:0.6em;border-bottom:1px solid #ffe597;}
 .caseIntro {align-items:flex-start;}
 .main-box {margin:15px 15px 30px;flex:0 0 30%;position:relative;display:flex;justify-content:space-between;}
@@ -60,6 +60,8 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 @media screen and (max-width:768px) {
   .header {line-height:2;padding:10px 5% 0;}
   .nav a {margin-left:30px;margin-bottom:-10px;}
-  .aboutMe, .caseIntro {width:90%;}
+  .aboutMe, .caseIntro {width:90%;margin:0 auto;}
   .main-box, .sub-pic li {flex:0 0 100%;flex-wrap:nowrap;}
+  .caseInner {padding:2% 5%;}
+  .project dl {height:80vh;overflow-y:scroll;}
 }
