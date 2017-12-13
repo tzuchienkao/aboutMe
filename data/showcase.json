@@ -8,10 +8,21 @@
                   "手機版頁面優化，各種裝置瀏覽器相容測試。", 
                   "頁面開發 - Japan Walker情報頻道，整合至WakerLand平台。"
                 ],
-                "cover" : "img/wl/sitewl_article_001.jpg", 
-                "minPic" : "img/smallImg/wl-008Site_article.jpg", 
+                "cover" : "img/wl/sitewl_try_001.jpg", 
+                "minPic" : "img/smallImg/wl-008Site.jpg", 
                 "subPic" : [
-                  "img/wl/sitewl_article_m_001.jpg"
+                  "img/wl/sitewl_try_002.jpg", 
+                  "img/wl/sitewl_try_003.jpg", 
+                  "img/wl/sitewl_try_004.jpg", 
+                  "img/wl/sitewl_try_005.jpg", 
+                  "img/wl/sitewl_try_006.jpg", 
+                  "img/wl/sitewl_try_007.jpg", 
+                  "img/wl/sitewl_article_001.jpg", 
+                  "img/wl/sitewl_article_002.jpg", 
+                  "img/wl/sitewl_article_003.jpg", 
+                  "img/wl/sitewl_article_m_001.jpg", 
+                  "img/wl/sitewl_article_m_002.jpg", 
+                  "img/wl/sitewl_article_m_003.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             } , 
@@ -671,7 +682,7 @@
                     "img/wl/wlStar_201708_sign.png", 
                     "img/wl/wlStar_201708_dm.jpg"
                 ], 
-                "when" : "2013／06 ─ 2015／05"
+                "when" : "2017／05 ─ "
             }, 
             "窩客島情報站" : {
                 "title" : "情報站", 
@@ -692,7 +703,7 @@
                     "img/wl/sub_201707_01_728x90.jpg",
                     "img/wl/sub_201706_780x390.jpg"
                 ], 
-                "when" : "2013／06 ─ 2015／05"
+                "when" : "2017／05 ─ "
             }, 
             "TaipeiWalker WalkerLand" : {
                 "title" : "雜誌月刊主題，結合線下雜誌(TaipeiWalker)與線上網站(WalkerLand)。", 
@@ -710,7 +721,7 @@
                     "img/wl/tw_201708_780x390.jpg", 
                     "img/wl/tw_201705_780x390.jpg"
                 ], 
-                "when" : "2013／06 ─ 2015／05"
+                "when" : "2017／05 ─ "
             }, 
             "窩客島特別企劃" : {
                 "title" : "每月特別企劃(數位內容)", 
@@ -747,7 +758,7 @@
                     "img/wl/wlTen_201705_300x80.jpg", 
                     "img/wl/wlTen_201705_1180x350.jpg"
                 ], 
-                "when" : "2013／06 ─ 2015／05"
+                "when" : "2017／05 ─ "
             }, 
             "窩客島享美食" : {
                 "title" : "Walker享美食", 
@@ -776,7 +787,21 @@
                     "img/wl/msg_201707_780x390.jpg", 
                     "img/wl/msg_201707_300x80.jpg"
                 ], 
-                "when" : "2013／06 ─ 2015／05"
+                "when" : "2017／05 ─ "
+            }, 
+            "窩客島頻道" : {
+                "title" : "窩客島頻道", 
+                "description" : [
+                    "自製素材及視覺設計。", 
+                    "banner製作及resize。"
+                ],
+                "cover" : "img/wl/site_201712_780x390.jpg", 
+                "minPic" : "img/smallImg/wl-007Site.jpg", 
+                "subPic" : [
+                    "img/wl/site_201712_850x450.jpg", 
+                    "img/wl/site_201712_336x280.jpg"
+                ], 
+                "when" : "2017／05 ─ "
             }, 
             "淘寶贊社團 社團讚淘寶" : {
                 "title" : "淘寶贊社團 社團讚淘寶", 
@@ -1049,7 +1074,7 @@
                     "img/wl/wlStar_201708_sign.png", 
                     "img/wl/wlStar_201708_dm.jpg"
                 ], 
-                "when" : "2013／06 ─ 2015／05"
+                "when" : "2017／05 ─ "
             }, 
             "窩客島 - 優惠券" : {
                 "title" : "優惠券", 
