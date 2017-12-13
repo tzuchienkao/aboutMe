@@ -57,6 +57,20 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .btn-close:hover, .btn_goBack:hover {margin-top:-3px;}
 .btn_goBack:hover {margin-top:-63px;}
 
+.footer {font-size:0.5em;line-height:40px;position:absolute;bottom:5%;right:5%;z-index:3;}
+.techBox {float:right;}
+.techBox .logo {height:40px;background-image:url(https://tzuchienkao.github.io/aboutMe/img/icon.png);background-repeat:no-repeat;float:left;transform:scale(0.8);}
+.techBox #icon01 {width:29px;background-position:0 0;}
+.techBox #icon01:hover {background-position:0 -40px}
+.techBox #icon02 {width:29px;background-position:-33px 0;}
+.techBox #icon02:hover {background-position:-33px -40px;}
+.techBox #icon03 {width:118px;background-position:-62px 0;}
+.techBox #icon03:hover {background-position:-62px -40px;}
+.techBox #icon04 {width:35px;background-position:-180px 0;}
+.techBox #icon04:hover {background-position:-180px -40px;}
+.techBox #icon05 {width:33px;background-position:-215px 0;}
+.techBox #icon05:hover {background-position:-215px -40px;}
+
 @media screen and (max-width:768px) {
   .header {line-height:2;padding:10px 5% 0;}
   .nav a {margin-left:30px;margin-bottom:-10px;}
