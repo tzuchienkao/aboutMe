@@ -4,9 +4,9 @@
             "窩客島" :  {
                 "title" : "WalkerLand吃飽玩好窩客島", 
                 "description" : [
+                  "頁面開發 - Japan Walker情報頻道，介面風格設計，整合、規劃及維護html及css網頁規範。", 
                   "依照需求調整網站，整合、規劃及維護html及css網頁規範。", 
-                  "手機版頁面優化，各種裝置瀏覽器相容測試。", 
-                  "頁面開發 - Japan Walker情報頻道，整合至WakerLand平台。"
+                  "手機版頁面優化，各種裝置瀏覽器相容測試。"
                 ],
                 "cover" : "img/wl/sitewl_try_001.jpg", 
                 "minPic" : "img/smallImg/wl-008Site.jpg", 
@@ -692,9 +692,11 @@
                     "與業務單位及客戶配合。", 
                     "線上網站(WalkerLand)的數位內容與線下雜誌(TaipeiWalker)結合。"
                 ],
-                "cover" : "img/wl/sub_201712_780x390.jpg", 
+                "cover" : "img/wl/sub_201712_01_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-004Co.jpg", 
                 "subPic" : [
+                    "img/wl/sub_201712_01_320x100.jpg", 
+                    "img/wl/sub_201712_780x390.jpg", 
                     "img/wl/sub_201712_320x100.jpg", 
                     "img/wl/sub_201711_780x390.jpg", 
                     "img/wl/sub_201707_02_728x90.jpg", 
