@@ -58,5 +58,8 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .btn_goBack:hover {margin-top:-63px;}
 
 @media screen and (max-width:768px) {
+  .header {line-height:2;padding:10px 5% 0;}
+  .nav a {margin-left:30px;margin-bottom:-10px;}
+  .aboutMe, .caseIntro {width:90%;}
   .main-box, .sub-pic li {flex:0 0 100%;flex-wrap:nowrap;}
 }
