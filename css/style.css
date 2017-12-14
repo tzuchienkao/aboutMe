@@ -57,7 +57,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .btn-close:hover, .btn_goBack:hover {margin-top:-3px;}
 .btn_goBack:hover {margin-top:-63px;}
 
-.footer {font-size:0.5em;line-height:40px;position:absolute;bottom:5%;right:5%;}
+.footer {font-size:0.5em;line-height:40px;position:fixed;bottom:5%;right:5%;}
 .techBox {float:right;}
 .techBox .logo {height:40px;background-image:url(https://tzuchienkao.github.io/aboutMe/img/icon.png);background-repeat:no-repeat;float:left;transform:scale(0.8);}
 .techBox #icon01 {width:29px;background-position:0 0;}

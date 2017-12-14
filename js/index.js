@@ -28,11 +28,11 @@ $(document).ready(function(){
     
     $('.btn_link.open').on('click', function(){
         $('.aboutMore').show();
-        $('.about').hide();
+        $('.about, .footer').hide();
     });
     $('.aboutMore .btn-close').on('click', function(){
         $('.aboutMore').hide();
-        $('.about').show();
+        $('.about, .footer').show();
     });
     
     
