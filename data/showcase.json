@@ -57,12 +57,12 @@
                     "訂定視覺設計系統(VI)。", 
                     "依照企劃所選之風格設計電子書書封設計、banner及各廣告區塊resize。"
                 ],
-                "cover" : "img/yw/flog_logo_2015.jpg", 
+                "cover" : "img/yw/flog_logo.jpg", 
                 "minPic" : "img/smallImg/ig-004Logo.jpg", 
                 "subPic" : [
                     "img/yw/flog_logo_bw_2015.jpg", 
                     "img/yw/flog_logo_color_2015.jpg", 
-                    "img/yw/flog_logo.jpg"
+                    "img/yw/flog_logo_2015.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             } , 
@@ -75,6 +75,14 @@
                 "cover" : "img/popo/qidian_0_2014.jpg", 
                 "minPic" : "img/smallImg/popo-001Site.jpg", 
                 "subPic" : [
+                    "img/popo/qidian_1_2014.jpg", 
+                    "img/popo/qidian_2_2014.jpg", 
+                    "img/popo/qidian_3_2014.jpg", 
+                    "img/popo/qidian_4_2014.jpg", 
+                    "img/popo/qidian_5_2014.jpg", 
+                    "img/popo/qidian_6_2014.jpg", 
+                    "img/popo/qidian_7_2014.jpg", 
+                    "img/popo/qidian_8_2014.jpg",  
                     "img/popo/qidian_9_2014.jpg", 
                     "img/popo/qidian_10_2014.jpg", 
                     "img/popo/qidian_11_2014.jpg", 
@@ -93,10 +101,9 @@
                     "網站自適應設計(responsive design - RWD)，各種裝置瀏覽器相容測試。", 
                     "使用jquery開發操作頁面。"
                 ],
-                "cover" : "img/case/coolbitx_m_2015.jpg", 
+                "cover" : "img/case/coolbitx_1_2015.jpg", 
                 "minPic" : "img/smallImg/ktc-001SiteCoolbitx.jpg", 
                 "subPic" : [
-                    "img/case/coolbitx_1_2015.jpg", 
                     "img/case/coolbitx_2_2015.jpg", 
                     "img/case/coolbitx_3_2015.jpg", 
                     "img/case/coolbitx_4_2015.jpg", 
@@ -105,7 +112,8 @@
                     "img/case/coolbitx_7_2015.jpg", 
                     "img/case/coolbitx_8_2015.jpg", 
                     "img/case/coolbitx_9_2015.jpg", 
-                    "img/case/coolbitx_10_2015.jpg"
+                    "img/case/coolbitx_10_2015.jpg", 
+                    "img/case/coolbitx_m_2015.jpg"
                 ], 
                 "when" : "2015／01 ─ 2015／05"
             },  
@@ -159,9 +167,10 @@
                     "網站視覺設計及開發。", 
                     "平面海報設計。"
                 ],
-                "cover" : "img/flylink/instantc_index.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteInstantc.jpg", 
                 "subPic" : [
+                    "img/flylink/instantc_index.jpg", 
                     "img/flylink/instantc_dm.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
@@ -208,9 +217,10 @@
                     "名片及DM設計。", 
                     "網站視覺設計及開發。"
                 ],
-                "cover" : "img/flylink/kronho_index.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
                 "subPic" : [
+                    "img/flylink/kronho_index.jpg", 
                     "img/flylink/kronho_poster.jpg", 
                     "img/flylink/kronho_namecard.jpg"
                 ], 
@@ -697,8 +707,6 @@
                 "minPic" : "img/smallImg/wl-004Co.jpg", 
                 "subPic" : [
                     "img/wl/sub_201712_01_320x100.jpg", 
-                    "img/wl/sub_201712_780x390.jpg", 
-                    "img/wl/sub_201712_320x100.jpg", 
                     "img/wl/sub_201711_780x390.jpg", 
                     "img/wl/sub_201707_02_728x90.jpg", 
                     "img/wl/sub_201707_01_780x390.jpg", 
@@ -717,8 +725,7 @@
                 ],
                 "cover" : "img/wl/tw_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-002Tw.jpg", 
-                "subPic" : [
-                    "img/wl/tw_201711_780x390.jpg", 
+                "subPic" : [ 
                     "img/wl/tw_201710_780x390.jpg", 
                     "img/wl/tw_201709_780x390.jpg", 
                     "img/wl/tw_201708_780x390.jpg", 
@@ -929,9 +936,10 @@
                     "依設計檔案進行psd切片，製成網頁電子報。", 
                     "與業務單位進行溝通及確認。"
                 ],
-                "cover" : "img/wl/edmCo_201712_01.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/wl-010EdmCo.jpg", 
                 "subPic" : [ 
+                    "img/wl/edmCo_201712_01.jpg", 
                     "img/wl/edmCo_201712_00.jpg", 
                     "img/wl/edmCo_201711_01.jpg", 
                     "img/wl/edmCo_201711_00.jpg", 
@@ -1039,9 +1047,10 @@
                     "名片及DM設計。", 
                     "網站視覺設計及開發。"
                 ],
-                "cover" : "img/flylink/kronho_index.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
                 "subPic" : [
+                    "img/flylink/kronho_index.jpg", 
                     "img/flylink/kronho_poster.jpg", 
                     "img/flylink/kronho_namecard.jpg"
                 ], 
@@ -1168,9 +1177,10 @@
                     "名片及DM設計。", 
                     "網站視覺設計及開發。"
                 ],
-                "cover" : "img/flylink/kronho_index.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
                 "subPic" : [
+                    "img/flylink/kronho_index.jpg", 
                     "img/flylink/kronho_poster.jpg", 
                     "img/flylink/kronho_namecard.jpg"
                 ], 
@@ -1187,18 +1197,19 @@
                     "img/flylink/book_01.jpg", 
                     "img/flylink/book_01_2014.jpg", 
                     "img/flylink/book_02_2014.jpg", 
-                    "img/flylink/book_03_2014.jpg",
-                    "img/flylink/book_04_2014.jpg", 
-                    "img/flylink/book_05_2014.jpg", 
-                    "img/flylink/book_06_2014.jpg", 
-                    "img/flylink/book_07_2014.jpg", 
-                    "img/flylink/book_08_2014.jpg", 
-                    "img/flylink/book_09_2014.jpg", 
-                    "img/flylink/book_10_2014.jpg", 
-                    "img/flylink/book_11_2014.jpg", 
-                    "img/flylink/book_12_2014.jpg", 
-                    "img/flylink/book_13_2014.jpg", 
-                    "img/flylink/book_14_2014.jpg"
+                    "img/flylink/book_03_2014.jpg", 
+                    "img/flylink/book_03.jpg",
+                    "img/flylink/book_04.jpg", 
+                    "img/flylink/book_05.jpg", 
+                    "img/flylink/book_06.jpg", 
+                    "img/flylink/book_07.jpg", 
+                    "img/flylink/book_08.jpg", 
+                    "img/flylink/book_09.jpg", 
+                    "img/flylink/book_10.jpg", 
+                    "img/flylink/book_11.jpg", 
+                    "img/flylink/book_12.jpg", 
+                    "img/flylink/book_13.jpg", 
+                    "img/flylink/book_14.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }
