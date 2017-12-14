@@ -8,9 +8,10 @@
                   "依照需求調整網站，整合、規劃及維護html及css網頁規範。", 
                   "手機版頁面優化，各種裝置瀏覽器相容測試。"
                 ],
-                "cover" : "img/wl/sitewl_try_001.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/wl-008Site.jpg", 
                 "subPic" : [
+                  "img/wl/sitewl_try_001.jpg", 
                   "img/wl/sitewl_try_002.jpg", 
                   "img/wl/sitewl_try_003.jpg", 
                   "img/wl/sitewl_try_004.jpg", 

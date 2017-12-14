@@ -1,6 +1,6 @@
 * {padding:0;margin:0;box-sizing:border-box;}
 html, body {height:100%;}
-body {font:24px/1.5 'Cinzel', 'PMingLiU', 'STSong', 'Times New Roman', sans-serif;color:#3f3f3f;background-color:#222;}
+body {font:1.2em/1.5 'Cinzel', 'PMingLiU', 'STSong', 'Times New Roman', sans-serif;color:#3f3f3f;background-color:#222;}
 ul, li {list-style:none;}
 a {color:#ffe597;text-decoration:none;}
 a:hover, a.active {border-bottom:3px solid #ffe597;}
@@ -14,8 +14,8 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .font-big {color:#eee;}
 .font-mid {font-size:30px;}
 
-.header {width:100%;line-height:80px;background-color:#2c2c2c;padding:10px 30px 0;position:fixed;top:0;left:0;z-index:2;}
-.logo {color:#fff;font-size:48px;}
+.header {width:100%;line-height:80px;background-color:#2c2c2c;padding:10px 30px 0;margin-bottom:30px;position:fixed;top:0;left:0;z-index:2;}
+.logo {color:#fff;font-size:2em;}
 .nav a {margin-left:30px;margin-bottom:-10px;}
 .aboutMe, .caseIntro {width:75%;margin:0 auto;display:flex;justify-content:space-between;flex-direction:row;flex-wrap:wrap;}
 .aboutMe {color:#eee;}
@@ -57,9 +57,9 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .btn-close:hover, .btn_goBack:hover {margin-top:-3px;}
 .btn_goBack:hover {margin-top:-63px;}
 
-.footer {font-size:0.5em;line-height:40px;position:fixed;bottom:5%;right:5%;}
+.footer {line-height:3;position:fixed;bottom:5%;right:-5%;transform:scale(0.6);}
 .techBox {float:right;}
-.techBox .logo {height:40px;background-image:url(https://tzuchienkao.github.io/aboutMe/img/icon.png);background-repeat:no-repeat;float:left;transform:scale(0.8);}
+.techBox .logo {height:40px;background-image:url(https://tzuchienkao.github.io/aboutMe/img/icon.png);background-repeat:no-repeat;margin:0 5px;float:left;}
 .techBox #icon01 {width:29px;background-position:0 0;}
 .techBox #icon01:hover {background-position:0 -40px}
 .techBox #icon02 {width:29px;background-position:-33px 0;}
@@ -72,10 +72,16 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .techBox #icon05:hover {background-position:-215px -40px;}
 
 @media screen and (max-width:768px) {
-  .header {line-height:2;padding:10px 5% 0;}
-  .nav a {margin-left:30px;margin-bottom:-10px;}
-  .aboutMe, .caseIntro {width:90%;margin:0 auto;}
-  .main-box, .sub-pic li {flex:0 0 100%;flex-wrap:nowrap;}
-  .caseInner {padding:2% 5%;}
-  .project dl {height:80vh;overflow-y:scroll;}
+	.header {line-height:1.5;padding:10px 5%;}
+	.logo {color:#fff;font-size:1.2em;float:none;}
+	.nav a {font-size:0.8em;margin-left:0;margin-right:1em;margin-bottom:-10px;float:none;}
+	.aboutMe, .caseIntro {width:90%;margin:0 auto;}
+	.caseIntro {max-width:300px;}
+	.main-box {margin:15px auto;}
+	.main-box, .sub-pic li {flex:0 0 100%;flex-wrap:nowrap;}
+	.main-box.first_level .pic, .main-box.first_level:hover .pic {background:rgba(0,0,0,0.9);}
+	.main-box.second_level .pic, .main-box.second_level:hover .pic {opacity:0.2;}
+	.main-box p, .main-box:hover p {opacity:1}
+	.caseInner {padding:2% 5%;}
+	.project dl {height:80vh;overflow-y:scroll;}
 }
