@@ -944,9 +944,10 @@
                   "依資料內容進行電子報設計。", 
                   "視覺及編排設計。"
                 ],
-                "cover" : "img/flylink/uni_EDM_2011.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/fl-003Edm.jpg", 
                 "subPic" : [
+                    "img/flylink/uni_EDM_2011.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }
