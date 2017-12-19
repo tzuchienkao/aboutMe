@@ -11,23 +11,19 @@
                 "cover" : "", 
                 "minPic" : "img/smallImg/wl-008Site.jpg", 
                 "subPic" : [
-                    [
-                      "img/wl/sitewl_try_001.jpg", 
-                      "img/wl/sitewl_try_002.jpg", 
-                      "img/wl/sitewl_try_003.jpg", 
-                      "img/wl/sitewl_try_004.jpg", 
-                      "img/wl/sitewl_try_005.jpg", 
-                      "img/wl/sitewl_try_006.jpg", 
-                      "img/wl/sitewl_try_007.jpg"
-                    ], 
-                    [
-                      "img/wl/sitewl_article_001.jpg", 
-                      "img/wl/sitewl_article_002.jpg", 
-                      "img/wl/sitewl_article_003.jpg", 
-                      "img/wl/sitewl_article_m_001.jpg", 
-                      "img/wl/sitewl_article_m_002.jpg", 
-                      "img/wl/sitewl_article_m_003.jpg"
-                    ]
+                  "img/wl/sitewl_try_001.jpg", 
+                  "img/wl/sitewl_try_002.jpg", 
+                  "img/wl/sitewl_try_003.jpg", 
+                  "img/wl/sitewl_try_004.jpg", 
+                  "img/wl/sitewl_try_005.jpg", 
+                  "img/wl/sitewl_try_006.jpg", 
+                  "img/wl/sitewl_try_007.jpg", 
+                  "img/wl/sitewl_article_001.jpg", 
+                  "img/wl/sitewl_article_002.jpg", 
+                  "img/wl/sitewl_article_003.jpg", 
+                  "img/wl/sitewl_article_m_001.jpg", 
+                  "img/wl/sitewl_article_m_002.jpg", 
+                  "img/wl/sitewl_article_m_003.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             } , 
@@ -43,17 +39,15 @@
                 "cover" : "img/yw/iguang_vedio.gif", 
                 "minPic" : "img/smallImg/ig-001Site.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/iguang_vedio.jpg", 
-                        "img/yw/iguang_banner.jpg", 
-                        "img/yw/iguang_0_2015.jpg", 
-                        "img/yw/iguang_1_2015.jpg", 
-                        "img/yw/iguang_2_2015.jpg", 
-                        "img/yw/iguang_3_2015.jpg", 
-                        "img/yw/iguang_4_2015.jpg", 
-                        "img/yw/iguang_5_2015.jpg", 
-                        "img/yw/iguang_6_2015.jpg"
-                    ]
+                    "img/yw/iguang_vedio.jpg", 
+                    "img/yw/iguang_banner.jpg", 
+                    "img/yw/iguang_0_2015.jpg", 
+                    "img/yw/iguang_1_2015.jpg", 
+                    "img/yw/iguang_2_2015.jpg", 
+                    "img/yw/iguang_3_2015.jpg", 
+                    "img/yw/iguang_4_2015.jpg", 
+                    "img/yw/iguang_5_2015.jpg", 
+                    "img/yw/iguang_6_2015.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             } , 
@@ -66,11 +60,9 @@
                 "cover" : "img/yw/flog_logo.jpg", 
                 "minPic" : "img/smallImg/ig-004Logo.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/flog_logo_bw_2015.jpg", 
-                        "img/yw/flog_logo_color_2015.jpg", 
-                        "img/yw/flog_logo_2015.jpg"
-                    ]
+                    "img/yw/flog_logo_bw_2015.jpg", 
+                    "img/yw/flog_logo_color_2015.jpg", 
+                    "img/yw/flog_logo_2015.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             } , 
@@ -83,20 +75,18 @@
                 "cover" : "img/popo/qidian_0_2014.jpg", 
                 "minPic" : "img/smallImg/popo-001Site.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/qidian_1_2014.jpg", 
-                        "img/popo/qidian_2_2014.jpg", 
-                        "img/popo/qidian_3_2014.jpg", 
-                        "img/popo/qidian_4_2014.jpg", 
-                        "img/popo/qidian_5_2014.jpg", 
-                        "img/popo/qidian_6_2014.jpg", 
-                        "img/popo/qidian_7_2014.jpg", 
-                        "img/popo/qidian_8_2014.jpg",  
-                        "img/popo/qidian_9_2014.jpg", 
-                        "img/popo/qidian_10_2014.jpg", 
-                        "img/popo/qidian_11_2014.jpg", 
-                        "img/popo/qidian_12_2014.jpg"
-                    ]
+                    "img/popo/qidian_1_2014.jpg", 
+                    "img/popo/qidian_2_2014.jpg", 
+                    "img/popo/qidian_3_2014.jpg", 
+                    "img/popo/qidian_4_2014.jpg", 
+                    "img/popo/qidian_5_2014.jpg", 
+                    "img/popo/qidian_6_2014.jpg", 
+                    "img/popo/qidian_7_2014.jpg", 
+                    "img/popo/qidian_8_2014.jpg",  
+                    "img/popo/qidian_9_2014.jpg", 
+                    "img/popo/qidian_10_2014.jpg", 
+                    "img/popo/qidian_11_2014.jpg", 
+                    "img/popo/qidian_12_2014.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }
@@ -114,18 +104,16 @@
                 "cover" : "img/case/coolbitx_1_2015.jpg", 
                 "minPic" : "img/smallImg/ktc-001SiteCoolbitx.jpg", 
                 "subPic" : [
-                    [
-                        "img/case/coolbitx_2_2015.jpg", 
-                        "img/case/coolbitx_3_2015.jpg", 
-                        "img/case/coolbitx_4_2015.jpg", 
-                        "img/case/coolbitx_5_2015.jpg", 
-                        "img/case/coolbitx_6_2015.jpg", 
-                        "img/case/coolbitx_7_2015.jpg", 
-                        "img/case/coolbitx_8_2015.jpg", 
-                        "img/case/coolbitx_9_2015.jpg", 
-                        "img/case/coolbitx_10_2015.jpg", 
-                        "img/case/coolbitx_m_2015.jpg"
-                    ]
+                    "img/case/coolbitx_2_2015.jpg", 
+                    "img/case/coolbitx_3_2015.jpg", 
+                    "img/case/coolbitx_4_2015.jpg", 
+                    "img/case/coolbitx_5_2015.jpg", 
+                    "img/case/coolbitx_6_2015.jpg", 
+                    "img/case/coolbitx_7_2015.jpg", 
+                    "img/case/coolbitx_8_2015.jpg", 
+                    "img/case/coolbitx_9_2015.jpg", 
+                    "img/case/coolbitx_10_2015.jpg", 
+                    "img/case/coolbitx_m_2015.jpg"
                 ], 
                 "when" : "2015／01 ─ 2015／05"
             },  
@@ -140,13 +128,11 @@
                 "cover" : "img/case/orcastras_1_2014.jpg", 
                 "minPic" : "img/smallImg/ktc-001SiteOrcastras.jpg", 
                 "subPic" : [
-                    [
-                        "img/case/orcastras_2_2014.jpg", 
-                        "img/case/orcastras_3_2014.jpg", 
-                        "img/case/orcastras_4_2014.jpg", 
-                        "img/case/orcastras_5_2014.jpg", 
-                        "img/case/orcastras_6_2014.jpg"
-                    ]
+                    "img/case/orcastras_2_2014.jpg", 
+                    "img/case/orcastras_3_2014.jpg", 
+                    "img/case/orcastras_4_2014.jpg", 
+                    "img/case/orcastras_5_2014.jpg", 
+                    "img/case/orcastras_6_2014.jpg"
                 ], 
                 "when" : "2012／11 ─ 2013／03"
             }, 
@@ -159,23 +145,19 @@
                 "cover" : "img/flylink/luxsent_index.jpg", 
                 "minPic" : "img/smallImg/fl-001Site.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/luxsent_index_2.jpg", 
-                        "img/flylink/luxsent_index_3.jpg", 
-                        "img/flylink/luxsent_index_4.jpg", 
-                        "img/flylink/luxsent_index_5.jpg", 
-                        "img/flylink/luxsent_index_6.jpg", 
-                        "img/flylink/luxsent_index_7.jpg", 
-                        "img/flylink/luxsent_index_8.jpg", 
-                        "img/flylink/luxsent_index_9.jpg", 
-                        "img/flylink/luxsent_index_10.jpg", 
-                        "img/flylink/luxsent.jpg"
-                    ], 
-                    [
-                        "img/flylink/luxsent_cis01.jpg", 
-                        "img/flylink/luxsent_cis02.jpg", 
-                        "img/flylink/luxsent_cis03.jpg"
-                    ]
+                    "img/flylink/luxsent_cis01.jpg", 
+                    "img/flylink/luxsent_cis02.jpg", 
+                    "img/flylink/luxsent_cis03.jpg", 
+                    "img/flylink/luxsent_index_2.jpg", 
+                    "img/flylink/luxsent_index_3.jpg", 
+                    "img/flylink/luxsent_index_4.jpg", 
+                    "img/flylink/luxsent_index_5.jpg", 
+                    "img/flylink/luxsent_index_6.jpg", 
+                    "img/flylink/luxsent_index_7.jpg", 
+                    "img/flylink/luxsent_index_8.jpg", 
+                    "img/flylink/luxsent_index_9.jpg", 
+                    "img/flylink/luxsent_index_10.jpg", 
+                    "img/flylink/luxsent.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -188,10 +170,8 @@
                 "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteInstantc.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/instantc_index.jpg", 
-                        "img/flylink/instantc_dm.jpg"
-                    ]
+                    "img/flylink/instantc_index.jpg", 
+                    "img/flylink/instantc_dm.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -204,10 +184,8 @@
                 "cover" : "img/flylink/inyoung99_index.jpg", 
                 "minPic" : "img/smallImg/fl-001SiteInyoung99.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/inyoung99_dm01.jpg", 
-                        "img/flylink/inyoung99_dm02.jpg"
-                    ]
+                    "img/flylink/inyoung99_dm01.jpg", 
+                    "img/flylink/inyoung99_dm02.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -220,20 +198,16 @@
                 "cover" : "img/flylink/esoft_index.jpg", 
                 "minPic" : "img/smallImg/fl-001SiteEsoft.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/esoft_index_2.jpg", 
-                        "img/flylink/esoft_index_3.jpg", 
-                        "img/flylink/esoft_index_4.jpg", 
-                        "img/flylink/esoft_index_5.jpg"
-                    ], 
-                    [
-                        "img/flylink/esoft_NP12P.jpg", 
-                        "img/flylink/esoft_NP13P.jpg", 
-                        "img/flylink/esoft_card_01.jpg", 
-                        "img/flylink/esoft_card_02.jpg", 
-                        "img/flylink/esoft_card_03.jpg",  
-                        "img/flylink/esoft_card_04.jpg"
-                    ]
+                    "img/flylink/esoft_index_2.jpg", 
+                    "img/flylink/esoft_index_3.jpg", 
+                    "img/flylink/esoft_index_4.jpg", 
+                    "img/flylink/esoft_index_5.jpg", 
+                    "img/flylink/esoft_NP12P.jpg", 
+                    "img/flylink/esoft_NP13P.jpg", 
+                    "img/flylink/esoft_card_01.jpg", 
+                    "img/flylink/esoft_card_02.jpg", 
+                    "img/flylink/esoft_card_03.jpg",  
+                    "img/flylink/esoft_card_04.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -246,11 +220,9 @@
                 "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/kronho_index.jpg", 
-                        "img/flylink/kronho_poster.jpg", 
-                        "img/flylink/kronho_namecard.jpg"
-                    ]
+                    "img/flylink/kronho_index.jpg", 
+                    "img/flylink/kronho_poster.jpg", 
+                    "img/flylink/kronho_namecard.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -270,14 +242,11 @@
                 "description" : [
                     "網站視覺設計及開發。"
                 ],
-                "cover" : "", 
+                "cover" : "img/flylink/jiatong_index.jpg", 
                 "minPic" : "img/smallImg/fl-001SiteJiatong.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/jiatong_index.jpg", 
-                        "img/flylink/jiatong_index_2.jpg", 
-                        "img/flylink/jiatong_index_3.jpg"
-                    ]
+                    "img/flylink/jiatong_index_2.jpg", 
+                    "img/flylink/jiatong_index_3.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }
@@ -311,12 +280,10 @@
                 "cover" : "img/wl/event_esun_000.jpg", 
                 "minPic" : "img/smallImg/wl-009Event_esun.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/event_esun_001.jpg", 
-                        "img/wl/event_esun_002.jpg", 
-                        "img/wl/event_esun_003.jpg", 
-                        "img/wl/event_esun_004.jpg"
-                    ]
+                    "img/wl/event_esun_001.jpg", 
+                    "img/wl/event_esun_002.jpg", 
+                    "img/wl/event_esun_003.jpg", 
+                    "img/wl/event_esun_004.jpg"
                 ], 
                 "when" : "2017／08 ─ 2017／11"
             }, 
@@ -328,23 +295,21 @@
                     "將設計的psd製作成html, css, javascript, jquery framework。", 
                     "與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。"
                 ],
-                "cover" : "img/yd/004-ydTstar.jpg", 
+                "cover" : "img/yd/004-ydTstar_m.jpg", 
                 "minPic" : "img/smallImg/yd-004Tstar.jpg", 
                 "subPic" : [
-                    [
-                        "img/yd/004-ydTstar_2.jpg", 
-                        "img/yd/004-ydTstar_3.jpg", 
-                        "img/yd/004-ydTstar_4.jpg", 
-                        "img/yd/004-ydTstar_5.jpg", 
-                        "img/yd/004-ydTstar_6.jpg", 
-                        "img/yd/004-ydTstar_7.jpg", 
-                        "img/yd/004-ydTstar_8.jpg", 
-                        "img/yd/004-ydTstar_9.jpg", 
-                        "img/yd/004-ydTstar_10.jpg", 
-                        "img/yd/004-ydTstar_11.jpg", 
-                        "img/yd/004-ydTstar_12.jpg", 
-                        "img/yd/004-ydTstar_m.jpg"
-                    ]
+                    "img/yd/004-ydTstar.jpg", 
+                    "img/yd/004-ydTstar_2.jpg", 
+                    "img/yd/004-ydTstar_3.jpg", 
+                    "img/yd/004-ydTstar_4.jpg", 
+                    "img/yd/004-ydTstar_5.jpg", 
+                    "img/yd/004-ydTstar_6.jpg", 
+                    "img/yd/004-ydTstar_7.jpg", 
+                    "img/yd/004-ydTstar_8.jpg", 
+                    "img/yd/004-ydTstar_9.jpg", 
+                    "img/yd/004-ydTstar_10.jpg", 
+                    "img/yd/004-ydTstar_11.jpg", 
+                    "img/yd/004-ydTstar_12.jpg"
                 ], 
                 "when" : "2017／05 ─ 2017／03"
             }, 
@@ -357,17 +322,15 @@
                     "將設計的psd製作成html, css, javascript, jquery framework。", 
                     "與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。"
                 ],
-                "cover" : "img/yd/003-ydShinny.jpg", 
+                "cover" : "img/yd/003-ydShinny_m.jpg", 
                 "minPic" : "img/smallImg/yd-003Shinny.jpg", 
                 "subPic" : [
-                    [
-                        "img/yd/003-ydShinny_2.jpg", 
-                        "img/yd/003-ydShinny_3.jpg", 
-                        "img/yd/003-ydShinny_4.jpg", 
-                        "img/yd/003-ydShinny_5.jpg", 
-                        "img/yd/003-ydShinny_6.jpg", 
-                        "img/yd/003-ydShinny_m.jpg"
-                    ]
+                    "img/yd/003-ydShinny.jpg", 
+                    "img/yd/003-ydShinny_2.jpg", 
+                    "img/yd/003-ydShinny_3.jpg", 
+                    "img/yd/003-ydShinny_4.jpg", 
+                    "img/yd/003-ydShinny_5.jpg", 
+                    "img/yd/003-ydShinny_6.jpg"
                 ], 
                 "when" : "2017／05 ─ 2017／03"
             }, 
@@ -380,18 +343,16 @@
                     "將設計的psd製作成html, css, javascript, jquery framework。", 
                     "與業務、網頁設計、後端程式人員，一同參與專案的創意發想與討論。"
                 ],
-                "cover" : "img/yd/002-ydBus.jpg", 
+                "cover" : "img/yd/002-ydBus_m.jpg", 
                 "minPic" : "img/smallImg/yd-002Bus.jpg", 
                 "subPic" : [
-                    [
-                        "img/yd/002-ydBus_2.jpg",
-                        "img/yd/002-ydBus_3.jpg",
-                        "img/yd/002-ydBus_4.jpg",
-                        "img/yd/002-ydBus_5.jpg",
-                        "img/yd/002-ydBus_6.jpg", 
-                        "img/yd/002-ydBus_7.jpg", 
-                        "img/yd/002-ydBus_m.jpg"
-                    ]
+                    "img/yd/002-ydBus.jpg", 
+                    "img/yd/002-ydBus_2.jpg",
+                    "img/yd/002-ydBus_3.jpg",
+                    "img/yd/002-ydBus_4.jpg",
+                    "img/yd/002-ydBus_5.jpg",
+                    "img/yd/002-ydBus_6.jpg", 
+                    "img/yd/002-ydBus_7.jpg"
                 ], 
                 "when" : "2017／05 ─ 2017／03"
             }, 
@@ -404,20 +365,18 @@
                     "將設計的psd製作成html, css, javascript, jquery framework。", 
                     "與後端程式人員，一同參與專案討論"
                 ],
-                "cover" : "img/yd/001-ydReading.jpg", 
+                "cover" : "img/yd/001-ydReading_m.jpg", 
                 "minPic" : "img/smallImg/yd-001Reading.jpg", 
                 "subPic" : [
-                    [
-                        "img/yd/001-ydReading_2.jpg", 
-                        "img/yd/001-ydReading_3.jpg", 
-                        "img/yd/001-ydReading_4.jpg", 
-                        "img/yd/001-ydReading_5.jpg", 
-                        "img/yd/001-ydReading_6.jpg", 
-                        "img/yd/001-ydReading_7.jpg", 
-                        "img/yd/001-ydReading_8.jpg", 
-                        "img/yd/001-ydReading_9.jpg", 
-                        "img/yd/001-ydReading_m.jpg"
-                    ]
+                    "img/yd/001-ydReading.jpg", 
+                    "img/yd/001-ydReading_2.jpg", 
+                    "img/yd/001-ydReading_3.jpg", 
+                    "img/yd/001-ydReading_4.jpg", 
+                    "img/yd/001-ydReading_5.jpg", 
+                    "img/yd/001-ydReading_6.jpg", 
+                    "img/yd/001-ydReading_7.jpg", 
+                    "img/yd/001-ydReading_8.jpg", 
+                    "img/yd/001-ydReading_9.jpg"
                 ], 
                 "when" : "2017／05 ─ 2017／03"
             }, 
@@ -428,16 +387,14 @@
                     "banner製作。", 
                     "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
                 ],
-                "cover" : "img/yw/event_taobao.jpg", 
+                "cover" : "img/yw/event_taobao_m.jpg", 
                 "minPic" : "img/smallImg/ig-002EventTaobao.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/event_taobao_2.jpg", 
-                        "img/yw/event_taobao_3.jpg", 
-                        "img/yw/event_taobao_4.jpg", 
-                        "img/yw/event_taobao_m.jpg", 
-                        "img/yw/banner_taobao_200x200.jpg"
-                    ]
+                    "img/yw/event_taobao.jpg", 
+                    "img/yw/event_taobao_2.jpg", 
+                    "img/yw/event_taobao_3.jpg", 
+                    "img/yw/event_taobao_4.jpg", 
+                    "img/yw/banner_taobao_200x200.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -448,18 +405,16 @@
                     "banner及EDM製作。", 
                     "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
                 ],
-                "cover" : "img/yw/event_pizzahut.jpg", 
+                "cover" : "img/yw/event_pizzahut_m.jpg", 
                 "minPic" : "img/smallImg/ig-002EventPizzahut.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/event_pizzahut_2.jpg", 
-                        "img/yw/event_pizzahut_3.jpg", 
-                        "img/yw/event_pizzahut_4.jpg", 
-                        "img/yw/event_pizzahut_5.jpg", 
-                        "img/yw/event_pizzahut_m.jpg", 
-                        "img/yw/banner_pizzahut_200x200.jpg", 
-                        "img/yw/edm_pizzahut.jpg"
-                    ]
+                    "img/yw/banner_pizzahut_200x200.jpg", 
+                    "img/yw/event_pizzahut.jpg", 
+                    "img/yw/event_pizzahut_2.jpg", 
+                    "img/yw/event_pizzahut_3.jpg", 
+                    "img/yw/event_pizzahut_4.jpg", 
+                    "img/yw/event_pizzahut_5.jpg", 
+                    "img/yw/edm_pizzahut.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -481,21 +436,17 @@
                     "banner製作。", 
                     "手機版網站開發。"
                 ],
-                "cover" : "img/yw/event_newyear.jpg", 
+                "cover" : "img/yw/banner_newyear_605x340.jpg", 
                 "minPic" : "img/smallImg/ig-002EventNewyear.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/event_newyear_2.jpg", 
-                        "img/yw/event_newyear_3.jpg", 
-                        "img/yw/event_newyear_4.jpg"
-                    ], 
-                    [
-                        "img/yw/banner_newyear_605x340.jpg", 
-                        "img/yw/banner_newyear_300x250.jpg",
-                        "img/yw/banner_newyear_350x200.jpg", 
-                        "img/yw/banner_newyear_728x90.gif", 
-                        "img/yw/banner_newyear_970x90.gif"
-                    ]
+                    "img/yw/banner_newyear_300x250.jpg",
+                    "img/yw/banner_newyear_350x200.jpg", 
+                    "img/yw/banner_newyear_728x90.gif", 
+                    "img/yw/banner_newyear_970x90.gif", 
+                    "img/yw/event_newyear.jpg", 
+                    "img/yw/event_newyear_2.jpg", 
+                    "img/yw/event_newyear_3.jpg", 
+                    "img/yw/event_newyear_4.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -507,11 +458,9 @@
                 "cover" : "img/yw/event_k8_m.jpg", 
                 "minPic" : "img/smallImg/ig-002Eventk8.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/event_k8_m_2.jpg", 
-                        "img/yw/event_k8_m_3.jpg", 
-                        "img/yw/event_k8_m_4.jpg"
-                    ]
+                    "img/yw/event_k8_m_2.jpg", 
+                    "img/yw/event_k8_m_3.jpg", 
+                    "img/yw/event_k8_m_4.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -524,10 +473,8 @@
                 "cover" : "img/popo/140_postoreEP.jpg", 
                 "minPic" : "img/smallImg/popo-002EventPostore.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/140_postoreEP_2.jpg", 
-                        "img/popo/140_postoreEP_3.jpg"
-                    ]
+                    "img/popo/140_postoreEP_2.jpg", 
+                    "img/popo/140_postoreEP_3.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -557,14 +504,12 @@
                 "cover" : "img/popo/10019_vote.jpg", 
                 "minPic" : "img/smallImg/popo-002EventVote002.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/10019_vote_2.jpg", 
-                        "img/popo/10019_vote_3.jpg", 
-                        "img/popo/10019_vote_4.jpg", 
-                        "img/popo/10019_vote_5.jpg", 
-                        "img/popo/10019_vote_6.jpg", 
-                        "img/popo/10019_vote_banner.jpg"
-                    ]
+                    "img/popo/10019_vote_2.jpg", 
+                    "img/popo/10019_vote_3.jpg", 
+                    "img/popo/10019_vote_4.jpg", 
+                    "img/popo/10019_vote_5.jpg", 
+                    "img/popo/10019_vote_6.jpg", 
+                    "img/popo/10019_vote_banner.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -577,10 +522,8 @@
                 "cover" : "img/popo/165_2012food.jpg", 
                 "minPic" : "img/smallImg/popo-002Eventfood.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/165_2012food_2.jpg", 
-                        "img/popo/165_2012food_3.jpg"
-                    ]
+                    "img/popo/165_2012food_2.jpg", 
+                    "img/popo/165_2012food_3.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -593,12 +536,10 @@
                 "cover" : "img/popo/155_2012AugFans.jpg", 
                 "minPic" : "img/smallImg/popo-002EventAugFans.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/155_2012AugFans_2.jpg", 
-                        "img/popo/155_2012AugFans_3.jpg", 
-                        "img/popo/155_2012AugFans_4.jpg", 
-                        "img/popo/155_2012AugFans_5.jpg"
-                    ]
+                    "img/popo/155_2012AugFans_2.jpg", 
+                    "img/popo/155_2012AugFans_3.jpg", 
+                    "img/popo/155_2012AugFans_4.jpg", 
+                    "img/popo/155_2012AugFans_5.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -624,11 +565,9 @@
                 "cover" : "img/popo/169_2012DecStar.jpg", 
                 "minPic" : "img/smallImg/popo-002EventDecStar.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/169_2012DecStar_2.jpg", 
-                        "img/popo/169_2012DecStar_3.jpg", 
-                        "img/popo/169_2012DecStar_4.jpg"
-                    ]
+                    "img/popo/169_2012DecStar_2.jpg", 
+                    "img/popo/169_2012DecStar_3.jpg", 
+                    "img/popo/169_2012DecStar_4.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -641,11 +580,9 @@
                 "cover" : "img/popo/166_2012guard.jpg", 
                 "minPic" : "img/smallImg/popo-002EventGuard.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/166_2012guard_2.jpg", 
-                        "img/popo/166_2012guard_3.jpg", 
-                        "img/popo/166_2012guard_banner.gif"
-                    ]
+                    "img/popo/166_2012guard_2.jpg", 
+                    "img/popo/166_2012guard_3.jpg", 
+                    "img/popo/166_2012guard_banner.gif"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -658,11 +595,9 @@
                 "cover" : "img/popo/163_2012OctStar.jpg", 
                 "minPic" : "img/smallImg/popo-002EventOctStar.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/163_2012OctStar_2.jpg", 
-                        "img/popo/163_2012OctStar_3.jpg", 
-                        "img/popo/163_2012OctStar_4.jpg"
-                    ]
+                    "img/popo/163_2012OctStar_2.jpg", 
+                    "img/popo/163_2012OctStar_3.jpg", 
+                    "img/popo/163_2012OctStar_4.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -675,12 +610,10 @@
                 "cover" : "img/popo/152_2012AugStar.jpg", 
                 "minPic" : "img/smallImg/popo-002EventAugStar.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/152_2012AugStar_2.jpg", 
-                        "img/popo/152_2012AugStar_3.jpg", 
-                        "img/popo/152_2012AugStar_4.jpg", 
-                        "img/popo/152_2012AugStar_5.jpg"
-                    ]
+                    "img/popo/152_2012AugStar_2.jpg", 
+                    "img/popo/152_2012AugStar_3.jpg", 
+                    "img/popo/152_2012AugStar_4.jpg", 
+                    "img/popo/152_2012AugStar_5.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -694,10 +627,8 @@
                 "cover" : "img/popo/10017_vote_banner.jpg", 
                 "minPic" : "img/smallImg/popo-002EventVote001.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/10017_vote.jpg", 
-                        "img/popo/10018_vote.jpg"
-                    ]
+                    "img/popo/10017_vote.jpg", 
+                    "img/popo/10018_vote.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -710,11 +641,9 @@
                 "cover" : "img/popo/168_2012NovStar.jpg", 
                 "minPic" : "img/smallImg/popo-002EventNovStar.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/168_2012NovStar_2.jpg", 
-                        "img/popo/168_2012NovStar_3.jpg", 
-                        "img/popo/168_2012NovStar_4.jpg"
-                    ]
+                    "img/popo/168_2012NovStar_2.jpg", 
+                    "img/popo/168_2012NovStar_3.jpg", 
+                    "img/popo/168_2012NovStar_4.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }, 
@@ -727,12 +656,10 @@
                 "cover" : "img/popo/156_2012SepStar.jpg", 
                 "minPic" : "img/smallImg/popo-002EventSepStar.jpg", 
                 "subPic" : [
-                    [
-                        "img/popo/156_2012SepStar_2.jpg", 
-                        "img/popo/156_2012SepStar_3.jpg", 
-                        "img/popo/156_2012SepStar_4.jpg", 
-                        "img/popo/156_2012SepStar_5.jpg"
-                    ]
+                    "img/popo/156_2012SepStar_2.jpg", 
+                    "img/popo/156_2012SepStar_3.jpg", 
+                    "img/popo/156_2012SepStar_4.jpg", 
+                    "img/popo/156_2012SepStar_5.jpg"
                 ], 
                 "when" : "2012／03 ─ 2012／11"
             }
@@ -751,26 +678,20 @@
                 "cover" : "img/wl/wlStar_201710_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-001Star.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/wlStar_201710_850x450.jpg", 
-                        "img/wl/wlStar_201710_300x80.jpg", 
-                        "img/wl/wlStar_201710_sign.png", 
-                        "img/wl/wlStar_201710_dm.jpg"
-                    ], 
-                    [
-                        "img/wl/wlStar_201709_780x390.jpg", 
-                        "img/wl/wlStar_201709_850x450.jpg", 
-                        "img/wl/wlStar_201709_300x80.jpg", 
-                        "img/wl/wlStar_201709_sign.png", 
-                        "img/wl/wlStar_201709_dm.jpg"
-                    ], 
-                    [
-                        "img/wl/wlStar_201708_780x390.jpg", 
-                        "img/wl/wlStar_201708_850x450.jpg", 
-                        "img/wl/wlStar_201708_300x80.jpg", 
-                        "img/wl/wlStar_201708_sign.png", 
-                        "img/wl/wlStar_201708_dm.jpg"
-                    ]
+                    "img/wl/wlStar_201710_850x450.jpg", 
+                    "img/wl/wlStar_201710_300x80.jpg", 
+                    "img/wl/wlStar_201710_sign.png", 
+                    "img/wl/wlStar_201710_dm.jpg", 
+                    "img/wl/wlStar_201709_780x390.jpg", 
+                    "img/wl/wlStar_201709_850x450.jpg", 
+                    "img/wl/wlStar_201709_300x80.jpg", 
+                    "img/wl/wlStar_201709_sign.png", 
+                    "img/wl/wlStar_201709_dm.jpg", 
+                    "img/wl/wlStar_201708_780x390.jpg", 
+                    "img/wl/wlStar_201708_850x450.jpg", 
+                    "img/wl/wlStar_201708_300x80.jpg", 
+                    "img/wl/wlStar_201708_sign.png", 
+                    "img/wl/wlStar_201708_dm.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -785,23 +706,13 @@
                 "cover" : "img/wl/sub_201712_01_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-004Co.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/sub_201712_01_320x100.jpg"
-                    ], 
-                    [
-                        "img/wl/sub_201711_780x390.jpg"
-                    ], 
-                    [
-                        "img/wl/sub_201707_02_728x90.jpg"
-                    ], 
-                    [
-                        "img/wl/sub_201707_01_780x390.jpg", 
-                        "img/wl/sub_201707_01_320x100.jpg", 
-                        "img/wl/sub_201707_01_728x90.jpg"
-                    ],
-                    [
-                        "img/wl/sub_201706_780x390.jpg"
-                    ]
+                    "img/wl/sub_201712_01_320x100.jpg", 
+                    "img/wl/sub_201711_780x390.jpg", 
+                    "img/wl/sub_201707_02_728x90.jpg", 
+                    "img/wl/sub_201707_01_780x390.jpg", 
+                    "img/wl/sub_201707_01_320x100.jpg", 
+                    "img/wl/sub_201707_01_728x90.jpg",
+                    "img/wl/sub_201706_780x390.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -815,12 +726,10 @@
                 "cover" : "img/wl/tw_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-002Tw.jpg", 
                 "subPic" : [ 
-                    [
-                        "img/wl/tw_201710_780x390.jpg", 
-                        "img/wl/tw_201709_780x390.jpg", 
-                        "img/wl/tw_201708_780x390.jpg", 
-                        "img/wl/tw_201705_780x390.jpg"
-                    ]
+                    "img/wl/tw_201710_780x390.jpg", 
+                    "img/wl/tw_201709_780x390.jpg", 
+                    "img/wl/tw_201708_780x390.jpg", 
+                    "img/wl/tw_201705_780x390.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -833,45 +742,31 @@
                 "cover" : "img/wl/wlTen_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-003Ten.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/wlTen_201712_850x450.jpg", 
-                        "img/wl/wlTen_201712_300x80.jpg"
-                    ], 
-                    [
-                        "img/wl/wlTen_201711_850x450.jpg", 
-                        "img/wl/wlTen_201711_780x390.jpg", 
-                        "img/wl/wlTen_201711_300x80.jpg"
-                    ], 
-                    [
-                        "img/wl/wlTen_201709_780x390.jpg", 
-                        "img/wl/wlTen_201709_850x450.jpg", 
-                        "img/wl/wlTen_201709_300x80.jpg", 
-                        "img/wl/wlTen_201709_1180x350.jpg"
-                    ], 
-                    [
-                        "img/wl/wlTen_201708_780x390.jpg", 
-                        "img/wl/wlTen_201708_850x450.jpg", 
-                        "img/wl/wlTen_201708_300x80.jpg", 
-                        "img/wl/wlTen_201708_1180x350.jpg"
-                    ], 
-                    [
-                        "img/wl/wlTen_201707_780x390.jpg", 
-                        "img/wl/wlTen_201707_850x450.jpg", 
-                        "img/wl/wlTen_201707_300x80.jpg", 
-                        "img/wl/wlTen_201707_1180x350.jpg"
-                    ], 
-                    [
-                        "img/wl/wlTen_201706_780x390.jpg", 
-                        "img/wl/wlTen_201706_850x450.jpg", 
-                        "img/wl/wlTen_201706_300x80.jpg", 
-                        "img/wl/wlTen_201706_1180x350.jpg"
-                    ], 
-                    [
-                        "img/wl/wlTen_201705_780x390.jpg", 
-                        "img/wl/wlTen_201705_850x450.jpg", 
-                        "img/wl/wlTen_201705_300x80.jpg", 
-                        "img/wl/wlTen_201705_1180x350.jpg"
-                    ]
+                    "img/wl/wlTen_201712_850x450.jpg", 
+                    "img/wl/wlTen_201712_300x80.jpg", 
+                    "img/wl/wlTen_201711_850x450.jpg", 
+                    "img/wl/wlTen_201711_780x390.jpg", 
+                    "img/wl/wlTen_201711_300x80.jpg", 
+                    "img/wl/wlTen_201709_780x390.jpg", 
+                    "img/wl/wlTen_201709_850x450.jpg", 
+                    "img/wl/wlTen_201709_300x80.jpg", 
+                    "img/wl/wlTen_201709_1180x350.jpg", 
+                    "img/wl/wlTen_201708_780x390.jpg", 
+                    "img/wl/wlTen_201708_850x450.jpg", 
+                    "img/wl/wlTen_201708_300x80.jpg", 
+                    "img/wl/wlTen_201708_1180x350.jpg", 
+                    "img/wl/wlTen_201707_780x390.jpg", 
+                    "img/wl/wlTen_201707_850x450.jpg", 
+                    "img/wl/wlTen_201707_300x80.jpg", 
+                    "img/wl/wlTen_201707_1180x350.jpg", 
+                    "img/wl/wlTen_201706_780x390.jpg", 
+                    "img/wl/wlTen_201706_850x450.jpg", 
+                    "img/wl/wlTen_201706_300x80.jpg", 
+                    "img/wl/wlTen_201706_1180x350.jpg", 
+                    "img/wl/wlTen_201705_780x390.jpg", 
+                    "img/wl/wlTen_201705_850x450.jpg", 
+                    "img/wl/wlTen_201705_300x80.jpg", 
+                    "img/wl/wlTen_201705_1180x350.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -884,35 +779,23 @@
                 "cover" : "img/wl/msg_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-006Msg.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/msg_201712_850x450.jpg", 
-                        "img/wl/msg_201712_300x80.jpg"
-                    ], 
-                    [
-                        "img/wl/msg_201711_850x450.jpg",
-                        "img/wl/msg_201711_780x390.jpg", 
-                        "img/wl/msg_201711_300x80.jpg"
-                    ], 
-                    [
-                        "img/wl/msg_201710_850x450.jpg", 
-                        "img/wl/msg_201710_780x390.jpg", 
-                        "img/wl/msg_201710_300x80.jpg"
-                    ], 
-                    [
-                        "img/wl/msg_201709_850x450.jpg", 
-                        "img/wl/msg_201709_780x390.jpg", 
-                        "img/wl/msg_201709_300x80.jpg"
-                    ], 
-                    [
-                        "img/wl/msg_201708_850x450.jpg", 
-                        "img/wl/msg_201708_780x390.jpg", 
-                        "img/wl/msg_201708_300x80.jpg"
-                    ], 
-                    [
-                        "img/wl/msg_201707_850x450.jpg", 
-                        "img/wl/msg_201707_780x390.jpg", 
-                        "img/wl/msg_201707_300x80.jpg"
-                    ]
+                    "img/wl/msg_201712_850x450.jpg", 
+                    "img/wl/msg_201712_300x80.jpg", 
+                    "img/wl/msg_201711_850x450.jpg",
+                    "img/wl/msg_201711_780x390.jpg", 
+                    "img/wl/msg_201711_300x80.jpg", 
+                    "img/wl/msg_201710_850x450.jpg", 
+                    "img/wl/msg_201710_780x390.jpg", 
+                    "img/wl/msg_201710_300x80.jpg", 
+                    "img/wl/msg_201709_850x450.jpg", 
+                    "img/wl/msg_201709_780x390.jpg", 
+                    "img/wl/msg_201709_300x80.jpg", 
+                    "img/wl/msg_201708_850x450.jpg", 
+                    "img/wl/msg_201708_780x390.jpg", 
+                    "img/wl/msg_201708_300x80.jpg", 
+                    "img/wl/msg_201707_850x450.jpg", 
+                    "img/wl/msg_201707_780x390.jpg", 
+                    "img/wl/msg_201707_300x80.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -925,10 +808,8 @@
                 "cover" : "img/wl/site_201712_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-007Site.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/site_201712_850x450.jpg", 
-                        "img/wl/site_201712_336x280.jpg"
-                    ]
+                    "img/wl/site_201712_850x450.jpg", 
+                    "img/wl/site_201712_336x280.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -939,16 +820,14 @@
                     "banner製作。", 
                     "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
                 ],
-                "cover" : "img/yw/banner_taobao_200x200.jpg", 
+                "cover" : "img/yw/event_taobao_m.jpg", 
                 "minPic" : "img/smallImg/ig-002EventTaobao.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/event_taobao.jpg", 
-                        "img/yw/event_taobao_2.jpg", 
-                        "img/yw/event_taobao_3.jpg", 
-                        "img/yw/event_taobao_4.jpg", 
-                        "img/yw/event_taobao_m.jpg"
-                    ]
+                    "img/yw/event_taobao.jpg", 
+                    "img/yw/event_taobao_2.jpg", 
+                    "img/yw/event_taobao_3.jpg", 
+                    "img/yw/event_taobao_4.jpg", 
+                    "img/yw/banner_taobao_200x200.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -959,18 +838,16 @@
                     "banner及EDM製作。", 
                     "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
                 ],
-                "cover" : "img/yw/banner_pizzahut_200x200.jpg", 
+                "cover" : "img/yw/event_pizzahut_m.jpg", 
                 "minPic" : "img/smallImg/ig-002EventPizzahut.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/event_pizzahut.jpg", 
-                        "img/yw/event_pizzahut_2.jpg", 
-                        "img/yw/event_pizzahut_3.jpg", 
-                        "img/yw/event_pizzahut_4.jpg", 
-                        "img/yw/event_pizzahut_5.jpg", 
-                        "img/yw/event_pizzahut_m.jpg", 
-                        "img/yw/edm_pizzahut.jpg"
-                    ]
+                    "img/yw/banner_pizzahut_200x200.jpg", 
+                    "img/yw/event_pizzahut.jpg", 
+                    "img/yw/event_pizzahut_2.jpg", 
+                    "img/yw/event_pizzahut_3.jpg", 
+                    "img/yw/event_pizzahut_4.jpg", 
+                    "img/yw/event_pizzahut_5.jpg", 
+                    "img/yw/edm_pizzahut.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -995,18 +872,14 @@
                 "cover" : "img/yw/banner_newyear_605x340.jpg", 
                 "minPic" : "img/smallImg/ig-002EventNewyear.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/banner_newyear_300x250.jpg",
-                        "img/yw/banner_newyear_350x200.jpg", 
-                        "img/yw/banner_newyear_728x90.gif", 
-                        "img/yw/banner_newyear_970x90.gif"
-                    ], 
-                    [
-                        "img/yw/event_newyear.jpg", 
-                        "img/yw/event_newyear_2.jpg", 
-                        "img/yw/event_newyear_3.jpg", 
-                        "img/yw/event_newyear_4.jpg"
-                    ]
+                    "img/yw/banner_newyear_300x250.jpg",
+                    "img/yw/banner_newyear_350x200.jpg", 
+                    "img/yw/banner_newyear_728x90.gif", 
+                    "img/yw/banner_newyear_970x90.gif", 
+                    "img/yw/event_newyear.jpg", 
+                    "img/yw/event_newyear_2.jpg", 
+                    "img/yw/event_newyear_3.jpg", 
+                    "img/yw/event_newyear_4.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -1018,10 +891,8 @@
                 "cover" : "img/yw/banner_pizzahut.jpg", 
                 "minPic" : "img/smallImg/ig-003BannerPizzahut.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/banner_pizzahut970x480.jpg", 
-                        "img/yw/banner_pizzahut970x225.jpg"
-                    ]
+                    "img/yw/banner_pizzahut970x480.jpg", 
+                    "img/yw/banner_pizzahut970x225.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }, 
@@ -1030,15 +901,12 @@
                 "description" : [
                     "多螢裝置網站開發，自適應設計(responsive design - RWD)及各種裝置瀏覽器相容測試。"
                 ],
-                "cover" : "", 
+                "cover" : "img/yw/event_k8_m.jpg", 
                 "minPic" : "img/smallImg/ig-002Eventk8.jpg", 
                 "subPic" : [
-                    [
-                        "img/yw/event_k8_m.jpg", 
-                        "img/yw/event_k8_m_2.jpg", 
-                        "img/yw/event_k8_m_3.jpg", 
-                        "img/yw/event_k8_m_4.jpg"
-                    ]
+                    "img/yw/event_k8_m_2.jpg", 
+                    "img/yw/event_k8_m_3.jpg", 
+                    "img/yw/event_k8_m_4.jpg"
                 ], 
                 "when" : "2013／06 ─ 2015／05"
             }
@@ -1056,10 +924,8 @@
                 "cover" : "img/wl/edm_201712.jpg", 
                 "minPic" : "img/smallImg/wl-005Edm.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/edm_20171002.jpg", 
-                        "img/wl/edm_20170531.jpg"
-                    ]
+                    "img/wl/edm_20171002.jpg", 
+                    "img/wl/edm_20170531.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -1072,23 +938,15 @@
                 ],
                 "cover" : "", 
                 "minPic" : "img/smallImg/wl-010EdmCo.jpg", 
-                "subPic" : [
-                    [
-                        "img/wl/edmCo_201712_01.jpg", 
-                        "img/wl/edmCo_201712_00.jpg"
-                    ], 
-                    [
-                        "img/wl/edmCo_201711_01.jpg", 
-                        "img/wl/edmCo_201711_00.jpg"
-                    ], 
-                    [
-                        "img/wl/edmCo_201709_01.jpg", 
-                        "img/wl/edmCo_201709_00.jpg"
-                    ], 
-                    [
-                        "img/wl/edmCo_201707_01.jpg", 
-                        "img/wl/edmCo_201707_00.jpg"
-                    ]
+                "subPic" : [ 
+                    "img/wl/edmCo_201712_01.jpg", 
+                    "img/wl/edmCo_201712_00.jpg", 
+                    "img/wl/edmCo_201711_01.jpg", 
+                    "img/wl/edmCo_201711_00.jpg", 
+                    "img/wl/edmCo_201709_01.jpg", 
+                    "img/wl/edmCo_201709_00.jpg", 
+                    "img/wl/edmCo_201707_01.jpg", 
+                    "img/wl/edmCo_201707_00.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -1116,12 +974,10 @@
                 "cover" : "img/case/shinphoto_logo_2016.jpg", 
                 "minPic" : "img/smallImg/ktc-002LogoShinphoto.jpg", 
                 "subPic" : [
-                    [
-                        "img/case/shinphoto_logo_black_2016.jpg", 
-                        "img/case/shinphoto_logo_blackH_2016.jpg", 
-                        "img/case/shinphoto_logo_white_2016.jpg",  
-                        "img/case/shinphoto_logo_whiteH_2016.jpg"
-                    ]
+                    "img/case/shinphoto_logo_black_2016.jpg", 
+                    "img/case/shinphoto_logo_blackH_2016.jpg", 
+                    "img/case/shinphoto_logo_white_2016.jpg",  
+                    "img/case/shinphoto_logo_whiteH_2016.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -1134,10 +990,8 @@
                 "cover" : "img/case/breakfast_logo_2016.jpg", 
                 "minPic" : "img/smallImg/ktc-002LogoBreakfast.jpg", 
                 "subPic" : [
-                    [
-                        "img/case/breakfast_namecard_front_2016.jpg", 
-                        "img/case/breakfast_namecard_back_2016.jpg"
-                    ]
+                    "img/case/breakfast_namecard_front_2016.jpg", 
+                    "img/case/breakfast_namecard_back_2016.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -1150,19 +1004,15 @@
                     "即時應對顧客需求及問題回覆與處理。", 
                     "經營『果然，果真自然』facebook粉絲專頁。"
                 ],
-                "cover" : "img/sure/surejuice_image_1.jpg", 
+                "cover" : "img/sure/miaokeeper_sign.jpg", 
                 "minPic" : "img/smallImg/ktc-003Surejuice.jpg", 
                 "subPic" : [
-                    [
-                        "img/sure/surejuice_car.jpg", 
-                        "img/sure/surejuice_image.jpg", 
-                        "img/sure/surejuice_namecard.jpg"
-                    ], 
-                    [
-                        "img/sure/miaokeeper_sign.jpg", 
-                        "img/sure/miaokeeper_car.jpg", 
-                        "img/sure/miaokeeper_logo.jpg"
-                    ]
+                    "img/sure/surejuice_image_1.jpg", 
+                    "img/sure/surejuice_car.jpg", 
+                    "img/sure/surejuice_image.jpg", 
+                    "img/sure/surejuice_namecard.jpg", 
+                    "img/sure/miaokeeper_car.jpg", 
+                    "img/sure/miaokeeper_logo.jpg"
                 ], 
                 "when" : "2015／06 ─ "
             }, 
@@ -1172,26 +1022,22 @@
                     "訂定視覺設計系統(VI)。", 
                     "網站視覺設計及開發。"
                 ],
-                "cover" : "img/flylink/luxsent_cis01.jpg", 
+                "cover" : "img/flylink/luxsent_index.jpg", 
                 "minPic" : "img/smallImg/fl-001Site.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/luxsent_cis02.jpg", 
-                        "img/flylink/luxsent_cis03.jpg"
-                    ], 
-                    [
-                        "img/flylink/luxsent_index.jpg", 
-                        "img/flylink/luxsent_index_2.jpg", 
-                        "img/flylink/luxsent_index_3.jpg", 
-                        "img/flylink/luxsent_index_4.jpg", 
-                        "img/flylink/luxsent_index_5.jpg", 
-                        "img/flylink/luxsent_index_6.jpg", 
-                        "img/flylink/luxsent_index_7.jpg", 
-                        "img/flylink/luxsent_index_8.jpg", 
-                        "img/flylink/luxsent_index_9.jpg", 
-                        "img/flylink/luxsent_index_10.jpg", 
-                        "img/flylink/luxsent.jpg"
-                    ]
+                    "img/flylink/luxsent_cis01.jpg", 
+                    "img/flylink/luxsent_cis02.jpg", 
+                    "img/flylink/luxsent_cis03.jpg", 
+                    "img/flylink/luxsent_index_2.jpg", 
+                    "img/flylink/luxsent_index_3.jpg", 
+                    "img/flylink/luxsent_index_4.jpg", 
+                    "img/flylink/luxsent_index_5.jpg", 
+                    "img/flylink/luxsent_index_6.jpg", 
+                    "img/flylink/luxsent_index_7.jpg", 
+                    "img/flylink/luxsent_index_8.jpg", 
+                    "img/flylink/luxsent_index_9.jpg", 
+                    "img/flylink/luxsent_index_10.jpg", 
+                    "img/flylink/luxsent.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -1204,11 +1050,9 @@
                 "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/kronho_index.jpg", 
-                        "img/flylink/kronho_poster.jpg", 
-                        "img/flylink/kronho_namecard.jpg"
-                    ]
+                    "img/flylink/kronho_index.jpg", 
+                    "img/flylink/kronho_poster.jpg", 
+                    "img/flylink/kronho_namecard.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }
@@ -1227,26 +1071,20 @@
                 "cover" : "img/wl/wlStar_201710_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-001Star.jpg", 
                 "subPic" : [
-                    [
-                        "img/wl/wlStar_201710_850x450.jpg", 
-                        "img/wl/wlStar_201710_300x80.jpg", 
-                        "img/wl/wlStar_201710_sign.png", 
-                        "img/wl/wlStar_201710_dm.jpg"
-                    ], 
-                    [
-                        "img/wl/wlStar_201709_780x390.jpg", 
-                        "img/wl/wlStar_201709_850x450.jpg", 
-                        "img/wl/wlStar_201709_300x80.jpg", 
-                        "img/wl/wlStar_201709_sign.png", 
-                        "img/wl/wlStar_201709_dm.jpg"
-                    ], 
-                    [
-                        "img/wl/wlStar_201708_780x390.jpg", 
-                        "img/wl/wlStar_201708_850x450.jpg", 
-                        "img/wl/wlStar_201708_300x80.jpg", 
-                        "img/wl/wlStar_201708_sign.png", 
-                        "img/wl/wlStar_201708_dm.jpg"
-                    ]
+                    "img/wl/wlStar_201710_850x450.jpg", 
+                    "img/wl/wlStar_201710_300x80.jpg", 
+                    "img/wl/wlStar_201710_sign.png", 
+                    "img/wl/wlStar_201710_dm.jpg", 
+                    "img/wl/wlStar_201709_780x390.jpg", 
+                    "img/wl/wlStar_201709_850x450.jpg", 
+                    "img/wl/wlStar_201709_300x80.jpg", 
+                    "img/wl/wlStar_201709_sign.png", 
+                    "img/wl/wlStar_201709_dm.jpg", 
+                    "img/wl/wlStar_201708_780x390.jpg", 
+                    "img/wl/wlStar_201708_850x450.jpg", 
+                    "img/wl/wlStar_201708_300x80.jpg", 
+                    "img/wl/wlStar_201708_sign.png", 
+                    "img/wl/wlStar_201708_dm.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
@@ -1271,10 +1109,8 @@
                 "cover" : "img/case/breakfast_logo_2016.jpg", 
                 "minPic" : "img/smallImg/ktc-002LogoBreakfast.jpg", 
                 "subPic" : [
-                    [
-                        "img/case/breakfast_namecard_front_2016.jpg", 
-                        "img/case/breakfast_namecard_back_2016.jpg"
-                    ]
+                    "img/case/breakfast_namecard_front_2016.jpg", 
+                    "img/case/breakfast_namecard_back_2016.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -1287,19 +1123,15 @@
                     "即時應對顧客需求及問題回覆與處理。", 
                     "經營『果然，果真自然』facebook粉絲專頁。"
                 ],
-                "cover" : "img/sure/surejuice_image_1.jpg", 
+                "cover" : "img/sure/miaokeeper_sign.jpg", 
                 "minPic" : "img/smallImg/ktc-003Surejuice.jpg", 
                 "subPic" : [
-                    [
-                        "img/sure/surejuice_car.jpg", 
-                        "img/sure/surejuice_image.jpg", 
-                        "img/sure/surejuice_namecard.jpg"
-                    ], 
-                    [
-                        "img/sure/miaokeeper_sign.jpg", 
-                        "img/sure/miaokeeper_car.jpg", 
-                        "img/sure/miaokeeper_logo.jpg"
-                    ]
+                    "img/sure/surejuice_image_1.jpg", 
+                    "img/sure/surejuice_car.jpg", 
+                    "img/sure/surejuice_image.jpg", 
+                    "img/sure/surejuice_namecard.jpg", 
+                    "img/sure/miaokeeper_car.jpg", 
+                    "img/sure/miaokeeper_logo.jpg"
                 ], 
                 "when" : "2015／06 ─ "
             }, 
@@ -1312,10 +1144,8 @@
                 "cover" : "img/flylink/inyoung99_index.jpg", 
                 "minPic" : "img/smallImg/fl-001SiteInyoung99.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/inyoung99_dm01.jpg", 
-                        "img/flylink/inyoung99_dm02.jpg"
-                    ]
+                    "img/flylink/inyoung99_dm01.jpg", 
+                    "img/flylink/inyoung99_dm02.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -1328,20 +1158,16 @@
                 "cover" : "img/flylink/esoft_index.jpg", 
                 "minPic" : "img/smallImg/fl-001SiteEsoft.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/esoft_index_2.jpg", 
-                        "img/flylink/esoft_index_3.jpg", 
-                        "img/flylink/esoft_index_4.jpg", 
-                        "img/flylink/esoft_index_5.jpg"
-                    ], 
-                    [
-                        "img/flylink/esoft_NP12P.jpg", 
-                        "img/flylink/esoft_NP13P.jpg", 
-                        "img/flylink/esoft_card_01.jpg", 
-                        "img/flylink/esoft_card_02.jpg", 
-                        "img/flylink/esoft_card_03.jpg",  
-                        "img/flylink/esoft_card_04.jpg"
-                    ]
+                    "img/flylink/esoft_index_2.jpg", 
+                    "img/flylink/esoft_index_3.jpg", 
+                    "img/flylink/esoft_index_4.jpg", 
+                    "img/flylink/esoft_index_5.jpg", 
+                    "img/flylink/esoft_NP12P.jpg", 
+                    "img/flylink/esoft_NP13P.jpg", 
+                    "img/flylink/esoft_card_01.jpg", 
+                    "img/flylink/esoft_card_02.jpg", 
+                    "img/flylink/esoft_card_03.jpg",  
+                    "img/flylink/esoft_card_04.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -1354,11 +1180,9 @@
                 "cover" : "", 
                 "minPic" : "img/smallImg/fl-001SiteKronho.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/kronho_index.jpg", 
-                        "img/flylink/kronho_poster.jpg", 
-                        "img/flylink/kronho_namecard.jpg"
-                    ]
+                    "img/flylink/kronho_index.jpg", 
+                    "img/flylink/kronho_poster.jpg", 
+                    "img/flylink/kronho_namecard.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }, 
@@ -1370,24 +1194,22 @@
                 "cover" : "img/flylink/book_02.jpg", 
                 "minPic" : "img/smallImg/fl-002Book.jpg", 
                 "subPic" : [
-                    [
-                        "img/flylink/book_01.jpg", 
-                        "img/flylink/book_01_2014.jpg", 
-                        "img/flylink/book_02_2014.jpg", 
-                        "img/flylink/book_03_2014.jpg", 
-                        "img/flylink/book_03.jpg",
-                        "img/flylink/book_04.jpg", 
-                        "img/flylink/book_05.jpg", 
-                        "img/flylink/book_06.jpg", 
-                        "img/flylink/book_07.jpg", 
-                        "img/flylink/book_08.jpg", 
-                        "img/flylink/book_09.jpg", 
-                        "img/flylink/book_10.jpg", 
-                        "img/flylink/book_11.jpg", 
-                        "img/flylink/book_12.jpg", 
-                        "img/flylink/book_13.jpg", 
-                        "img/flylink/book_14.jpg"
-                    ]
+                    "img/flylink/book_01.jpg", 
+                    "img/flylink/book_01_2014.jpg", 
+                    "img/flylink/book_02_2014.jpg", 
+                    "img/flylink/book_03_2014.jpg", 
+                    "img/flylink/book_03.jpg",
+                    "img/flylink/book_04.jpg", 
+                    "img/flylink/book_05.jpg", 
+                    "img/flylink/book_06.jpg", 
+                    "img/flylink/book_07.jpg", 
+                    "img/flylink/book_08.jpg", 
+                    "img/flylink/book_09.jpg", 
+                    "img/flylink/book_10.jpg", 
+                    "img/flylink/book_11.jpg", 
+                    "img/flylink/book_12.jpg", 
+                    "img/flylink/book_13.jpg", 
+                    "img/flylink/book_14.jpg"
                 ], 
                 "when" : "2010／04 ─ 2012／02"
             }
