@@ -261,9 +261,10 @@
                     "依設計檔案進行psd切片", 
                     "與業務單位進行溝通及確認。"
                 ],
-                "cover" : "img/wl/event_xmas.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/wl-005Edm.jpg", 
                 "subPic" : [
+                    "img/wl/event_xmas.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             }, 
