@@ -24,6 +24,11 @@
         URL += '&state=abcde';
         //window.location.href = URL;
 	var form = new FormData();
+	form.append("grant_type", "authorization_code");
+	form.append("code", "MtOG5Nm5ecEnQBQuT4xnVo");
+	form.append("redirect_uri", "https://tzuchienkao.github.io/aboutMe/");
+	form.append("client_id", "8bx2pgZTqGRCT4jDlts40T");
+	form.append("client_secret", "5ptfNacs6xVk1A8GowvycMxLhXeGwFyb9yGlB2d32UZ");
 	form.append("message", "是誰~~~");
 
 	var settings = {
@@ -34,7 +39,7 @@
 	  "headers": {
 	    "authorization": "Bearer qltI73ZkGAZuk8FGbSFjbuyK14lGbLuncTHpC3G3Lmk",
 	    "cache-control": "no-cache",
-	    "postman-token": "6c7ee3cc-830e-bbb7-c8ce-8ed3b0116f08"
+	    "postman-token": "ae9ab882-f80f-a0b0-d6af-547a67437b54"
 	  },
 	  "processData": false,
 	  "contentType": false,
