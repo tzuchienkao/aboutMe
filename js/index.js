@@ -9,7 +9,6 @@ $(document).ready(function(){
         URL += '&state=abcde';
         window.location.href = URL;
     }
-    Auth();
     //line notify end
     //document default
     //區塊定位
