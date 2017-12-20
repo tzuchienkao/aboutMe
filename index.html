@@ -23,25 +23,35 @@
         URL += '&scope=notify';
         URL += '&state=abcde';
         window.location.href = URL;
-// 	    $.ajax({
-// 		url : 'https://notify-api.line.me/api/notify',
-// 		headers : {
-// 			'Authorization' : 'Bearer c0v2EubpikHF572qU8ZVmGEHgOtXoBt8exqDG7ekNCx'
-// 		}, 
-// 		method : 'POST', 
-// 		dataType : 'json', 
-// 		data : {
-// 			'grant_type' : 'authorization_code', 
-// 			'code' : 't5uvhmd2jZtpznWj1JEhIR', 
-// 			'redirect_uri' : 'https://tzuchienkao.github.io/aboutMe/', 
-// 			'client_id' : 'e1r6yrtLUx5Xv0NiMnTZcx', 
-// 			'client_secret' : 'ZBXVYwgcm0Obj2hrUOWJ3q0zv9NkgK8qOWUmNSNauj8', 
-// 			'message' : '是誰看了~~'
-// 		},
-// 		success: function(data){
-// 			console.log('成功');
-// 		}
-// 	    });
+	    $.ajax({
+	    	url : 'https://notify-bot.line.me/oauth/token', 
+		method : 'POST', 
+		dataType : 'json', 
+		data : {
+			'grant_type' : 'authorization_code', 
+			'code' : 'MtOG5Nm5ecEnQBQuT4xnVo', 
+			'redirect_uri' : 'https://tzuchienkao.github.io/aboutMe/', 
+			'client_id' : '8bx2pgZTqGRCT4jDlts40T', 
+			'client_secret' : '5ptfNacs6xVk1A8GowvycMxLhXeGwFyb9yGlB2d32UZ'
+		},
+		success: function(data){
+			console.log('成功');
+		}
+	    });
+	    $.ajax({
+		url : 'https://notify-api.line.me/api/notify',
+		headers : {
+			'Authorization' : 'Bearer c0v2EubpikHF572qU8ZVmGEHgOtXoBt8exqDG7ekNCx'
+		}, 
+		method : 'POST', 
+		dataType : 'json', 
+		data : {
+			'message' : '是誰看了~~'
+		},
+		success: function(data){
+			console.log('成功');
+		}
+	    });
     }
     //line notify end
 </script>
