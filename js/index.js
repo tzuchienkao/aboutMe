@@ -1,15 +1,15 @@
 $(document).ready(function(){
     //line notify
-    function Auth() {
-        var URL = 'https://notify-bot.line.me/oauth/authorize?';
-        URL += 'response_type=code';
-        URL += '&client_id=	e1r6yrtLUx5Xv0NiMnTZcx';
-        URL += '&redirect_uri=https://tzuchienkao.github.io/aboutMe';
-        URL += '&scope=notify';
-        URL += '&state=abcde';
-        window.location.href = URL;
-    }
-    Auth();
+//     function Auth() {
+//         var URL = 'https://notify-bot.line.me/oauth/authorize?';
+//         URL += 'response_type=code';
+//         URL += '&client_id=	e1r6yrtLUx5Xv0NiMnTZcx';
+//         URL += '&redirect_uri=https://tzuchienkao.github.io/aboutMe';
+//         URL += '&scope=notify';
+//         URL += '&state=abcde';
+//         window.location.href = URL;
+//     }
+//     Auth();
     //line notify end
     //document default
     //區塊定位
