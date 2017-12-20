@@ -23,35 +23,57 @@
         URL += '&scope=notify';
         URL += '&state=abcde';
         //window.location.href = URL;
-	    $.ajax({
-	    	url : 'https://notify-bot.line.me/oauth/token', 
-		method : 'POST', 
-		dataType : 'json', 
-		data : {
-			'grant_type' : 'authorization_code', 
-			'code' : 'MtOG5Nm5ecEnQBQuT4xnVo', 
-			'redirect_uri' : 'https://tzuchienkao.github.io/aboutMe/', 
-			'client_id' : '8bx2pgZTqGRCT4jDlts40T', 
-			'client_secret' : '5ptfNacs6xVk1A8GowvycMxLhXeGwFyb9yGlB2d32UZ'
-		},
-		success: function(data){
-			console.log('成功');
-		}
-	    });
-	    $.ajax({
-		url : 'https://notify-api.line.me/api/notify',
-		headers : {
-			'Authorization' : 'Bearer qltI73ZkGAZuk8FGbSFjbuyK14lGbLuncTHpC3G3Lmk'
-		}, 
-		method : 'POST', 
-		dataType : 'json', 
-		data : {
-			'message' : '是誰看了~~'
-		},
-		success: function(data){
-			console.log('成功');
-		}
-	    });
+	var form = new FormData();
+	form.append("message", "是誰~~~");
+
+	var settings = {
+	  "async": true,
+	  "crossDomain": true,
+	  "url": "https://notify-api.line.me/api/notify",
+	  "method": "POST",
+	  "headers": {
+	    "authorization": "Bearer qltI73ZkGAZuk8FGbSFjbuyK14lGbLuncTHpC3G3Lmk",
+	    "cache-control": "no-cache",
+	    "postman-token": "6c7ee3cc-830e-bbb7-c8ce-8ed3b0116f08"
+	  },
+	  "processData": false,
+	  "contentType": false,
+	  "mimeType": "multipart/form-data",
+	  "data": form
+	}
+
+	$.ajax(settings).done(function (response) {
+	  console.log(response);
+	});
+// 	    $.ajax({
+// 	    	url : 'https://notify-bot.line.me/oauth/token', 
+// 		method : 'POST', 
+// 		dataType : 'json', 
+// 		data : {
+// 			'grant_type' : 'authorization_code', 
+// 			'code' : 'MtOG5Nm5ecEnQBQuT4xnVo', 
+// 			'redirect_uri' : 'https://tzuchienkao.github.io/aboutMe/', 
+// 			'client_id' : '8bx2pgZTqGRCT4jDlts40T', 
+// 			'client_secret' : '5ptfNacs6xVk1A8GowvycMxLhXeGwFyb9yGlB2d32UZ'
+// 		},
+// 		success: function(data){
+// 			console.log('成功');
+// 		}
+// 	    });
+// 	    $.ajax({
+// 		url : 'https://notify-api.line.me/api/notify',
+// 		headers : {
+// 			'Authorization' : 'Bearer qltI73ZkGAZuk8FGbSFjbuyK14lGbLuncTHpC3G3Lmk'
+// 		}, 
+// 		method : 'POST', 
+// 		dataType : 'json', 
+// 		data : {
+// 			'message' : '是誰看了~~'
+// 		},
+// 		success: function(data){
+// 			console.log('成功');
+// 		}
+// 	    });
     }
     //line notify end
 </script>
