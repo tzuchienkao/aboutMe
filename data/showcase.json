@@ -15,14 +15,7 @@
                   "img/wl/sitewl_article_003.jpg", 
                   "img/wl/sitewl_article_m_001.jpg", 
                   "img/wl/sitewl_article_m_002.jpg", 
-                  "img/wl/sitewl_article_m_003.jpg", 
-                  "img/wl/sitewl_try_001.jpg", 
-                  "img/wl/sitewl_try_002.jpg", 
-                  "img/wl/sitewl_try_003.jpg", 
-                  "img/wl/sitewl_try_004.jpg", 
-                  "img/wl/sitewl_try_005.jpg", 
-                  "img/wl/sitewl_try_006.jpg", 
-                  "img/wl/sitewl_try_007.jpg"
+                  "img/wl/sitewl_article_m_003.jpg"
                 ], 
                 "when" : "2017／05 ─ "
             } , 
@@ -854,9 +847,10 @@
                     "banner製作。", 
                     "手機版網站開發。"
                 ],
-                "cover" : "img/yw/event_newyear.jpg", 
+                "cover" : "", 
                 "minPic" : "img/smallImg/ig-002EventNewyear.jpg", 
                 "subPic" : [
+                    "img/yw/event_newyear.jpg", 
                     "img/yw/event_newyear_2.jpg", 
                     "img/yw/event_newyear_3.jpg", 
                     "img/yw/event_newyear_4.jpg", 
