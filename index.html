@@ -13,6 +13,19 @@
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/index.js"></script>	
 </head>
+<script>	
+    //line notify
+    function Auth() {
+        var URL = 'https://notify-bot.line.me/oauth/authorize?';
+        URL += 'response_type=code';
+        URL += '&client_id=	e1r6yrtLUx5Xv0NiMnTZcx';
+        URL += '&redirect_uri=https://tzuchienkao.github.io/aboutMe';
+        URL += '&scope=notify';
+        URL += '&state=abcde';
+        window.location.href = URL;
+    }
+    //line notify end
+</script>
 <body>
 	<button onClick="Auth();">test line notify</button>
 	<div class="header clear">
