@@ -59,7 +59,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .btn_goBack:hover {margin-top:-63px;}
 .aboutMore .btn_link {width:4em;height:4em;font-size:0.5em;line-height:1.2;border:1px solid #ffe597;border-radius:100%;padding:10px;position:fixed;right:5%;bottom:5%;}
 
-.footer {line-height:3;position:fixed;bottom:5%;right:5%;transform:scale(0.6);}
+.footer {line-height:3;position:fixed;bottom:5%;right:0;transform:scale(0.6);}
 .techBox {float:right;}
 .techBox .logo {height:40px;background-image:url(https://tzuchienkao.github.io/aboutMe/img/icon.png);background-repeat:no-repeat;margin:0 5px;float:left;}
 .techBox #icon01 {width:29px;background-position:0 0;}
