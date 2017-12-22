@@ -25,10 +25,9 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .caseIntro {align-items:flex-start;}
 .main-box {margin:15px 15px 30px;flex:0 0 30%;position:relative;display:flex;justify-content:space-between;}
 .main-box:hover {cursor:pointer;}
-.main-box.first_level {background-repeat:no-repeat;background-position:center;}
-.main-box.first_level:hover {box-shadow:0 0 0 3px #fff inset;}
-.main-box.first_level .pic {width:100%;height:165px;background:rgba(0,0,0,0.2);}
-.main-box.first_level:hover .pic {background:rgba(0,0,0,0.9);transition:all 0.5s ease;}
+.main-box.first_level {background-repeat:no-repeat;background-position:center;background-size:100%;}
+.main-box.first_level:hover {box-shadow:0 0 0 3px #fff inset;background-size:110%;transition:all 0.3s ease;}
+.main-box.first_level .pic {width:100%;height:165px;background:rgba(0,0,0,0.7);}
 .main-box.first_level[data-catalog="0"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/ig-001Site.jpg);} /*網頁 - 公司產品*/
 .main-box.first_level[data-catalog="1"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/ktc-001SiteCoolbitx.jpg);} /*網頁 - 官方網站*/
 .main-box.first_level[data-catalog="2"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/yd-002Event.jpg);} /*網頁 - 活動網站*/
@@ -36,11 +35,10 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .main-box.first_level[data-catalog="4"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/wl-005Edm.jpg);} /*設計 - 電子報*/
 .main-box.first_level[data-catalog="5"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/fl-001Site.jpg);} /*設計 - 識別系統*/
 .main-box.first_level[data-catalog="6"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/ktc-003.jpg);} /*設計 - 印刷物 */
-.main-box p {width:100%;color:#ffe597;opacity:0;position:absolute;display:inline;}
-.main-box:hover p {opacity:1;transition:all 0.5s ease;}
+.main-box p {width:100%;color:#ffe597;position:absolute;display:inline;}
 .main-box.second_level .pic {width:100%;height:165px;background-size:100%;background-repeat:no-repeat;background-position:center center;overflow:hidden;}
 .main-box.second_level:hover .pic {background-size:105%;transition:all 0.5s linear;}
-.main-box.second_level:hover:before {width:100%;height:100%;background:rgba(0,0,0,0.8);content:'';display:block;position:absolute;}
+.main-box.second_level:before {width:100%;height:100%;background:rgba(0,0,0,0.8);content:'';display:block;position:absolute;}
 .main-box.second_level:after {font-size:0.5em;color:#3f3f3f;background-color:#eee;padding:3px 5px;position:absolute;top:-3px;left:-3px;display:block;content:attr(data-subject);}
 
 .project a:not(.btn-close) {background-color:#3f3f3f;padding:3px 5px;margin:0 3px;}
@@ -78,10 +76,11 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 	.logo {color:#fff;font-size:1.2em;float:none;}
 	.nav a {font-size:0.8em;margin-left:0;margin-right:1em;margin-bottom:-10px;float:none;}
 	.aboutMe, .caseIntro {width:90%;margin:0 auto;}
+	.aboutMore .btn_link {width:6em;height:6em;line-height:4;}
 	.caseIntro {max-width:300px;}
 	.main-box {margin:15px auto;}
 	.main-box, .sub-pic li {flex:0 0 100%;flex-wrap:nowrap;}
-	.main-box.first_level .pic, .main-box.first_level:hover .pic {background:rgba(0,0,0,0.9);}
+	.main-box.first_level .pic, .main-box.first_level:hover .pic {background:rgba(0,0,0,0.7);}
 	.main-box.second_level .pic, .main-box.second_level:hover .pic {opacity:0.2;}
 	.main-box p, .main-box:hover p {opacity:1}
 	.caseInner {padding:2% 5%;}
