@@ -137,7 +137,7 @@ $(document).ready(function(){
 //         }
         for(var key in _subPic){
           var subAry = _subPic[key];
-          var ul = $('<ul class="subPic-box"></ul>');
+          var ul = $('<ul class="subPic-box clear"></ul>');
           //$('.sub-pic').append('<ul class="subPic-box'+key+'">');
           for(var subKey in subAry){
             var picAry = subAry[key];
