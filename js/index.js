@@ -119,6 +119,7 @@ $(document).ready(function(){
         $('.mainCont').empty();
         //insert content
         var _p = content[_i][_j][_inside];
+        console.log(_p);
         var _projectName = _p.title;
         var _projectTime = _p.when;
         var _mainImg = url + _p.cover;
@@ -131,8 +132,19 @@ $(document).ready(function(){
         for(var i = 0; i < _mainTxt_num; i++){
             $('.mainCont').append('<li>' + _mainTxt[i] + '</li>');
         }
-        for(var j = 0; j < _subPic_num; j++){
-            $('.sub-pic').append('<li><img src="' + url + _subPic[j] + '" alt=""></li>');
+//         for(var j = 0; j < _subPic_num; j++){
+//             $('.sub-pic').append('<li><img src="' + url + _subPic[j] + '" alt=""></li>');
+//         }
+        for(var key in _subPic){
+          var subAry = _subPic[key];
+          var ul = $('<ul class="subPic-box"></ul>');
+          //$('.sub-pic').append('<ul class="subPic-box'+key+'">');
+          for(var subKey in subAry){
+            var picAry = subAry[key];
+              //$('.subPic-box'+key).append('<li><img src="' + url + subAry[subKey] + '" alt=""></li></ul>');
+              ul.append('<li><img src="' + url + subAry[subKey] + '" alt=""></li>');
+          }
+          $('.sub-pic').append(ul);
         }
     });
 });
