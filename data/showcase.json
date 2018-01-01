@@ -782,10 +782,13 @@
                     "與業務單位及客戶配合。", 
                     "線上網站(WalkerLand)的數位內容與線下雜誌(TaipeiWalker)結合。"
                 ],
-                "cover" : "img/wl/sub_201712_01_780x390.jpg", 
+                "cover" : "img/wl/sub_201801_300x250.jpg", 
                 "minPic" : "img/smallImg/wl-004Co.jpg", 
                 "subPic" : [
                     [
+                        "img/wl/sub_201801_320x100.jpg", 
+                        "img/wl/sub_201801_728x90.jpg", 
+                        "img/wl/sub_201712_01_780x390.jpg", 
                         "img/wl/sub_201712_01_320x100.jpg", 
                         "img/wl/sub_201711_780x390.jpg", 
                         "img/wl/sub_201707_02_728x90.jpg", 
@@ -804,10 +807,11 @@
                     "banner製作。", 
                     "藝人照片修容及素材修片去背。"
                 ],
-                "cover" : "img/wl/tw_201712_780x390.jpg", 
+                "cover" : "img/wl/tw_201801_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-002Tw.jpg", 
                 "subPic" : [
                     [
+                        "img/wl/tw_201712_780x390.jpg", 
                         "img/wl/tw_201709_780x390.jpg", 
                         "img/wl/tw_201708_780x390.jpg", 
                         "img/wl/tw_201705_780x390.jpg"
