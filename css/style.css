@@ -26,7 +26,7 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .caseIntro {align-items:flex-start;}
 .main-box {margin:15px 15px 30px;flex:0 0 30%;position:relative;display:flex;justify-content:space-between;}
 .main-box:hover {cursor:pointer;}
-.main-box.first_level {background-repeat:no-repeat;background-position:center;background-size:100%;}
+.main-box.first_level {background-repeat:no-repeat;background-position:center;background-size:100%;transition:all 0.3s ease;}
 .main-box.first_level:hover {box-shadow:0 0 0 3px #fff inset;background-size:110%;transition:all 0.3s ease;}
 .main-box.first_level .pic {width:100%;height:165px;background:rgba(0,0,0,0.7);}
 .main-box.first_level[data-catalog="0"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/ig-001Site.jpg);} /*網頁 - 公司產品*/
@@ -37,8 +37,8 @@ a:hover, a.active {border-bottom:3px solid #ffe597;}
 .main-box.first_level[data-catalog="5"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/fl-001Site.jpg);} /*設計 - 識別系統*/
 .main-box.first_level[data-catalog="6"] {background-image:url(https://tzuchienkao.github.io/aboutMe/img/smallImg/ktc-003.jpg);} /*設計 - 印刷物 */
 .main-box p {width:100%;color:#ffe597;position:absolute;display:inline;}
-.main-box.second_level .pic {width:100%;height:165px;background-size:100%;background-repeat:no-repeat;background-position:center center;overflow:hidden;}
-.main-box.second_level:hover .pic {background-size:105%;transition:all 0.5s linear;}
+.main-box.second_level .pic {width:100%;height:165px;background-size:100%;background-repeat:no-repeat;background-position:center center;transition:all 0.3s linear;overflow:hidden;}
+.main-box.second_level:hover .pic {background-size:105%;transition:all 0.3s linear;}
 .main-box.second_level:before {width:100%;height:100%;background:rgba(0,0,0,0.8);content:'';display:block;position:absolute;}
 .main-box.second_level:after {font-size:0.5em;color:#3f3f3f;background-color:#eee;padding:3px 5px;position:absolute;top:-3px;left:-3px;display:block;content:attr(data-subject);}
 
