@@ -811,6 +811,7 @@
                 "minPic" : "img/smallImg/wl-002Tw.jpg", 
                 "subPic" : [
                     [
+                        "img/wl/tw_201801_780x390_v2.jpg", 
                         "img/wl/tw_201712_780x390.jpg", 
                         "img/wl/tw_201709_780x390.jpg", 
                         "img/wl/tw_201708_780x390.jpg", 
@@ -825,10 +826,14 @@
                     "自製素材內容及視覺設計。", 
                     "banner製作及resize。"
                 ],
-                "cover" : "img/wl/wlTen_201712_780x390.jpg", 
+                "cover" : "img/wl/wlTen_201801_780x390.jpg", 
                 "minPic" : "img/smallImg/wl-003Ten.jpg", 
                 "subPic" : [
                     [
+                        "img/wl/wlTen_201801_300x80.jpg"
+                    ], 
+                    [
+                        "img/wl/wlTen_201712_780x390.jpg", 
                         "img/wl/wlTen_201712_300x80.jpg"
                     ], 
                     [
