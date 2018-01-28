@@ -1208,6 +1208,29 @@
     }, 
     {
         "設計 - 印刷物" : {
+            "JapanWalker" : {
+                "title" : "JapanWalker雜誌", 
+                "description" : [
+                    "自製素材內容及設計。", 
+                    "製作目錄頁及當月活動地圖索引頁。", 
+                    "內頁編排與設計。", 
+                    "與雜誌編輯進行溝通及確認稿件。"
+                ],
+                "cover" : "img/wl/maz_jw201802_003.jpg", 
+                "minPic" : "img/smallImg/wl-011Maz_jw.jpg", 
+                "subPic" : [
+                    [
+                        "img/wl/maz_jw201802_003.jpg", 
+                        "img/wl/maz_jw201802_076.png", 
+                        "img/wl/maz_jw201802_077.png", 
+                        "img/wl/maz_jw201802_078.png", 
+                        "img/wl/maz_jw201802_079.png", 
+                        "img/wl/maz_jw201802_080.png", 
+                        "img/wl/maz_jw201802_081.jpg"
+                    ]
+                ], 
+                "when" : "2017／05 ─ "
+            }, 
             "窩客島搶鮮報" : {
                 "title" : "窩客島搶鮮報", 
                 "description" : [
