@@ -1208,28 +1208,7 @@
     }, 
     {
         "設計 - 印刷物" : {
-            "TaipeiWalker" : {
-                "title" : "TaipeiWalker雜誌", 
-                "description" : [
-                    "自製素材內容及設計。", 
-                    "製作目錄頁及當月活動地圖索引頁。", 
-                    "內頁編排與設計。", 
-                    "與雜誌編輯進行溝通及確認稿件。"
-                ],
-                "cover" : "img/wl/maz_jw201802_003.jpg", 
-                "minPic" : "img/smallImg/wl-011Maz_jw.jpg", 
-                "subPic" : [
-                    [
-                        "img/wl/maz_jw201802_076.jpg", 
-                        "img/wl/maz_jw201802_077.jpg", 
-                        "img/wl/maz_jw201802_078.jpg", 
-                        "img/wl/maz_jw201802_079.jpg", 
-                        "img/wl/maz_jw201802_080.jpg", 
-                        "img/wl/maz_jw201802_081.jpg"
-                    ]
-                ], 
-                "when" : "2017／05 ─ "
-            }, 
+            
             "JapanWalker" : {
                 "title" : "JapanWalker雜誌", 
                 "description" : [
