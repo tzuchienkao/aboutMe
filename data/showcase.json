@@ -1,6 +1,29 @@
 [
     {
         "網頁 - 公司產品" : {
+            "JapanWalker" :  {
+                "title" : "說走就走，去日本旅行吧！", 
+                "description" : [
+                  "網站頁面設計 - 介面風格設計，整合、規劃及維護html及css網頁規範。", 
+                  "依照需求規劃網站html及css網頁設計規範。"
+                ],
+                "cover" : "img/wl/sitejw_002.jpg",  
+                "minPic" : "img/smallImg/wl-008SiteJw.jpg", 
+                "subPic" : [
+                    [
+                      "img/wl/sitejw_003.jpg", 
+                      "img/wl/sitejw_004.jpg", 
+                      "img/wl/sitejw_005.jpg", 
+                      "img/wl/sitejw_006.jpg", 
+                      "img/wl/sitejw_007.jpg", 
+                      "img/wl/sitejw_008.jpg", 
+                      "img/wl/sitejw_009.jpg", 
+                      "img/wl/sitejw_010.jpg", 
+                      "img/wl/sitejw_011.jpg"
+                    ]
+                ], 
+                "when" : "2017／05 ─ "
+            } , 
             "窩客島" :  {
                 "title" : "WalkerLand吃飽玩好窩客島", 
                 "description" : [
@@ -1208,9 +1231,8 @@
     }, 
     {
         "設計 - 印刷物" : {
-            
-            "JapanWalker" : {
-                "title" : "JapanWalker雜誌", 
+            "Walker雜誌" : {
+                "title" : "JapanWalker 及 TaipeiWalker", 
                 "description" : [
                     "自製素材內容及設計。", 
                     "製作目錄頁及當月活動地圖索引頁。", 
@@ -1226,7 +1248,8 @@
                         "img/wl/maz_jw201802_078.jpg", 
                         "img/wl/maz_jw201802_079.jpg", 
                         "img/wl/maz_jw201802_080.jpg", 
-                        "img/wl/maz_jw201802_081.jpg"
+                        "img/wl/maz_jw201802_081.jpg", 
+                        "img/wl/maz_tw201802_113.jpg"
                     ]
                 ], 
                 "when" : "2017／05 ─ "
